@@ -19,6 +19,12 @@ Usage::
     python prada/main.py
     python prada/main.py <product-url> [<product-url> ...]
     python prada/main.py -o images <product-url>
+    python prada/main.py -f links.txt
+
+Multiple product URLs can be supplied directly on the command line and/or
+listed in a text file (one URL per line; blank lines and ``#`` comments are
+ignored). When no URLs are given on the command line and ``links.txt`` exists
+in the current directory, it is used automatically.
 
 Only the Python standard library is used, so no extra dependencies are needed.
 """
@@ -36,6 +42,9 @@ DEFAULT_URL = (
     "https://www.prada.com/ww/en/p/small-re-nylon-backpack/"
     "1BZ677_RV44_F0002_V_OOO"
 )
+
+# Default file scanned for product URLs when none are given on the command line.
+DEFAULT_LINKS_FILE = "links.txt"
 
 # A desktop browser User-Agent; the site returns a stripped-down response to
 # unknown clients.
@@ -112,6 +121,32 @@ def extract_from_page(url: str, output_dir: str) -> list[str]:
     return download_images(image_urls, output_dir)
 
 
+def read_urls_from_file(path: str) -> list[str]:
+    """Read product URLs from *path*, one per line.
+
+    Blank lines and lines starting with ``#`` (comments) are ignored. Inline
+    trailing comments are also stripped, so ``https://... # note`` works.
+    """
+    urls: list[str] = []
+    with open(path, encoding="utf-8") as handle:
+        for line in handle:
+            line = line.split("#", 1)[0].strip()
+            if line:
+                urls.append(line)
+    return urls
+
+
+def dedupe(items: list[str]) -> list[str]:
+    """Return *items* with duplicates removed, preserving first-seen order."""
+    seen: set[str] = set()
+    result: list[str] = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
+
+
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Extract original product images from a Prada product page.",
@@ -119,8 +154,21 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "urls",
         nargs="*",
-        default=[DEFAULT_URL],
-        help=f"Product page URL(s) to scrape (default: {DEFAULT_URL}).",
+        help=(
+            "Product page URL(s) to scrape. May be combined with --file. "
+            f"If neither is given, ./{DEFAULT_LINKS_FILE} is used when present, "
+            f"otherwise the default product ({DEFAULT_URL})."
+        ),
+    )
+    parser.add_argument(
+        "-f",
+        "--file",
+        dest="file",
+        help=(
+            "Path to a text file containing product URLs, one per line "
+            "(blank lines and '#' comments are ignored). Defaults to "
+            f"./{DEFAULT_LINKS_FILE} when it exists and no URLs are passed."
+        ),
     )
     parser.add_argument(
         "-o",
@@ -136,10 +184,33 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     return parser.parse_args(argv)
 
 
+def resolve_urls(args: argparse.Namespace) -> list[str]:
+    """Build the final, de-duplicated list of URLs to scrape.
+
+    URLs come from positional arguments plus an optional ``--file``. When the
+    user supplies neither and the default links file exists, it is used. As a
+    last resort the built-in default product URL is used.
+    """
+    urls: list[str] = list(args.urls)
+
+    file_path = args.file
+    if file_path is None and not urls and os.path.isfile(DEFAULT_LINKS_FILE):
+        file_path = DEFAULT_LINKS_FILE
+
+    if file_path is not None:
+        urls.extend(read_urls_from_file(file_path))
+
+    if not urls:
+        urls = [DEFAULT_URL]
+
+    return dedupe(urls)
+
+
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
+    urls = resolve_urls(args)
     total_saved = 0
-    for url in args.urls:
+    for url in urls:
         if args.list_only:
             html = fetch(url).decode("utf-8", errors="replace")
             for image_url in extract_original_image_urls(html):

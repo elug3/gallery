@@ -1,0 +1,11 @@
+# Prada product URLs to scrape, one per line.
+# Blank lines and lines starting with '#' are ignored.
+# Inline comments after a URL are also ignored, e.g. "<url>  # my note".
+#
+# Run with:  python prada/main.py            (uses this file automatically)
+#       or:  python prada/main.py -f links.txt
+
+https://www.prada.com/ww/en/p/small-re-nylon-backpack/1BZ677_RV44_F0002_V_OOO
+
+# Add more product URLs below, for example:
+# https://www.prada.com/us/en/p/small-re-nylon-backpack/1BZ677_RV44_F0002_V_OOO
