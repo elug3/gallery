@@ -1,0 +1,50 @@
+{
+  "source": "product_search_results.md",
+  "output_path": "louisvuitton/products.json",
+  "urls_attempted": 6,
+  "succeeded": 0,
+  "failed": 6,
+  "skipped_category_only": 1,
+  "main_failure_reason": "Louis Vuitton blocked all requests (Access Denied) — likely datacenter IP block",
+  "attempted_urls": [
+    "https://kr.louisvuitton.com/kor-kr/products/all-in-bb-monogram-nvprod5960039v/M12925",
+    "https://kr.louisvuitton.com/kor-kr/products/all-in-gm-monogram-nvprod5960040v/M12926",
+    "https://us.louisvuitton.com/eng-us/products/carryall-cargo-vibe-pm-h34-nvprod5190092v/M24861",
+    "https://us.louisvuitton.com/eng-us/products/keepall-bandouliere-25-monogram-eclipse-nvprod3900007v/M46271",
+    "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-25-monogram-nvprod5320019v/M46977",
+    "https://us.louisvuitton.com/eng-us/products/express-mm-h27-nvprod6640088v/M26397"
+  ],
+  "skipped": [
+    {
+      "product": "루이비통 카퓌신",
+      "url": "https://us.louisvuitton.com/eng-us/women/handbags/capucines/_/N-t8t2i4m-bl15q0fss",
+      "reason": "Category/listing page only — no direct /products/.../SKU URL in search results"
+    }
+  ],
+  "errors": [
+    {
+      "link": "https://kr.louisvuitton.com/kor-kr/products/all-in-bb-monogram-nvprod5960039v/M12925",
+      "error": "Louis Vuitton blocked the request (Access Denied). Retry later or use a residential network."
+    },
+    {
+      "link": "https://kr.louisvuitton.com/kor-kr/products/all-in-gm-monogram-nvprod5960040v/M12926",
+      "error": "Louis Vuitton blocked the request (Access Denied). Retry later or use a residential network."
+    },
+    {
+      "link": "https://us.louisvuitton.com/eng-us/products/carryall-cargo-vibe-pm-h34-nvprod5190092v/M24861",
+      "error": "Louis Vuitton blocked the request (Access Denied). Retry later or use a residential network."
+    },
+    {
+      "link": "https://us.louisvuitton.com/eng-us/products/keepall-bandouliere-25-monogram-eclipse-nvprod3900007v/M46271",
+      "error": "Louis Vuitton blocked the request (Access Denied). Retry later or use a residential network."
+    },
+    {
+      "link": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-25-monogram-nvprod5320019v/M46977",
+      "error": "Louis Vuitton blocked the request (Access Denied). Retry later or use a residential network."
+    },
+    {
+      "link": "https://us.louisvuitton.com/eng-us/products/express-mm-h27-nvprod6640088v/M26397",
+      "error": "Louis Vuitton blocked the request (Access Denied). Retry later or use a residential network."
+    }
+  ]
+}
