@@ -12,8 +12,10 @@ and the page references downscaled "renditions" of it under::
 
 Requesting the base URL (the part up to and including the first ``.jpg``)
 returns the original, highest-resolution asset. This script scrapes the page,
-collects every unique base image URL, downloads each one, and writes product
-metadata to ``info.json`` in the output directory.
+collects every unique base image URL, downloads each one, and writes a Dupli1-
+compatible ``info.json`` (parent product + variants) in the output directory.
+
+See ``docs/prada-info-json.md`` for the schema and Dupli1 import mapping.
 
 Usage::
 
@@ -33,6 +35,7 @@ import os
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 
 DEFAULT_URL = (
@@ -73,6 +76,11 @@ MAIN_MATERIAL_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Prada uses "TU" (taglia unica) for one-size bags; Dupli1 bags use "".
+ONE_SIZE_VALUES = frozenset({"tu", "one size", "onesize", "os", "u"})
+
+DEFAULT_CATEGORY = "bags"
+DEFAULT_STATUS = "draft"
 INFO_FILENAME = "info.json"
 
 
@@ -126,8 +134,8 @@ def parse_json_ld(html: str) -> dict | None:
     return None
 
 
-def matching_variant(group: dict, page_url: str) -> dict | None:
-    """Pick the variant whose URL/SKU matches *page_url*, else the first one."""
+def matching_ld_variant(group: dict, page_url: str) -> dict | None:
+    """Pick the JSON-LD variant whose URL/SKU matches *page_url*."""
     variants = group.get("hasVariant")
     if not isinstance(variants, list):
         return None
@@ -145,17 +153,20 @@ def matching_variant(group: dict, page_url: str) -> dict | None:
     return None
 
 
-def normalize_price(raw: object) -> str:
-    """Normalize schema.org price strings such as ``2.850`` or ``2850``."""
+def normalize_price(raw: object) -> float | None:
+    """Normalize schema.org / catalog price strings to a float dollars amount."""
     if raw is None or raw == "":
-        return ""
-    text = str(raw).strip()
+        return None
+    if isinstance(raw, (int, float)):
+        return float(raw)
+    text = str(raw).strip().replace(",", "").replace("$", "")
     if re.fullmatch(r"\d+\.\d{3}", text):
-        # European thousands separator, e.g. "2.850" -> "2850"
-        return text.replace(".", "")
-    if re.fullmatch(r"\d+[.,]\d{2}", text):
-        return text.replace(",", ".")
-    return text
+        # European thousands separator, e.g. "2.850" -> 2850
+        text = text.replace(".", "")
+    try:
+        return float(text)
+    except ValueError:
+        return None
 
 
 def parse_dimensions(items: list[str]) -> dict[str, str]:
@@ -170,6 +181,23 @@ def parse_dimensions(items: list[str]) -> dict[str, str]:
         if key and value:
             dimensions[key] = value
     return dimensions
+
+
+def capacity_from_dimensions(dimensions: dict[str, str]) -> str:
+    """Format dimensions as a Dupli1 ``capacity`` string."""
+    order = ("height", "width", "length", "depth")
+    parts = [dimensions[key] for key in order if key in dimensions]
+    if not parts:
+        parts = list(dimensions.values())
+    return " × ".join(parts)
+
+
+def normalize_size(raw: str) -> str:
+    """Map Prada one-size labels (``TU``) to Dupli1 empty size."""
+    value = (raw or "").strip()
+    if value.lower() in ONE_SIZE_VALUES:
+        return ""
+    return value
 
 
 def extract_page_details(html: str) -> tuple[list[str], dict[str, str], str]:
@@ -192,40 +220,244 @@ def extract_page_details(html: str) -> tuple[list[str], dict[str, str], str]:
     return details, dimensions, material
 
 
+def extract_json_array(key: str, text: str) -> list | None:
+    """Extract a JSON array value for *key* from *text* via bracket matching."""
+    match = re.search(rf'"{re.escape(key)}"\s*:\s*\[', text)
+    if not match:
+        return None
+    start = match.end() - 1
+    depth = 0
+    for index in range(start, len(text)):
+        char = text[index]
+        if char == "[":
+            depth += 1
+        elif char == "]":
+            depth -= 1
+            if depth == 0:
+                try:
+                    data = json.loads(text[start : index + 1])
+                except json.JSONDecodeError:
+                    return None
+                return data if isinstance(data, list) else None
+    return None
+
+
+def decode_catalog_window(html: str) -> str:
+    """Return a URL-decoded window around the catalog ``colorVariants`` blob."""
+    marker = "colorVariants%22"
+    index = html.find(marker)
+    if index < 0:
+        index = html.find("colorVariants")
+    if index < 0:
+        return ""
+    start = max(0, index - 30_000)
+    end = min(len(html), index + 100_000)
+    return urllib.parse.unquote(html[start:end])
+
+
+def absolute_prada_url(path_or_url: str, page_url: str) -> str:
+    """Resolve a Prada ``urlPath`` against the scraped page origin."""
+    value = (path_or_url or "").strip()
+    if not value:
+        return ""
+    if value.startswith("http://") or value.startswith("https://"):
+        return value
+    parsed = urllib.parse.urlparse(page_url)
+    origin = f"{parsed.scheme}://{parsed.netloc}"
+    if not value.startswith("/"):
+        value = "/" + value
+    return origin + value
+
+
+def extract_catalog_variants(html: str, page_url: str) -> tuple[list[dict], list[dict]]:
+    """Return (colorVariants, sizeCodes) from the embedded catalog payload."""
+    window = decode_catalog_window(html)
+    if not window:
+        return [], []
+    colors = extract_json_array("colorVariants", window) or []
+    sizes = extract_json_array("sizeCodes", window) or []
+    colors = [item for item in colors if isinstance(item, dict)]
+    sizes = [item for item in sizes if isinstance(item, dict)]
+    for color in colors:
+        path = str(color.get("urlPath") or "")
+        if path:
+            color["url"] = absolute_prada_url(path, page_url)
+    return colors, sizes
+
+
+def build_variants(
+    *,
+    colors: list[dict],
+    sizes: list[dict],
+    selected_sku: str,
+    selected_color: str,
+    price: float | None,
+    image_files: list[str],
+    image_urls: list[str],
+    page_url: str,
+) -> list[dict]:
+    """Build Dupli1-shaped variant rows from Prada color/size options.
+
+    Full ``images`` are attached only to the scraped (selected) color. Sibling
+    colors are emitted as stubs so an importer knows which URLs to scrape next.
+    """
+    size_rows = sizes or [{"value": "", "partNumber": selected_sku or ""}]
+    variants: list[dict] = []
+
+    if colors:
+        color_rows = colors
+    else:
+        color_rows = [
+            {
+                "color": selected_color,
+                "partNumber": selected_sku,
+                "isSelected": True,
+                "isAvailable": True,
+                "url": page_url,
+                "hexCode": "",
+            }
+        ]
+
+    for color in color_rows:
+        color_name = strip_html(str(color.get("colorLabelName") or color.get("color") or ""))
+        color_sku = str(color.get("partNumber") or color.get("uniqueID") or "")
+        selected = bool(color.get("isSelected")) or (
+            selected_sku and color_sku == selected_sku
+        ) or (color_name and color_name == selected_color and len(color_rows) == 1)
+        available = color.get("isAvailable")
+        if available is None:
+            available = str(color.get("available", "True")).lower() in {"true", "1", "yes"}
+
+        for size in size_rows if selected else [{"value": "", "partNumber": color_sku}]:
+            size_value = normalize_size(str(size.get("value") or ""))
+            if selected and size.get("partNumber"):
+                sku = str(size.get("partNumber"))
+            else:
+                sku = color_sku
+            # Prefer the color-level SKU for bags (Dupli1 cart key); keep size
+            # SKU only when it encodes a real size option.
+            if selected and size_value == "" and color_sku:
+                sku = color_sku
+
+            inventory = str(size.get("inventoryStatus") or "")
+            size_available = True
+            if inventory:
+                size_available = inventory.lower() == "available"
+
+            variant: dict = {
+                "sku": sku,
+                "color": color_name,
+                "size": size_value,
+                "price": price,
+                "status": "active" if (available and size_available) else "draft",
+                "images": list(image_files) if selected else [],
+                "imageUrls": list(image_urls) if selected else [],
+                "selected": bool(selected),
+                "available": bool(available and size_available),
+                "sourceUrl": str(color.get("url") or (page_url if selected else "")),
+            }
+            hex_code = str(color.get("hexCode") or color.get("colorValue") or "")
+            if hex_code:
+                variant["hex"] = hex_code
+            thumbnail = str(color.get("thumbnail") or color.get("fullImage") or "")
+            if thumbnail and not selected:
+                variant["thumbnail"] = thumbnail
+            variants.append(variant)
+
+    return variants
+
+
 def extract_product_info(html: str, page_url: str, image_urls: list[str]) -> dict:
-    """Build a product info dict from JSON-LD and page markup."""
+    """Build a Dupli1-oriented info.json payload from the product page."""
     group = parse_json_ld(html) or {}
-    variant = matching_variant(group, page_url) or {}
-    if not variant and group.get("@type") == "Product":
-        variant = group
+    ld_variant = matching_ld_variant(group, page_url) or {}
+    if not ld_variant and group.get("@type") == "Product":
+        ld_variant = group
 
-    offers = variant.get("offers") if isinstance(variant.get("offers"), dict) else {}
+    offers = (
+        ld_variant.get("offers") if isinstance(ld_variant.get("offers"), dict) else {}
+    )
     details, dimensions, page_material = extract_page_details(html)
+    colors, sizes = extract_catalog_variants(html, page_url)
 
-    brand = group.get("brand") or variant.get("brand") or {}
+    brand = group.get("brand") or ld_variant.get("brand") or {}
     brand_name = brand.get("name", "") if isinstance(brand, dict) else str(brand or "")
 
-    sku = str(variant.get("sku") or group.get("productGroupID") or "")
-    if not sku:
+    selected_sku = str(ld_variant.get("sku") or group.get("productGroupID") or "")
+    if not selected_sku:
         for item in details:
             if item.lower().startswith("product code:"):
-                sku = item.split(":", 1)[1].strip()
+                selected_sku = item.split(":", 1)[1].strip()
                 break
+    if not selected_sku:
+        selected_sku = page_url.rstrip("/").rsplit("/", 1)[-1]
+
+    selected_color = strip_html(str(ld_variant.get("color") or ""))
+    for color in colors:
+        if color.get("isSelected"):
+            selected_color = strip_html(
+                str(color.get("colorLabelName") or color.get("color") or selected_color)
+            )
+            selected_sku = str(color.get("partNumber") or selected_sku)
+            break
+
+    price = normalize_price(offers.get("price"))
+    material = strip_html(str(ld_variant.get("material") or page_material or ""))
+    image_files = [filename_for(url) for url in image_urls]
+    variants = build_variants(
+        colors=colors,
+        sizes=sizes,
+        selected_sku=selected_sku,
+        selected_color=selected_color,
+        price=price,
+        image_files=image_files,
+        image_urls=image_urls,
+        page_url=page_url,
+    )
+
+    available_colors: list[str] = []
+    for variant in variants:
+        color = variant.get("color") or ""
+        if color and color not in available_colors:
+            available_colors.append(color)
+
+    available_sizes: list[str] = []
+    for variant in variants:
+        if not variant.get("selected"):
+            continue
+        size = variant.get("size") or ""
+        if size and size not in available_sizes:
+            available_sizes.append(size)
+
+    name = strip_html(str(group.get("name") or ld_variant.get("name") or ""))
+    description = strip_html(str(group.get("description") or ""))
+    capacity = capacity_from_dimensions(dimensions) if dimensions else ""
+    product_group_id = str(group.get("productGroupID") or "")
+
+    tags = ["prada"]
+    if DEFAULT_CATEGORY:
+        tags.append(DEFAULT_CATEGORY)
 
     info = {
-        "name": strip_html(str(group.get("name") or variant.get("name") or "")),
-        "description": strip_html(str(group.get("description") or "")),
-        "sku": sku,
-        "url": page_url,
-        "brand": brand_name,
-        "color": strip_html(str(variant.get("color") or "")),
-        "material": strip_html(str(variant.get("material") or page_material or "")),
-        "price": normalize_price(offers.get("price")),
-        "currency": str(offers.get("priceCurrency") or ""),
-        "dimensions": dimensions,
+        "product": {
+            "name": name,
+            "description": description,
+            "brand": brand_name or "Prada",
+            "material": material,
+            "category": DEFAULT_CATEGORY,
+            "capacity": capacity,
+            "status": DEFAULT_STATUS,
+            "tags": tags,
+            "sourceUrl": page_url,
+        },
+        "variants": variants,
+        "availableColors": available_colors,
+        "availableSizes": available_sizes,
         "details": details,
-        "images": [filename_for(url) for url in image_urls],
-        "image_urls": list(image_urls),
+        "dimensions": dimensions,
+        "currency": str(offers.get("priceCurrency") or ""),
+        "productGroupId": product_group_id,
+        "selectedSku": selected_sku,
     }
     return info
 
@@ -278,15 +510,22 @@ def extract_from_page(url: str, output_dir: str) -> list[str]:
 
     info = extract_product_info(html, url, image_urls)
     info_path = write_info_json(info, output_dir)
+    product = info.get("product") or {}
     print(f"Wrote product info: {info_path}")
-    if info.get("name"):
-        print(f"  name: {info['name']}")
-    if info.get("sku"):
-        print(f"  sku:  {info['sku']}")
-    if info.get("price"):
+    if product.get("name"):
+        print(f"  name: {product['name']}")
+    if info.get("selectedSku"):
+        print(f"  sku:  {info['selectedSku']}")
+    variants = info.get("variants") or []
+    selected = next((item for item in variants if item.get("selected")), None)
+    if selected and selected.get("price") is not None:
         currency = info.get("currency") or ""
-        label = f"{currency} {info['price']}".strip()
+        label = f"{currency} {selected['price']}".strip()
         print(f"  price: {label}")
+    print(
+        f"  variants: {len(variants)} "
+        f"(colors={info.get('availableColors')}, sizes={info.get('availableSizes')})"
+    )
 
     if not image_urls:
         return []
@@ -297,8 +536,8 @@ def extract_from_page(url: str, output_dir: str) -> list[str]:
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Extract original product images and info.json from a Prada "
-            "product page."
+            "Extract original product images and Dupli1-shaped info.json "
+            "from a Prada product page."
         ),
     )
     parser.add_argument(
