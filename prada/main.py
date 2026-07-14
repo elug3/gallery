@@ -285,7 +285,8 @@ def extract_from_page(url: str, output_dir: str) -> list[str]:
         print(f"  sku:  {info['sku']}")
     if info.get("price"):
         currency = info.get("currency") or ""
-        print(f"  price: {currency} {info['price']}".strip())
+        label = f"{currency} {info['price']}".strip()
+        print(f"  price: {label}")
 
     if not image_urls:
         return []
