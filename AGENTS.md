@@ -2,26 +2,43 @@
 
 ## Cursor Cloud specific instructions
 
-- This repo currently contains a single utility script, `prada/main.py`, which scrapes
-  original (full-resolution) product images and Dupli1-shaped product metadata from a
-  Prada product page.
-- It uses **only the Python standard library** (`urllib`, `re`, `argparse`, `json`). There are no
-  third-party dependencies, no lockfile, and no package manifest, so there is nothing to
-  install — run it directly with `python3 prada/main.py`.
-- It requires **outbound internet access** to reach `https://www.prada.com`. The site only
-  returns the full image markup when a desktop browser `User-Agent` is sent (the script
-  already does this); requests without it get a stripped-down response.
+- This repo contains utility scrapers that write Dupli1-shaped `info.json` plus
+  product images:
+  - `prada/main.py` — Prada fashion PDPs
+  - `chanel/main.py` — Chanel fashion PDPs (bags-focused defaults)
+- Both use **only the Python standard library** (`urllib`, `re`, `argparse`,
+  `json`). There are no third-party dependencies — run with `python3 …`.
+- Outbound internet is required for live scrapes.
+
+### Prada
+
+- Site: `https://www.prada.com`. A desktop browser `User-Agent` is required
+  (already set in the script).
 - Useful invocations:
-  - `python3 prada/main.py` — download the default backpack product's images into `./images`
-    and write `./images/info.json`.
-  - `python3 prada/main.py --list-only` — print the original image URLs without downloading.
-  - `python3 prada/main.py -o <dir> <product-url> [...]` — scrape one or more arbitrary
-    Prada product URLs into `<dir>` (writes images + `info.json`; multi-URL runs use a
-    per-SKU subdirectory).
-- `info.json` matches Dupli1’s parent + variants model (`product`, `variants[]` with
-  `color` / `size` / `price` / `images`). See [docs/prada-info-json.md](docs/prada-info-json.md)
-  for the schema and import steps into [elug3/dupli1](https://github.com/elug3/dupli1).
-- Original asset trick: Prada's AEM DAM serves the full-res JPEG at the base URL
-  (`.../<CODE>.jpg`); the page only references downscaled renditions under
-  `.../<CODE>.jpg/_jcr_content/renditions/...`. The script strips the rendition suffix to
-  fetch the originals (2400x3000 for this product).
+  - `python3 prada/main.py` — default backpack → `./images` + `info.json`
+  - `python3 prada/main.py --list-only`
+  - `python3 prada/main.py -o <dir> <product-url> [...]`
+- Original asset trick: strip AEM rendition suffixes
+  (`.../<CODE>.jpg/_jcr_content/renditions/...` → `.../<CODE>.jpg`).
+- Schema: [docs/prada-info-json.md](docs/prada-info-json.md)
+
+### Chanel
+
+- Site: `https://www.chanel.com`. Product data comes from `__NEXT_DATA__` /
+  JSON-LD; images from `https://www.chanel.com/images/...` (Cloudinary-style
+  transforms; script bumps toward `w_3200` packshots).
+- **Akamai** often returns HTTP 403 for automated GET on `/fashion/p/...` and
+  `/c/...` from datacenter IPs. The US sitemap and many editorial pages still
+  work. Prefer:
+  - `python3 chanel/main.py --discover` — list bag URLs from the sitemap
+  - `python3 chanel/main.py --from-html <saved-pdp.html>` — offline / browser save
+  - Fixture: `chanel/fixtures/small-classic-handbag.html`
+- Default with no args is a curated top-20 bag URL list; multi-URL runs write
+  per-SKU subdirs under `-o` (default `./images/chanel`).
+- Schema: [docs/chanel-info-json.md](docs/chanel-info-json.md)
+
+### Dupli1
+
+- `info.json` matches Dupli1’s parent + variants model (`product`, `variants[]`
+  with `color` / `size` / `price` / `images`). Import into
+  [elug3/dupli1](https://github.com/elug3/dupli1).
