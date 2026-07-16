@@ -41,13 +41,13 @@ DEFAULT_URLS = [
     "https://www.chanel.com/us/fashion/p/A01112B25720UB663/classic-11-12-handbag-grained-shiny-calfskin-gold-tone-metal/",
     "https://www.chanel.com/us/fashion/p/A37586Y04634C3906/2-55-handbag-aged-calfskin-gold-tone-metal/",
     "https://www.chanel.com/us/fashion/p/A69900Y0405994305/mini-classic-handbag-lambskin-gold-tone-metal/",
-    "https://www.chanel.com/us/fashion/p/AP4241B10583U6544/classic-wallet-on-chain-grained-shiny-calfskin-gold-tone-metal/",
+    "https://www.chanel.com/us/fashion/p/AP5434B25460U7793/wallet-on-chain-shiny-calfskin-gold-tone-metal/",
     "https://www.chanel.com/us/fashion/p/A67085Y0995394305/small-boy-chanel-handbag-calfskin-ruthenium-finish-metal/",
     "https://www.chanel.com/us/fashion/p/A67086Y0995394305/boy-chanel-handbag-calfskin-ruthenium-finish-metal/",
     "https://www.chanel.com/us/fashion/p/AS1161B0485294305/chanel-19-large-handbag-shiny-lambskin-gold-tone-silver-tone-ruthenium-finish-metal/",
-    "https://www.chanel.com/us/fashion/p/AS3260B0985910601/chanel-22-small-handbag-calfskin-gold-tone-lacquered-metal/",
+    "https://www.chanel.com/us/fashion/p/AS3261B1905994305/chanel-22-handbag-shiny-calfskin-gold-tone-metal/",
     "https://www.chanel.com/us/fashion/p/AS5311B2030494305/chanel-25-medium-handbag-grained-calfskin-gold-tone-metal/",
-    "https://www.chanel.com/us/fashion/p/AS5293B23556U7740/chanel-25-small-handbag-washed-denim-gold-tone-metal/",
+    "https://www.chanel.com/us/fashion/p/AS5631B2507194305/chanel-25-mini-handbag-cotton-wool-tweed-gold-tone-metal/",
     "https://www.chanel.com/us/fashion/p/AS6398B25034UB022/flap-bag-with-top-handle-lambskin-gold-tone-metal/",
     "https://www.chanel.com/us/fashion/p/AP5475B25518UC984/vanity-with-chain-metallic-calfskin-white-metal/",
     "https://www.chanel.com/us/fashion/p/AS6130B2348394305/small-flap-bag-grained-shiny-calfskin-gold-tone-metal/",
@@ -56,7 +56,7 @@ DEFAULT_URLS = [
     "https://www.chanel.com/us/fashion/p/AS6424B25066U8752/mini-flap-bag-with-top-handle-crocodile-embossed-calfskin-gold-tone-metal/",
     "https://www.chanel.com/us/fashion/p/A01112Y0129594305/classic-11-12-handbag-lambskin-gold-tone-metal/",
     "https://www.chanel.com/us/fashion/p/A37586B2374694305/2-55-handbag-lambskin-gold-tone-metal/",
-    "https://www.chanel.com/us/fashion/p/AS6132B2333294305/small-shopping-bag-calfskin-gold-tone-metal/",
+    "https://www.chanel.com/us/fashion/p/AS6199B25749UD595/mini-shopping-bag-canvas-gold-tone-metal/",
 ]
 
 SITEMAP_URL = "https://www.chanel.com/us/sitemap.xml"

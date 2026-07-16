@@ -30,9 +30,14 @@
 - **Akamai** often returns HTTP 403 for automated GET on `/fashion/p/...` and
   `/c/...` from datacenter IPs. The US sitemap and many editorial pages still
   work. Prefer:
+  - `python3 chanel/scrape_top20_chrome.py` — live PDPs via Chrome CDP (bypasses
+    urllib 403 when a desktop Chrome with `--remote-debugging-port=9222` is up)
+  - `python3 chanel/scrape_top20_wayback.py` — Wayback Machine fallback
   - `python3 chanel/main.py --discover` — list bag URLs from the sitemap
   - `python3 chanel/main.py --from-html <saved-pdp.html>` — offline / browser save
   - Fixture: `chanel/fixtures/small-classic-handbag.html`
+- Image upgrades preserve `/images/as/…` delivery paths and fall back across CDN
+  URL candidates when `w_3200` rebuilds 404.
 - Default with no args is a curated top-20 bag URL list; multi-URL runs write
   per-SKU subdirs under `-o` (default `./images/chanel`).
 - Schema: [docs/chanel-info-json.md](docs/chanel-info-json.md)
