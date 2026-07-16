@@ -92,7 +92,9 @@ DIMENSIONS_RE = re.compile(
     re.IGNORECASE,
 )
 
-ONE_SIZE_VALUES = frozenset({"tu", "one size", "onesize", "os", "u", "uni", ""})
+ONE_SIZE_VALUES = frozenset(
+    {"tu", "one size", "onesize", "os", "u", "uni", "universal", ""}
+)
 
 DEFAULT_CATEGORY = "bags"
 DEFAULT_STATUS = "draft"
@@ -105,8 +107,8 @@ PREFERRED_TYPOLOGIES = (
     "PACKSHOT_ALTERNATIVE",
     "PACKSHOT_OTHER",
     "PACKSHOT_EXTRA",
-    "PACKSHOT_ARTISTIQUE_VUE1",
     "PACKSHOT_ARTISTIQUE_VUE1_LARGE",
+    "PACKSHOT_ARTISTIQUE_VUE1",
     "PACKSHOT_ARTISTIQUE_VUE2",
     "PACKSHOT_ARTISTIQUE_VUE3",
     "PACKSHOT_ARTISTIQUE_VUE4",
@@ -181,14 +183,22 @@ def filename_for(url: str, index: int | None = None) -> str:
     parsed = urllib.parse.urlparse(url)
     name = os.path.basename(parsed.path) or "image.jpg"
     name = urllib.parse.unquote(name).split("?")[0]
+    # Prefer compact numeric asset ids when present in SEO-style paths.
+    asset = re.search(r"(-?\d+\.(?:jpe?g|png|webp))$", name, re.IGNORECASE)
+    if asset:
+        name = asset.group(1).lstrip("-")
+        if index is not None:
+            return f"image_{index:02d}_{name}"
+        return name
     if not re.search(r"\.(jpe?g|png|webp|gif)$", name, re.IGNORECASE):
         name = f"{name}.jpg"
-    # Numeric CDN ids like "-9559951147038.jpg" are fine; ensure uniqueness.
-    if index is not None and not re.match(r"^[A-Za-z0-9].*", name):
-        name = f"image_{index:02d}_{name.lstrip('-')}"
-    elif index is not None and name.startswith("-"):
-        name = f"image_{index:02d}_{name.lstrip('-')}"
-    return re.sub(r"[^\w.\-]+", "_", name)
+    name = re.sub(r"[^\w.\-]+", "_", name)
+    if len(name) > 80:
+        root, ext = os.path.splitext(name)
+        name = root[:60] + ext
+    if index is not None:
+        return f"image_{index:02d}_{name.lstrip('-')}"
+    return name
 
 
 def normalize_price(raw: object) -> float | None:
@@ -238,26 +248,79 @@ def absolute_url(path_or_url: str, page_url: str = "https://www.chanel.com") -> 
 
 
 def upgrade_image_url(url: str) -> str:
-    """Prefer a large, lightly-cropped delivery URL for a Chanel image asset."""
+    """Prefer a large packshot delivery URL for a Chanel image asset.
+
+    Chanel serves some assets only under ``/images/as/…`` and others under
+    the ``q_auto:good,f_auto,…`` transform path. Preserve the original path
+    family when rebuilding so upgrades do not 404.
+    """
     if not url or "chanel.com/images" not in url:
         return url
-    # Drop query/fragment; keep path transforms but bump width when present.
     cleaned = url.split("?")[0].split("#")[0]
-    # Replace low widths with a large one when a w_ token is present.
+    if "web.archive.org/web/" in cleaned:
+        cleaned = re.sub(r"^https?://web\.archive\.org/web/\d+[a-z_]*/", "", cleaned)
+    # Rebuild from numeric asset id (bare or SEO filename suffix).
+    asset = re.search(r"(-?\d+\.(?:jpe?g|png|webp))$", cleaned, re.IGNORECASE)
+    if asset:
+        name = asset.group(1)
+        if not name.startswith("-") and name[0].isdigit():
+            name = "-" + name
+        # ``/images/as/`` assets 404 on the non-as transform path.
+        if "/images/as/" in cleaned:
+            return (
+                "https://www.chanel.com/images/as///"
+                f"f_auto,q_auto:good,dpr_1.1/w_3200/{name}"
+            )
+        return (
+            "https://www.chanel.com/images/"
+            f"q_auto:good,f_auto,fl_lossy,dpr_1.1/w_3200/{name}"
+        )
     cleaned = re.sub(r"(?<![a-zA-Z0-9])w_\d+", "w_3200", cleaned)
-    # Prefer good quality / auto format when absent.
+    if "/images/as/" in cleaned:
+        return cleaned
     if "q_auto" not in cleaned and "/images/" in cleaned:
         cleaned = cleaned.replace(
             "/images/",
             "/images/q_auto:good,f_auto,fl_lossy,dpr_1.1/",
             1,
         )
-        # Avoid double-insert when transforms already follow /images/.
         cleaned = cleaned.replace(
             "/images/q_auto:good,f_auto,fl_lossy,dpr_1.1/q_auto",
             "/images/q_auto",
         )
     return cleaned
+
+
+def image_download_candidates(url: str) -> list[str]:
+    """Return ordered URL candidates to try when downloading a Chanel image."""
+    cleaned = (url or "").split("?")[0].split("#")[0]
+    if "web.archive.org/web/" in cleaned:
+        cleaned = re.sub(r"^https?://web\.archive\.org/web/\d+[a-z_]*/", "", cleaned)
+    asset = re.search(r"(-?\d+\.(?:jpe?g|png|webp))$", cleaned, re.IGNORECASE)
+    candidates: list[str] = []
+    if asset:
+        name = asset.group(1)
+        if not name.startswith("-") and name[0].isdigit():
+            name = "-" + name
+        primary = upgrade_image_url(cleaned)
+        alt_as = (
+            "https://www.chanel.com/images/as///"
+            f"f_auto,q_auto:good,dpr_1.1/w_3200/{name}"
+        )
+        alt_q = (
+            "https://www.chanel.com/images/"
+            f"q_auto:good,f_auto,fl_lossy,dpr_1.1/w_3200/{name}"
+        )
+        alt_raw_as = f"https://www.chanel.com/images/as///f_auto//{name}"
+        for item in (primary, alt_as, alt_q, alt_raw_as, cleaned):
+            if item and item not in candidates:
+                candidates.append(item)
+        return candidates
+    upgraded = upgrade_image_url(cleaned)
+    for item in (upgraded, cleaned):
+        if item and item not in candidates:
+            candidates.append(item)
+    return candidates
 
 
 def typology_rank(typology: str) -> int:
@@ -437,12 +500,37 @@ def sku_from_url(page_url: str) -> str:
     return parts[-1] if parts else ""
 
 
+def capacity_from_dimensions_field(raw: object) -> tuple[str, dict[str, str]]:
+    """Parse Chanel ``details.dimensions`` list into capacity + map."""
+    if not isinstance(raw, list):
+        return "", {}
+    # Prefer inches, then cm.
+    chosen = None
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        unit = str(item.get("unit") or "").lower()
+        if unit == "in":
+            chosen = item
+            break
+        if chosen is None and unit in {"cm", "mm"}:
+            chosen = item
+    if chosen is None and raw:
+        first = raw[0]
+        chosen = first if isinstance(first, dict) else None
+    if not chosen:
+        return "", {}
+    value = str(chosen.get("value") or "")
+    unit = str(chosen.get("unit") or "in")
+    return capacity_from_text(f"{value} {unit}")
+
+
 def capacity_from_text(*texts: str) -> tuple[str, dict[str, str]]:
     """Parse ``H x W x D`` dimensions into capacity + dimensions map."""
     for text in texts:
         if not text:
             continue
-        match = DIMENSIONS_RE.search(text)
+        match = DIMENSIONS_RE.search(str(text))
         if not match:
             continue
         height, width, depth, unit = match.groups()
@@ -503,6 +591,9 @@ def build_variants_from_chanel(
                 or ""
             )
         )
+        # Chanel sometimes stores material on variation rows as ``fabric``.
+        if not item.get("material") and details.get("fabric"):
+            item = {**item, "material": details.get("fabric")}
         item_url = absolute_url(str(item.get("url") or ""), page_url)
         selected = bool(
             sku and sku == selected_sku
@@ -619,6 +710,7 @@ def extract_product_info(html: str, page_url: str, image_urls: list[str] | None 
     material = strip_html(
         str(
             details.get("fabrics")
+            or details.get("fabric")
             or (labels_from(product.get("materials")) or [""])[0]
             or product.get("material")
             or ld.get("material")
@@ -626,10 +718,24 @@ def extract_product_info(html: str, page_url: str, image_urls: list[str] | None 
         )
     )
 
+    # Size: prefer product variants[].sizeLabel / orliSize when present.
+    size_from_variants = ""
+    raw_variants = product.get("variants")
+    if isinstance(raw_variants, list):
+        for row in raw_variants:
+            if isinstance(row, dict) and (row.get("sizeLabel") or row.get("orliSize")):
+                size_from_variants = str(row.get("sizeLabel") or row.get("orliSize") or "")
+                break
+
     offers = ld.get("offers") if isinstance(ld.get("offers"), dict) else {}
     price = normalize_price(product.get("price"))
     if price is None:
         price = normalize_price(offers.get("price") or offers.get("priceAmount"))
+    if price is None:
+        # Older Chanel PDPs often only expose visible "$7,300" text.
+        money = re.search(r"\$\s*([\d,]+(?:\.\d+)?)", html)
+        if money:
+            price = normalize_price(money.group(1))
     currency = ""
     raw_price = product.get("price")
     if isinstance(raw_price, dict):
@@ -639,6 +745,17 @@ def extract_product_info(html: str, page_url: str, image_urls: list[str] | None 
 
     next_images = image_sources_from_product(product) if product else []
     html_images = extract_image_urls_from_html(html)
+    if selected_sku:
+        sku_l = selected_sku.lower()
+        html_images = [
+            url
+            for url in html_images
+            if sku_l in url.lower() or re.search(r"/-?\d+\.(?:jpe?g|png|webp)$", url, re.I)
+        ]
+        # Prefer URLs that mention this SKU when any do.
+        sku_hits = [url for url in html_images if sku_l in url.lower()]
+        if sku_hits:
+            html_images = sku_hits
     combined_images = image_urls if image_urls is not None else []
     if not combined_images:
         combined_images = next_images or html_images
@@ -648,12 +765,14 @@ def extract_product_info(html: str, page_url: str, image_urls: list[str] | None 
 
     image_files = [filename_for(url, index=i) for i, url in enumerate(combined_images, start=1)]
 
-    capacity, dimensions = capacity_from_text(
-        description,
-        str(product.get("sizeLabel") or ""),
-        str(details),
-        html,
-    )
+    capacity, dimensions = capacity_from_dimensions_field(details.get("dimensions"))
+    if not capacity:
+        capacity, dimensions = capacity_from_text(
+            description,
+            str(product.get("sizeLabel") or ""),
+            str(details),
+            html,
+        )
 
     detail_bullets: list[str] = []
     if reference:
@@ -661,22 +780,28 @@ def extract_product_info(html: str, page_url: str, image_urls: list[str] | None 
     collection = strip_html(str(product.get("collection") or ""))
     if collection:
         detail_bullets.append(f"Collection: {collection}")
-    size_label = strip_html(str(product.get("sizeLabel") or ""))
-    if size_label:
+    size_label = strip_html(
+        str(product.get("sizeLabel") or size_from_variants or "")
+    )
+    if size_label and size_label.lower() not in ONE_SIZE_VALUES:
         detail_bullets.append(f"Size: {size_label}")
     for key in ("hardware", "lining", "closure"):
         value = strip_html(str(details.get(key) or ""))
         if value:
             detail_bullets.append(f"{key.capitalize()}: {value}")
 
+    product_for_variants = product or {
+        "sku": selected_sku,
+        "details": {"color": color},
+        "sizeLabel": size_label,
+        "price": price,
+        "url": page_url,
+    }
+    if size_label and not product_for_variants.get("sizeLabel"):
+        product_for_variants = {**product_for_variants, "sizeLabel": size_label}
+
     variants = build_variants_from_chanel(
-        product=product or {
-            "sku": selected_sku,
-            "details": {"color": color},
-            "sizeLabel": size_label,
-            "price": price,
-            "url": page_url,
-        },
+        product=product_for_variants,
         selected_sku=selected_sku,
         selected_color=color,
         price=price,
@@ -750,14 +875,28 @@ def download_images(urls: list[str], output_dir: str) -> list[str]:
     for index, url in enumerate(urls, start=1):
         name = filename_for(url, index=index)
         dest = os.path.join(output_dir, name)
-        try:
-            data = fetch(url)
-        except (ChanelAccessDenied, urllib.error.URLError, urllib.error.HTTPError) as error:
-            print(f"  [{index}/{len(urls)}] FAILED {url} ({error})", file=sys.stderr)
+        data: bytes | None = None
+        used = url
+        last_error: Exception | None = None
+        for candidate in image_download_candidates(url):
+            try:
+                data = fetch(candidate)
+                used = candidate
+                break
+            except (ChanelAccessDenied, urllib.error.URLError, urllib.error.HTTPError) as error:
+                last_error = error
+                continue
+        if data is None:
+            print(
+                f"  [{index}/{len(urls)}] FAILED {url} ({last_error})",
+                file=sys.stderr,
+            )
             continue
         with open(dest, "wb") as handle:
             handle.write(data)
         print(f"  [{index}/{len(urls)}] saved {dest} ({len(data):,} bytes)")
+        if used != url:
+            print(f"    via {used}")
         saved.append(dest)
     return saved
 
