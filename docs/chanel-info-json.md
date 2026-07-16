@@ -124,3 +124,13 @@ Same as Prada — see [prada-info-json.md](prada-info-json.md#dupli1-import-flow
 2. `POST /api/v1/products/{id}/variants` per sellable row
 3. Upload each file in `variants[].images`
 4. Optionally re-scrape stub `sourceUrl`s for sibling colors
+
+Batch helper (requires `DUPLI1_PASSWORD`):
+
+```bash
+DUPLI1_EMAIL=agent@dupli1.com DUPLI1_PASSWORD='…' \
+  python3 chanel/import_dupli1.py
+```
+
+Creates Chanel catalog styles (`CH/<SKU[:12]>`), variants, and uploads local
+source images to `manage.dupli1.com`.
