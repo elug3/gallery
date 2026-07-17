@@ -134,3 +134,22 @@ DUPLI1_EMAIL=agent@dupli1.com DUPLI1_PASSWORD='…' \
 
 Creates Chanel catalog styles (`CH/<SKU[:12]>`), variants, and uploads local
 source images to `manage.dupli1.com`.
+
+### Image format (important)
+
+Chanel CDN often serves **WebP** under `.jpg` filenames (`f_auto`). Dupli1 stores
+the multipart `Content-Type` you send, so uploading WebP bytes as `image/jpeg`
+breaks the manage UI. `import_dupli1.py` rejects non-JPEG magic bytes.
+
+Convert before upload (Pillow), then prefer the internal API from a host that
+can reach Cloud Map:
+
+```bash
+# On EC2 / ECS with access to auth.dupli1.local + product.dupli1.local
+DUPLI1_EMAIL=agent@dupli1.com DUPLI1_PASSWORD='…' \
+  CHANEL_JPEG_ROOT=/path/to/jpeg-tree \
+  python3 chanel/ec2_reupload.py
+```
+
+`CHANEL_JPEG_ROOT` must contain `products.json` plus per-SKU folders of real
+JPEGs (`FF D8 FF`) and `info.json`.

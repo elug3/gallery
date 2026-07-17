@@ -235,6 +235,14 @@ class Dupli1:
     def upload_image(self, product_id: str, sku: str, path: str) -> dict:
         filename = os.path.basename(path)
         filedata = open(path, "rb").read()
+        # Chanel's CDN often returns WebP under .jpg names (f_auto). Dupli1 stores
+        # the Content-Type we send, so WebP bytes labeled image/jpeg break the UI.
+        if filedata[:3] != b"\xff\xd8\xff":
+            kind = "webp" if filedata[:4] == b"RIFF" else "unknown"
+            raise RuntimeError(
+                f"{path} is not a JPEG (detected {kind}); convert before upload "
+                f"(see chanel/ec2_reupload.py)"
+            )
         boundary = "----Dupli1Boundary7MA4YWxkTrZu0gW"
         preamble = (
             f"--{boundary}\r\n"
