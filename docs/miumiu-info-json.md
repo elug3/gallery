@@ -102,3 +102,13 @@ python3 miumiu/main.py --list-only <product-url>
 
 Default with no URLs is the curated **top-15 bag** list in `miumiu/main.py`.
 Multi-URL runs write per-SKU subdirs under `-o` (default `./images/miumiu`).
+
+## Dupli1 import
+
+```bash
+DUPLI1_EMAIL=agent@dupli1.com DUPLI1_PASSWORD='…' \
+  python3 miumiu/import_dupli1.py
+```
+
+Creates brand `MM`, styles, variants, and uploads local JPEGs to
+`manage.dupli1.com`.

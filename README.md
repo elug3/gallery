@@ -23,4 +23,10 @@ python3 miumiu/main.py --discover
 
 See [docs/miumiu-info-json.md](docs/miumiu-info-json.md).
 
+```bash
+# Import scraped bags into manage.dupli1.com
+DUPLI1_EMAIL=agent@dupli1.com DUPLI1_PASSWORD='…' \
+  python3 miumiu/import_dupli1.py
+```
+
 Both scrapers use **only the Python standard library**.
