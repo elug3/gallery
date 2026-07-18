@@ -93,13 +93,19 @@ COLOR_CODE_MAP = {
 
 
 def style_code_for(sku: str, info: dict | None = None) -> str:
-    """Dupli1 style codes: uppercase alphanumeric, max 12 chars."""
+    """Dupli1 style codes: uppercase alphanumeric, max 12 chars.
+
+    Prefer the product SKU so each colorway/PDP stays unique. Short Hermès
+    ``productGroupId`` values like ``C041`` collide across unrelated bags.
+    """
+    cleaned = re.sub(r"[^A-Za-z0-9]", "", sku or "").upper()
+    if cleaned:
+        return cleaned[:12]
     if info:
         group = re.sub(r"[^A-Za-z0-9]", "", str(info.get("productGroupId") or ""))
         if group:
             return group.upper()[:12]
-    cleaned = re.sub(r"[^A-Za-z0-9]", "", sku or "")
-    return cleaned.upper()[:12]
+    return "UNKNOWN"
 
 
 def color_code_for(color: str) -> tuple[str, str]:
@@ -113,6 +119,20 @@ def color_code_for(color: str) -> tuple[str, str]:
     letters = "".join(ch for ch in raw.upper() if ch.isalpha())
     code = (letters[:3] or "UNK").ljust(3, "X")
     return code, raw
+
+
+def size_for_dupli1(raw: str) -> str:
+    """Bags use empty Dupli1 size; skip soft labels like 'Small model'."""
+    value = (raw or "").strip()
+    if not value:
+        return ""
+    lower = value.lower()
+    if "model" in lower or "one size" in lower or lower in {"tu", "u", "os", "uni"}:
+        return ""
+    # Only keep values that already look like catalog size codes.
+    if re.fullmatch(r"[A-Za-z0-9]{1,12}", value):
+        return value.upper()
+    return ""
 
 
 def ensure_jpeg(path: str) -> str:
@@ -379,7 +399,7 @@ def import_one(client: Dupli1, brand: dict, sku: str, folder: str) -> dict:
                 "sku": variant_sku,
                 "color": color_name,
                 "colorCode": color_code,
-                "size": selected.get("size") or "",
+                "size": size_for_dupli1(selected.get("size") or ""),
                 "price": selected.get("price"),
                 "status": selected.get("status") or "active",
             }
@@ -394,7 +414,7 @@ def import_one(client: Dupli1, brand: dict, sku: str, folder: str) -> dict:
         payload = {
             "name": name,
             "description": product.get("description") or "",
-            "brand": product.get("brand") or brand_name,
+            "brand": brand_name,
             "brandCode": brand_code,
             "styleCode": style_code,
             "material": product.get("material") or "",
@@ -403,8 +423,6 @@ def import_one(client: Dupli1, brand: dict, sku: str, folder: str) -> dict:
             "status": product.get("status") or "draft",
             "tags": product.get("tags") or brand["tags"],
         }
-        # Prefer catalog brand name for Dupli1 brand field consistency
-        payload["brand"] = brand_name
         created = client.request("POST", "/api/v1/products", payload)
         product_id = created["id"]
         have = 0
@@ -416,7 +434,7 @@ def import_one(client: Dupli1, brand: dict, sku: str, folder: str) -> dict:
             "sku": variant_sku,
             "color": color_name,
             "colorCode": color_code,
-            "size": selected.get("size") or "",
+            "size": size_for_dupli1(selected.get("size") or ""),
             "price": selected.get("price"),
             "status": selected.get("status") or "active",
         }
