@@ -118,6 +118,17 @@ def static_image_url(url: str) -> str:
     )
 
 
+def _image_src(value: object) -> str:
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        for key in ("disBaseLink", "src", "url", "link"):
+            raw = value.get(key)
+            if raw:
+                return str(raw)
+    return ""
+
+
 def extract_images(data: dict) -> list[str]:
     attrs = data.get("customAttributes") or {}
     candidates: list[str] = []
@@ -126,16 +137,21 @@ def extract_images(data: dict) -> list[str]:
         for device in ("desktop", "mobile"):
             values = block.get(device) or []
             if isinstance(values, list):
-                candidates.extend(str(v) for v in values if v)
+                for item in values:
+                    src = _image_src(item)
+                    if src:
+                        candidates.append(src)
     for value in attrs.get("c_allImages") or []:
-        if isinstance(value, str):
-            candidates.append(value)
-        elif isinstance(value, dict) and value.get("url"):
-            candidates.append(str(value["url"]))
+        src = _image_src(value)
+        if src:
+            candidates.append(src)
     seen: set[str] = set()
     urls: list[str] = []
     for raw in candidates:
-        url = static_image_url(raw if raw.startswith("http") else urllib.parse.urljoin("https://www.loewe.com", raw))
+        absolute = raw if raw.startswith("http") else urllib.parse.urljoin(
+            "https://www.loewe.com", raw
+        )
+        url = static_image_url(absolute)
         if url not in seen:
             seen.add(url)
             urls.append(url)

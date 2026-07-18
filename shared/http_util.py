@@ -98,12 +98,18 @@ def extension_for(data: bytes, fallback: str = ".jpg") -> str:
     return fallback
 
 
-def download_image(url: str, dest_no_ext: str) -> str | None:
+def download_image(
+    url: str,
+    dest_no_ext: str,
+    *,
+    referer: str | None = None,
+) -> str | None:
     """Download image and write with correct extension from magic bytes."""
     try:
         data = fetch(
             url,
             headers={"Accept": "image/jpeg,image/png,image/webp,*/*;q=0.8"},
+            referer=referer,
         )
     except (urllib.error.URLError, urllib.error.HTTPError):
         return None

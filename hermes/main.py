@@ -30,6 +30,28 @@ LISTING_URL = (
 )
 DEFAULT_LIMIT = 18
 
+# Known-good US PDPs (listing discovery can include 403 rows).
+DEFAULT_URLS = [
+    "https://www.hermes.com/us/en/product/hac-a-dos-pm-backpack-H083589CK10/",
+    "https://www.hermes.com/us/en/product/hermes-videpoches-bag-H087987CK10/",
+    "https://www.hermes.com/us/en/product/hermes-in-the-loop-18-bag-H084274CCBW/",
+    "https://www.hermes.com/us/en/product/p-tit-arcon-bag-H085871CKAO/",
+    "https://www.hermes.com/us/en/product/hermes-videpoches-bag-H087901CKAE/",
+    "https://www.hermes.com/us/en/product/bolide-a-dos-backpack-H085758CKAA/",
+    "https://www.hermes.com/us/en/product/sac-a-depeches-light-1-36-briefcase-H085721CKV8/",
+    "https://www.hermes.com/us/en/product/herbag-messenger-39-bag-H084623CKAF/",
+    "https://www.hermes.com/us/en/product/etriviere-50-bag-H086683CK37/",
+    "https://www.hermes.com/us/en/product/hac-a-dos-pm-backpack-H085960CKAB/",
+    "https://www.hermes.com/us/en/product/herbag-messenger-39-bag-H084489CKAC/",
+    "https://www.hermes.com/us/en/product/kelly-depeches-25-pouch-H082312CK89/",
+    "https://www.hermes.com/us/en/product/tablier-sellier-bag-H086583CKAC/",
+    "https://www.hermes.com/us/en/product/kelly-messenger-bag-H085671CK89/",
+    "https://www.hermes.com/us/en/product/garden-party-pockets-vertical-bag-H084260CKAC/",
+    "https://www.hermes.com/us/en/product/jige-elan-29-clutch-H048490CA7U/",
+    "https://www.hermes.com/us/en/product/jypsiere-mini-bag-H083982CCBR/",
+    "https://www.hermes.com/us/en/product/picotin-lock-micro-bag-H084238CKI2/",
+]
+
 STATE_RE = re.compile(
     r'<script id="hermes-state" type="application/json">(.*?)</script>',
     re.DOTALL,
@@ -85,7 +107,15 @@ def discover_urls(limit: int = DEFAULT_LIMIT) -> list[str]:
         path = str(item.get("url") or "")
         if not path:
             continue
-        full = urllib.parse.urljoin("https://www.hermes.com/us/en", path)
+        if path.startswith("http"):
+            full = path
+        elif path.startswith("/us/en/"):
+            full = "https://www.hermes.com" + path
+        elif path.startswith("/product/"):
+            full = "https://www.hermes.com/us/en" + path
+        else:
+            full = urllib.parse.urljoin("https://www.hermes.com/us/en/", path.lstrip("/"))
+        full = full.split("?")[0]
         if full in seen:
             continue
         seen.add(full)
@@ -207,7 +237,20 @@ def main(argv: list[str] | None = None) -> int:
             print(url)
         return 0
 
-    urls = args.urls or discover_urls(args.limit)
+    urls = args.urls or DEFAULT_URLS[: args.limit]
+    if not args.urls:
+        discovered = discover_urls(args.limit)
+        # Prefer known-good defaults; fill with discovered if needed.
+        merged: list[str] = []
+        seen: set[str] = set()
+        for url in list(DEFAULT_URLS) + discovered:
+            if url in seen:
+                continue
+            seen.add(url)
+            merged.append(url)
+            if len(merged) >= args.limit:
+                break
+        urls = merged
     catalog = []
     multi = len(urls) > 1
     for url in urls:
