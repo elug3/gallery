@@ -10,6 +10,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.request
 from typing import Any
@@ -89,7 +90,13 @@ COLOR_CODE_MAP = {
     "natural": "NAT",
     "ochre": "OCR",
     "terracotta": "TER",
+    "ecru": "ECR",
 }
+
+
+def ascii_fold(text: str) -> str:
+    normalized = unicodedata.normalize("NFKD", text or "")
+    return "".join(ch for ch in normalized if not unicodedata.combining(ch))
 
 
 def style_code_for(sku: str, info: dict | None = None) -> str:
@@ -97,26 +104,37 @@ def style_code_for(sku: str, info: dict | None = None) -> str:
 
     Prefer the product SKU so each colorway/PDP stays unique. Short Hermès
     ``productGroupId`` values like ``C041`` collide across unrelated bags.
+    When the SKU is longer than 12 chars, use first 6 + last 6 of the
+    alphanumeric form so trailing color suffixes stay distinct.
     """
     cleaned = re.sub(r"[^A-Za-z0-9]", "", sku or "").upper()
-    if cleaned:
-        return cleaned[:12]
-    if info:
-        group = re.sub(r"[^A-Za-z0-9]", "", str(info.get("productGroupId") or ""))
-        if group:
-            return group.upper()[:12]
-    return "UNKNOWN"
+    if not cleaned and info:
+        cleaned = re.sub(
+            r"[^A-Za-z0-9]", "", str(info.get("productGroupId") or "")
+        ).upper()
+    if not cleaned:
+        return "UNKNOWN"
+    if len(cleaned) <= 12:
+        return cleaned
+    return cleaned[:6] + cleaned[-6:]
 
 
 def color_code_for(color: str) -> tuple[str, str]:
     raw = (color or "").strip() or "Black"
     lower = raw.lower()
+    folded = ascii_fold(lower)
     if lower in COLOR_CODE_MAP:
         return COLOR_CODE_MAP[lower], raw
+    if folded in COLOR_CODE_MAP:
+        return COLOR_CODE_MAP[folded], raw
     for key, code in sorted(COLOR_CODE_MAP.items(), key=lambda item: -len(item[0])):
-        if key in lower:
+        if key in lower or key in folded:
             return code, raw
-    letters = "".join(ch for ch in raw.upper() if ch.isalpha())
+    # Multi-color strings like "écru/noir/noir" → primary segment
+    primary = re.split(r"[/,]| and ", folded)[0].strip()
+    if primary in COLOR_CODE_MAP:
+        return COLOR_CODE_MAP[primary], raw
+    letters = "".join(ch for ch in ascii_fold(raw).upper() if ch.isalpha())
     code = (letters[:3] or "UNK").ljust(3, "X")
     return code, raw
 
