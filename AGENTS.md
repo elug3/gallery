@@ -2,13 +2,24 @@
 
 ## Cursor Cloud specific instructions
 
-- This repo contains utility scrapers that write Dupli1-shaped `info.json` plus
-  product images:
-  - `prada/main.py` — Prada fashion PDPs
-  - `miumiu/main.py` — Miu Miu fashion PDPs (bags-focused defaults)
-- Both use **only the Python standard library** (`urllib`, `re`, `argparse`,
-  `json`). There are no third-party dependencies — run with `python3 …`.
-- Outbound internet is required for live scrapes.
+- Scrapers write Dupli1-shaped `info.json` + product images under `images/`
+  (gitignored).
+- Standard library only for Prada / Miu Miu / Loewe / Hermès (`urllib`, `re`,
+  `json`, `argparse`). Balenciaga and YSL need Chrome CDP on port `9222` and the
+  `websocket-client` package when scraping live pages.
+- When Akamai returns Access Denied, Balenciaga/YSL support
+  `--from-html-dir <dir>` to parse saved listing/PDP HTML and download
+  Kering DAM `eCom` JPEGs via urllib (DAM is not Akamai-blocked).
+- Useful commands:
+  - `python3 prada/main.py`
+  - `python3 miumiu/main.py -o images/miumiu`
+  - `python3 loewe/main.py --limit 18`
+  - `python3 hermes/main.py --limit 18`
+  - `python3 balenciaga/main.py --limit 18` (CDP) or `--from-html-dir …`
+  - `python3 ysl/main.py --limit 18` (CDP) or `--from-html-dir …`
+- Shared helpers: `shared/http_util.py`, `shared/cdp.py`.
+- `info.json` matches Dupli1 parent + variants (`product`, `variants[]` with
+  `color` / `size` / `price` / `images`).
 
 ### Prada
 
@@ -35,6 +46,8 @@
 - Original asset trick: strip AEM rendition suffixes; filter DAM URLs by SKU so
   sibling color thumbs on the same PDP are skipped.
 - Schema: [docs/miumiu-info-json.md](docs/miumiu-info-json.md)
+- Import: `python3 miumiu/import_dupli1.py` (set `DUPLI1_EMAIL` /
+  `DUPLI1_PASSWORD`).
 
 ### Dupli1
 
