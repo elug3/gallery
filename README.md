@@ -8,9 +8,10 @@ optional Chrome CDP helper for Akamai-blocked sites (`websocket-client`).
 
 | Brand | Command | Notes |
 |-------|---------|-------|
-| Prada | `python3 prada/main.py` | urllib |
+| Prada | `python3 prada/main.py --limit 20` | urllib + bags PLP/sitemap discovery |
+| Hermès | `python3 hermes/main.py --limit 20` | bags PLP `hermes-state` (PDPs often 403) |
+| Louis Vuitton | `python3 louisvuitton/main.py --limit 20` | Wayback PDP + CN image CDN |
 | Loewe | `python3 loewe/main.py` | urllib |
-| Hermès | `python3 hermes/main.py` | urllib + desktop UA |
 | Balenciaga | `python3 balenciaga/main.py` | Chrome CDP, or `--from-html-dir` offline |
 | Saint Laurent | `python3 ysl/main.py` | Chrome CDP, or `--from-html-dir` offline |
 
@@ -18,9 +19,13 @@ Default bag scrapes write under `images/<brand>/` (gitignored) with per-SKU
 folders and `catalog.json`.
 
 ```bash
-# Example: scrape ~18 Loewe / Hermès bags
+# Top-20 bags
+python3 prada/main.py --limit 20
+python3 hermes/main.py --limit 20
+python3 louisvuitton/main.py --limit 20
+
+# Other brands (~18)
 python3 loewe/main.py --limit 18
-python3 hermes/main.py --limit 18
 
 # Akamai brands need Chrome when live:
 google-chrome --headless=new --disable-gpu --no-sandbox \
