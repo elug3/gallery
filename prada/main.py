@@ -43,6 +43,34 @@ DEFAULT_URL = (
     "1BZ677_RV44_F0002_V_OOO"
 )
 
+BAGS_PLP = "https://www.prada.com/ww/en/womens/bags/c/10062EU"
+PRODUCT_SITEMAP = "https://www.prada.com/sitemap_product_US_en_0.xml"
+DEFAULT_LIMIT = 20
+
+# Curated iconic / high-visibility bag styles (filled from PLP + sitemap).
+DEFAULT_TOP_URLS = [
+    "https://www.prada.com/us/en/p/prada-re-edition-1978-small-re-nylon-backpack/1BZ677_RV44_F0Y8C_V_OOM",
+    "https://www.prada.com/us/en/p/prada-galleria-medium-saffiano-leather-bag/1BA457_NZV_F0032_V_EOM",
+    "https://www.prada.com/us/en/p/prada-galleria-large-saffiano-leather-bag/1BA274_NZV_F0009_V_DOO",
+    "https://www.prada.com/us/en/p/prada-re-edition-2005-re-nylon-and-saffiano-leather-bag-with-charm/1BH204_R064_F0NIV_V_WRA",
+    "https://www.prada.com/us/en/p/prada-re-edition-mini-saffiano-leather-bag/1BC204_NZV_F0MUH_V_QOM",
+    "https://www.prada.com/us/en/p/prada-buckle-small-leather-bag-with-belt/1BA502_2CY9_F0002_V_OBO",
+    "https://www.prada.com/us/en/p/prada-bonnie-medium-leather-bag/1BA426_2CYR_F05VJ_V_MOM",
+    "https://www.prada.com/us/en/p/prada-bonnie-large-leather-handbag/1BA433_2CYR_F05VJ_V_MOM",
+    "https://www.prada.com/us/en/p/prada-bonnie-leather-mini-bag/1BA486_2CYR_F05VJ_V_OOM",
+    "https://www.prada.com/us/en/p/prada-buckle-large-leather-handbag-with-belt-/1BA416_2CY9_F0002_V_DBO",
+    "https://www.prada.com/us/en/p/large-linen-blend-and-leather-tote-bag/1BG659_2DLI_F0N67_V_OOO",
+    "https://www.prada.com/us/en/p/prada-jardiniere-small-cotton-canvas-bag/1BG464_RCYA_F0018_V_8OK",
+    "https://www.prada.com/us/en/p/prada-jardiniere-large-cotton-canvas-handbag/1BG554_RCYA_F0018_V_8OK",
+    "https://www.prada.com/us/en/p/prada-re-edition-1978-medium-re-nylon-and-saffiano-leather-tote-bag/1BG555_R064_F0134_V_OOO",
+    "https://www.prada.com/us/en/p/prada-re-edition-1978-large-re-nylon-and-saffiano-leather-tote-bag/1BG527_R064_F0002_V_OOO",
+    "https://www.prada.com/us/en/p/re-nylon-backpack/1BZ039_RV44_F0002_V_DMM",
+    "https://www.prada.com/us/en/p/small-re-nylon-backpack/1BZ081_RV44_F0632_V_OOO",
+    "https://www.prada.com/us/en/p/prada-galleria-mini-saffiano-leather-bag/1BA916_NZV_F0K74_V_EOO",
+    "https://www.prada.com/us/en/p/prada-buckle-small-leather-handbag-with-double-belt/1BA418_2CYS_F0002_V_OOO",
+    "https://www.prada.com/us/en/p/prada-bonnie-extra-large-leather-bag/1BA439_2CYR_F05VJ_V_OOM",
+]
+
 # A desktop browser User-Agent; the site returns a stripped-down response to
 # unknown clients.
 USER_AGENT = (
@@ -533,6 +561,79 @@ def extract_from_page(url: str, output_dir: str) -> list[str]:
     return download_images(image_urls, output_dir)
 
 
+def discover_urls(limit: int = DEFAULT_LIMIT) -> list[str]:
+    """Return unique bag PDP URLs from the bags PLP, then sitemap fill."""
+    urls: list[str] = []
+    seen_style: set[str] = set()
+
+    def add(url: str) -> None:
+        url = url.split("?")[0].replace("/ww/en/", "/us/en/")
+        if "/p/" not in url:
+            return
+        low = url.lower()
+        if any(
+            bad in low
+            for bad in (
+                "crocodile",
+                "ostrich",
+                "python",
+                "cap/",
+                "hat",
+                "pants",
+                "shoe",
+                "belt/",
+            )
+        ):
+            return
+        sku = url.rstrip("/").rsplit("/", 1)[-1]
+        style = sku.split("_")[0]
+        if style in seen_style:
+            return
+        seen_style.add(style)
+        urls.append(url)
+
+    try:
+        html = fetch(BAGS_PLP).decode("utf-8", errors="replace")
+        for href in re.findall(
+            r'https://www\.prada\.com/(?:ww|us)/en/p/[^"\']+', html
+        ):
+            add(href)
+            if len(urls) >= limit:
+                return urls
+    except Exception as error:  # noqa: BLE001
+        print(f"PLP discover failed: {error}", file=sys.stderr)
+
+    for url in DEFAULT_TOP_URLS:
+        add(url)
+        if len(urls) >= limit:
+            return urls
+
+    try:
+        xml = fetch(PRODUCT_SITEMAP, timeout=90).decode("utf-8", errors="replace")
+        bag_kw = (
+            "bag",
+            "backpack",
+            "tote",
+            "handbag",
+            "hobo",
+            "clutch",
+            "galleria",
+            "re-edition",
+            "cleo",
+        )
+        for loc in re.findall(r"<loc>([^<]+)</loc>", xml):
+            low = loc.lower()
+            if not any(k in low for k in bag_kw):
+                continue
+            add(loc)
+            if len(urls) >= limit:
+                break
+    except Exception as error:  # noqa: BLE001
+        print(f"Sitemap discover failed: {error}", file=sys.stderr)
+
+    return urls[:limit]
+
+
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
@@ -543,39 +644,80 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "urls",
         nargs="*",
-        default=[DEFAULT_URL],
-        help=f"Product page URL(s) to scrape (default: {DEFAULT_URL}).",
+        help="Product page URL(s) to scrape. Default: curated top bags.",
     )
     parser.add_argument(
         "-o",
         "--output-dir",
-        default="images",
-        help="Directory to save downloaded images and info.json (default: ./images).",
+        default="images/prada",
+        help="Directory to save downloaded images and info.json (default: ./images/prada).",
     )
     parser.add_argument(
         "--list-only",
         action="store_true",
         help="Only print the original image URLs; do not download anything.",
     )
+    parser.add_argument(
+        "--discover",
+        action="store_true",
+        help="Print discovered bag PDP URLs and exit.",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=DEFAULT_LIMIT,
+        help=f"Max products for default/discover runs (default: {DEFAULT_LIMIT}).",
+    )
     return parser.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
+    if args.discover:
+        for url in discover_urls(args.limit):
+            print(url)
+        return 0
+
+    urls = args.urls or discover_urls(args.limit) or DEFAULT_TOP_URLS[: args.limit]
     total_saved = 0
-    multi = len(args.urls) > 1
-    for url in args.urls:
+    catalog = []
+    multi = len(urls) > 1
+    for url in urls:
         if args.list_only:
             html = fetch(url).decode("utf-8", errors="replace")
             for image_url in extract_original_image_urls(html):
                 print(image_url)
-        else:
-            target_dir = output_dir_for(url, args.output_dir, multi)
+            continue
+        target_dir = output_dir_for(url, args.output_dir, multi)
+        try:
             saved = extract_from_page(url, target_dir)
             total_saved += len(saved)
+            sku = url.rstrip("/").rsplit("/", 1)[-1]
+            info_path = os.path.join(target_dir, INFO_FILENAME)
+            name = ""
+            if os.path.exists(info_path):
+                info = json.load(open(info_path, encoding="utf-8"))
+                name = (info.get("product") or {}).get("name") or ""
+            catalog.append(
+                {
+                    "sku": sku,
+                    "name": name,
+                    "url": url,
+                    "images": len(saved),
+                    "dir": target_dir,
+                }
+            )
+        except Exception as error:  # noqa: BLE001
+            print(f"FAIL {url}: {error}", file=sys.stderr)
     if not args.list_only:
-        print(f"Done. Downloaded {total_saved} image(s).")
-    return 0
+        os.makedirs(args.output_dir, exist_ok=True)
+        with open(
+            os.path.join(args.output_dir, "catalog.json"), "w", encoding="utf-8"
+        ) as handle:
+            json.dump({"brand": "Prada", "top": catalog}, handle, indent=2)
+            handle.write("\n")
+        print(f"Done. {len(catalog)}/{len(urls)} products, {total_saved} image(s).")
+    return 0 if (args.list_only or catalog) else 2
 
 
 if __name__ == "__main__":
