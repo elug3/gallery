@@ -28,7 +28,7 @@ BRAND = "Hermès"
 LISTING_URL = (
     "https://www.hermes.com/us/en/category/leather-goods/bags-and-clutches/"
 )
-DEFAULT_LIMIT = 18
+DEFAULT_LIMIT = 20
 
 # Known-good US PDPs (listing discovery can include 403 rows).
 DEFAULT_URLS = [
@@ -129,9 +129,78 @@ def asset_url(raw: str) -> str:
     url = raw.strip()
     if url.startswith("//"):
         url = "https:" + url
-    if "?" not in url:
-        url = url + "?wid=3000"
-    return url
+    # Scene7 serves tiny placeholders for some ``size=`` queries; ``wid=`` is reliable.
+    base = url.split("?", 1)[0]
+    return base + "?wid=3000"
+
+
+def scrape_from_listing_item(item: dict, output_dir: str) -> dict:
+    """Build a product folder from a bags PLP ``hermes-state`` item (no PDP)."""
+    sku = str(item.get("sku") or "")
+    if not sku:
+        raise RuntimeError("listing item missing sku")
+    path = str(item.get("url") or "")
+    if path.startswith("http"):
+        url = path
+    elif path.startswith("/us/en/"):
+        url = "https://www.hermes.com" + path
+    elif path.startswith("/product/"):
+        url = "https://www.hermes.com/us/en" + path
+    else:
+        url = urllib.parse.urljoin("https://www.hermes.com/us/en/", path.lstrip("/"))
+    url = url.split("?")[0]
+    name = strip_html(str(item.get("title") or ""))
+    price = normalize_price(item.get("price"))
+    color = strip_html(str(item.get("avgColor") or ""))
+    size = normalize_size(str(item.get("size") or ""))
+    assets = sorted(
+        [a for a in (item.get("assets") or []) if isinstance(a, dict)],
+        key=lambda entry: entry.get("position") or 0,
+    )
+    image_urls = [asset_url(str(a["url"])) for a in assets if a.get("url")]
+
+    os.makedirs(output_dir, exist_ok=True)
+    image_files: list[str] = []
+    saved_urls: list[str] = []
+    for index, image_url in enumerate(image_urls, start=1):
+        dest = download_image(image_url, os.path.join(output_dir, f"image_{index:02d}"))
+        if not dest:
+            print(f"  [{index}/{len(image_urls)}] FAILED {image_url}", file=sys.stderr)
+            continue
+        image_files.append(os.path.basename(dest))
+        saved_urls.append(image_url)
+        print(f"  [{index}/{len(image_urls)}] saved {dest}")
+
+    variant = {
+        "sku": sku,
+        "color": color,
+        "size": size,
+        "price": price,
+        "status": "active",
+        "images": image_files,
+        "imageUrls": saved_urls,
+        "selected": True,
+        "available": True,
+        "sourceUrl": url,
+    }
+    info = build_info(
+        name=name,
+        description="",
+        brand=BRAND,
+        material="",
+        capacity="",
+        source_url=url,
+        tags=["hermes", "bags"],
+        variants=[variant],
+        details=[f"Product code: {sku}"],
+        dimensions={},
+        currency="USD",
+        product_group_id=str(item.get("productCode") or sku[:8]),
+        selected_sku=sku,
+    )
+    write_info_json(info, output_dir)
+    print(f"  wrote info.json name={name!r} sku={sku} price={price} images={len(image_files)}")
+    return {"sku": sku, "name": name, "url": url, "images": len(image_files), "dir": output_dir}
 
 
 def scrape_one(url: str, output_dir: str) -> dict:
@@ -230,6 +299,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("-o", "--output-dir", default="images/hermes")
     parser.add_argument("--discover", action="store_true")
     parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
+    parser.add_argument(
+        "--from-listing",
+        action="store_true",
+        help="Scrape top bags from the US bags PLP hermes-state (avoids PDP 403s).",
+    )
     args = parser.parse_args(argv)
 
     if args.discover:
@@ -237,37 +311,52 @@ def main(argv: list[str] | None = None) -> int:
             print(url)
         return 0
 
-    urls = args.urls or DEFAULT_URLS[: args.limit]
-    if not args.urls:
-        discovered = discover_urls(args.limit)
-        # Prefer known-good defaults; fill with discovered if needed.
-        merged: list[str] = []
-        seen: set[str] = set()
-        for url in list(DEFAULT_URLS) + discovered:
-            if url in seen:
-                continue
-            seen.add(url)
-            merged.append(url)
-            if len(merged) >= args.limit:
-                break
-        urls = merged
     catalog = []
-    multi = len(urls) > 1
-    for url in urls:
-        match = re.search(r"(H[0-9A-Z]+)/?$", url.rstrip("/"))
-        sku = match.group(1) if match else url.rstrip("/").rsplit("/", 1)[-1]
-        target = os.path.join(args.output_dir, sku) if multi else args.output_dir
-        try:
-            catalog.append(scrape_one(url, target))
-        except Exception as error:  # noqa: BLE001
-            print(f"FAIL {url}: {error}", file=sys.stderr)
+    # Prefer listing scrape by default (PDPs are frequently Cloudflare 403).
+    use_listing = args.from_listing or not args.urls
+    if use_listing:
+        html = fetch(LISTING_URL, referer="https://www.hermes.com/us/en/").decode(
+            "utf-8", errors="replace"
+        )
+        items = listing_items(parse_state(html))[: args.limit]
+        multi = len(items) > 1 or bool(args.urls)
+        for item in items:
+            sku = str(item.get("sku") or "")
+            target = os.path.join(args.output_dir, sku) if multi else args.output_dir
+            try:
+                catalog.append(scrape_from_listing_item(item, target))
+            except Exception as error:  # noqa: BLE001
+                print(f"FAIL listing {sku}: {error}", file=sys.stderr)
+
+        for url in args.urls or []:
+            match = re.search(r"(H[0-9A-Z]+)/?$", url.rstrip("/"))
+            sku = match.group(1) if match else url.rstrip("/").rsplit("/", 1)[-1]
+            if any(row.get("sku") == sku for row in catalog):
+                continue
+            target = os.path.join(args.output_dir, sku) if multi else args.output_dir
+            try:
+                catalog.append(scrape_one(url, target))
+            except Exception as error:  # noqa: BLE001
+                print(f"FAIL {url}: {error}", file=sys.stderr)
+    else:
+        urls = args.urls
+        multi = len(urls) > 1
+        for url in urls:
+            match = re.search(r"(H[0-9A-Z]+)/?$", url.rstrip("/"))
+            sku = match.group(1) if match else url.rstrip("/").rsplit("/", 1)[-1]
+            target = os.path.join(args.output_dir, sku) if multi else args.output_dir
+            try:
+                catalog.append(scrape_one(url, target))
+            except Exception as error:  # noqa: BLE001
+                print(f"FAIL {url}: {error}", file=sys.stderr)
+
     os.makedirs(args.output_dir, exist_ok=True)
     json.dump(
         {"brand": BRAND, "top": catalog},
         open(os.path.join(args.output_dir, "catalog.json"), "w", encoding="utf-8"),
         indent=2,
     )
-    print(f"Done. {len(catalog)}/{len(urls)} products -> {args.output_dir}")
+    print(f"Done. {len(catalog)} products -> {args.output_dir}")
     return 0 if catalog else 2
 
 

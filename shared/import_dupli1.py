@@ -41,6 +41,18 @@ BRANDS = {
         "dir": "images/loewe",
         "tags": ["loewe", "bags"],
     },
+    "louisvuitton": {
+        "code": "LV",
+        "name": "Louis Vuitton",
+        "dir": "images/louisvuitton",
+        "tags": ["louis-vuitton", "lv", "bags"],
+    },
+    "prada": {
+        "code": "PRA",
+        "name": "Prada",
+        "dir": "images/prada",
+        "tags": ["prada", "bags"],
+    },
     "ysl": {
         "code": "YSL",
         "name": "Saint Laurent",
@@ -91,6 +103,18 @@ COLOR_CODE_MAP = {
     "ochre": "OCR",
     "terracotta": "TER",
     "ecru": "ECR",
+    "forest": "GRN",
+    "vanilla": "CRM",
+    "slate gray": "GRY",
+    "slate grey": "GRY",
+    "peony pink": "PNK",
+    "cameo": "PNK",
+    "peach": "PNK",
+    "crimson": "RED",
+    "chalk white": "WHT",
+    "monogram": "BRN",
+    "damier ebene": "BRN",
+    "damier": "BRN",
 }
 
 
