@@ -1,0 +1,2872 @@
+[
+  {
+    "id": "01KY3N0FREVM5WM8T4QNRPY1ME",
+    "name": "쿠상 백팩 PM",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M13358",
+    "category": "bags",
+    "status": "draft",
+    "material": "Coussin",
+    "description": "Coussin 라인 최초의 PM 백팩으로, 부드러운 Monogram 엠보스드 가죽과 아이코닉한 LV 패드락이 세련된 포인트를 더합니다. 탈착 가능한 골드 톤 Coussin 체인과 앞면 지퍼 포켓으로 실용성과 우아함을 함께 갖췄습니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KY3N0DY1GJDVDQZYRFVGQ205",
+    "name": "캐리올 카고 바이브 PM (CarryAll Cargo Vibe PM)",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M24861",
+    "category": "bags",
+    "status": "draft",
+    "material": "LV Vibe",
+    "description": "CarryAll Cargo Vibe PM은 부드러운 램스킨의 자연스러운 슬라우치 실루엣이 매력적인 핸드백입니다. 탈착 가능한 스트랩과 체인 디테일로 데이룩부터 이브닝 스타일까지 다양하게 연출할 수 있습니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KY3N0C10REXAY0A14EHMPP2X",
+    "name": "캐리 올 트래블 백",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M15175",
+    "category": "bags",
+    "status": "draft",
+    "material": "LV Vibe",
+    "description": "CarryAll Travel Bag은 부드러운 카프스킨에 Monogram 캔버스 포인트를 더한 실용적인 여행용 백입니다. 여러 수납 포켓과 탈착식 조절 스트랩으로 짧은 여행이나 주말 외출에 여유롭게 어울립니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "weekend",
+    "target": "all"
+  },
+  {
+    "id": "01KY3N09Y9B4EX247EMBYRZVBT",
+    "name": "네버풀 반둘리에 인사이드 아웃 BB",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M12106",
+    "category": "bags",
+    "status": "draft",
+    "material": "Other Leathers",
+    "description": "Neverfull Bandoulière Inside Out BB는 Monogram 캔버스와 그레인 가죽을 양면으로 즐길 수 있는 리버서블 백입니다. 탈착 가능한 지퍼 파우치와 크로스바디 스트랩, 골드 톤 디테일이 실용적이면서도 세련된 무드를 완성합니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3N08467H2C5MQW7W00ZN2B",
+    "name": "스피디 18",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "N87525",
+    "category": "bags",
+    "status": "draft",
+    "material": "Ostrich Leather",
+    "description": "Speedy 18은 Speedy 라인의 가장 작은 실루엣에 오스트리치 가죽과 컬러풀한 Monogram 프린트를 더한 백입니다. 캔버스처럼 표현된 트윌 효과의 패턴과 탈착식 조절 스트랩이 특별한 존재감을 선사합니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3N05W1GS3H9ZGYVZTBYC0V",
+    "name": "스피디 18 반둘리에",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "N00208",
+    "category": "bags",
+    "status": "draft",
+    "material": "DAMIER OTHER",
+    "description": "Speedy 18 Bandoulière는 Damier Denim 3D 코튼 캔버스와 데님 블루 레더 트리밍, 골드 톤 디테일이 조화를 이루는 백입니다. 빈티지한 Marque L. Vuitton Déposée 시그니처와 탈착식 조절 스트랩으로 클래식한 패턴에 현대적인 감각을 더했습니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3N03NBBYDYRJMWPXE5AM50",
+    "name": "온더고 BB",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M47054",
+    "category": "bags",
+    "status": "draft",
+    "material": "Bicolor Monogram Empreinte Leather",
+    "description": "OnTheGo BB는 Monogram Empreinte 가죽에 Monogram 엠보싱을 더한 트렌디한 마이크로 토트백입니다. 풀 사이즈 모델의 시그니처 디테일을 담고 있으며, 탈착식 조절 스트랩으로 숄더백처럼 연출할 수 있습니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3N01FJ0XMBERD51AV3CCKX",
+    "name": "온더고 BB",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M46993",
+    "category": "bags",
+    "status": "draft",
+    "material": "Monogram Empreinte Leather",
+    "description": "OnTheGo BB는 Monogram Empreinte 가죽에 Monogram 엠보싱을 더한 트렌디한 마이크로 토트백입니다. 풀 사이즈 모델의 시그니처 디테일을 담고 있으며, 탈착식 조절 스트랩으로 숄더백처럼 연출할 수 있습니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZZCP3YX97F7R65YHXXJ7",
+    "name": "온더고 BB (OnTheGo BB)",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M46839",
+    "category": "bags",
+    "status": "draft",
+    "material": "Monogram Reverse",
+    "description": "OnTheGo BB는 Monogram 캔버스와 핸들 부분의 Monogram Reverse 디테일이 어우러진 앙증맞은 마이크로 토트백입니다. 클래식한 OnTheGo의 디테일을 작은 사이즈에 담았으며, 탑 핸들과 탈착식 조절 스트랩으로 다양하게 들 수 있습니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZXBVMZVCDR34DJ88KQA1",
+    "name": "스피디 18 반둘리에",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M29050",
+    "category": "bags",
+    "status": "draft",
+    "material": "Damoflage",
+    "description": "Speedy 18 Bandoulière는 Damoflage 코팅 캔버스와 톤온톤 레더 트리밍이 어우러진 컴팩트한 백입니다. 픽셀 무드의 컬러웨이가 현대적인 감각을 더하며, 탑 핸들과 탈착식 조절 스트랩으로 다양하게 연출할 수 있습니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZV9ASH72VYADKZQMNKVH",
+    "name": "스피디 18 반둘리에",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M27557",
+    "category": "bags",
+    "status": "draft",
+    "material": "Monogram Heritage",
+    "description": "Speedy 18 Bandoulière는 Monogram Flowers Denim 소재에 카우하이드 레더 트리밍과 메탈 워터링 캔 참을 더한 컴팩트한 백입니다. 우븐 Monogram과 은은한 플로럴 자수가 클래식한 Speedy 실루엣에 산뜻한 변주를 줍니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZSB9M3XW27WH8BRXGNZY",
+    "name": "네버풀 반둘리에 인사이드 아웃 BB (Neverfull Bandoulière Inside Out BB)",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M26315",
+    "category": "bags",
+    "status": "draft",
+    "material": "Other Monogram Canvas",
+    "description": "LV Ski 에디션의 Neverfull Bandoulière Inside Out BB는 Monogram 캔버스에 시어링 트리밍과 Teddygram 시그니처를 더한 리버서블 백입니다. 분리해 사용할 수 있는 지퍼 파우치와 크로스바디 스트랩으로 실용성까지 갖췄습니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZQ2X9WAXYNM3EXH144ZW",
+    "name": "알마 103",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M25142",
+    "category": "bags",
+    "status": "draft",
+    "material": "Fashion Leather",
+    "description": "Alma 103은 부드러운 카프스킨으로 재해석한 Alma 라인의 여유로운 실루엣입니다. 슬라이딩 레더 벨트 클로저와 각인된 LV 리벳 디테일이 구조적인 아름다움을 더하며, 탑 핸들로 우아하게 들 수 있습니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZMQAB96NWSX6QJPWNG83",
+    "name": "카퓌신 MM",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M24745",
+    "category": "bags",
+    "status": "draft",
+    "material": "CAPUCINES",
+    "description": "Capucines MM은 풀그레인 Taurillon 가죽으로 완성된 Louis Vuitton의 대표 핸드백입니다. 플랩을 바깥으로 두면 Monogram Flower가, 안쪽으로 넣으면 레더로 감싼 LV 이니셜이 드러나며, 탈착식 스트랩으로 다양한 스타일링이 가능합니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "statement",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZJD5M8A9VPTXHN8J6ZJ4",
+    "name": "알마 25",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M24520",
+    "category": "bags",
+    "status": "draft",
+    "material": "Other Leathers",
+    "description": "Alma 25는 카우하이드 가죽 위에 아티스트 Henry Taylor의 미니어처 페이스 모티프를 더한 크로스바디 백입니다. Louis Vuitton의 클래식한 패드락과 탈착식 네임 태그, 조절 가능한 숄더 스트랩이 함께 구성됩니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZGEVCBYD8C65RMKXVS4K",
+    "name": "네버풀 인사이드 아웃 BB (Neverfull Inside Out BB)",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M15210",
+    "category": "bags",
+    "status": "draft",
+    "material": "Monogram Eclipse",
+    "description": "LV Ski 에디션의 Neverfull Bandoulière Inside Out BB는 Monogram Eclipse 캔버스와 그레인 가죽을 양면으로 즐길 수 있는 리버서블 백입니다. Louis Vuitton 워드마크가 프린트된 탈착식 지퍼 파우치와 실버 톤 디테일이 깔끔한 인상을 더합니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZE7ZX9PTM7MWA15JJDM5",
+    "name": "온더고 캣",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M15142",
+    "category": "bags",
+    "status": "draft",
+    "material": "Monogram",
+    "description": "Grace Coddington 협업의 OnTheGo Cat은 Monogram 캔버스로 완성한 스타일리시한 펫 트래블 토트입니다. LV 시그니처 환기 네트, 안전한 개폐 구조, 내부 리드와 탈착식 워셔블 매트로 편안한 이동을 돕습니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZCC1NTKFAJET8DR40GJ1",
+    "name": "캐리올 BB (CarryAll BB)",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M13014",
+    "category": "bags",
+    "status": "draft",
+    "material": "Monogram",
+    "description": "CarryAll BB는 Monogram 캔버스에 Monogram Flowers 장식의 골드 톤 체인을 더한 데이 투 이브닝 백입니다. 대비되는 레더 네임 태그와 레이스 클로저, 내부 지퍼 포켓이 섬세한 실용성을 더합니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZAGD5S5R2DY0FGMRJ4M1",
+    "name": "네버풀 인사이드 아웃 BB (Neverfull Inside Out BB)",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M12109",
+    "category": "bags",
+    "status": "draft",
+    "material": "Other Leathers",
+    "description": "Neverfull Bandoulière Inside Out BB는 Monogram 캔버스와 그레인 가죽을 양면으로 즐길 수 있는 리버서블 백입니다. 탈착 가능한 지퍼 파우치와 크로스바디 스트랩, 골드 톤 디테일이 실용적이면서도 세련된 무드를 완성합니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZ8MNDD4EA73DX2B1YPTT",
+    "name": "네버풀 반둘리에 인사이드 아웃 BB",
+    "brand": "Louis Vuitton",
+    "brandCode": "LV",
+    "styleCode": "M12099",
+    "category": "bags",
+    "status": "draft",
+    "material": "Other Leathers",
+    "description": "Neverfull Bandoulière Inside Out BB는 Monogram 캔버스와 그레인 가죽을 양면으로 즐길 수 있는 리버서블 백입니다. 탈착 가능한 지퍼 파우치와 크로스바디 스트랩, 골드 톤 디테일이 실용적이면서도 세련된 무드를 완성합니다.",
+    "tags": [
+      "louis-vuitton",
+      "lv",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZ7EJ3VEMAEEWHCHWSGNS",
+    "name": "크로셰 토트백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BG39309VOOO",
+    "category": "bags",
+    "status": "draft",
+    "material": "Viscose",
+    "description": "이 Prada 백은 라피아 느낌의 원사를 크로셰 기법으로 완성한 가벼운 무드의 토트백입니다. 앞면의 자수 레터링 로고가 Prada 특유의 여유롭고 세련된 포인트를 더합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZ62JM264T3V4TN686N33",
+    "name": "프라다 갤러리아 사피아노 가죽 미니백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BA91674VEOO",
+    "category": "bags",
+    "status": "draft",
+    "material": "Calfskin",
+    "description": "이 Prada 백은 Saffiano 가죽의 탄탄한 질감과 정제된 미니 실루엣이 돋보이는 백입니다. 가죽 핸들, 탈착식 조절 스트랩, 외부 지퍼 포켓과 메탈 레터링 로고가 실용적이면서도 클래식한 Prada 무드를 완성합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "business",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZ50C8K74GDQNVHKHF4KK",
+    "name": "스몰 리나일론 백팩",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BZ08132VOOO",
+    "category": "bags",
+    "status": "draft",
+    "material": "Recycled Polyamide",
+    "description": "이 Prada 백은 Re-Nylon 소재에 Saffiano 가죽 디테일을 더한 실용적인 백팩입니다. 조절 가능한 우븐 스트랩, 탈착식 지퍼 파우치와 여러 지퍼 포켓, 에나멜 메탈 트라이앵글 로고가 Prada다운 스포티한 세련미를 보여줍니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZ3YDRS9PFZC5DYAWPXR1",
+    "name": "리나일론 백팩",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BZ03902VDMM",
+    "category": "bags",
+    "status": "draft",
+    "material": "Recycled Polyamide",
+    "description": "이 Prada 백은 가벼운 Re-Nylon 소재와 우븐 테이프 스트랩으로 완성한 실용적인 백팩입니다. 앞면과 플랩, 사이드 지퍼 포켓에 에나멜 메탈 트라이앵글 로고를 더해 Prada의 모던한 감각을 살렸습니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZ2PYM6MW9PVA64Y73F7M",
+    "name": "프라다 리에디션 1978 라지 리나일론 및 사피아노 가죽 토트백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BG52702VOOO",
+    "category": "bags",
+    "status": "draft",
+    "material": "Recycled Polyamide",
+    "description": "이 백은 Re-Nylon 바디에 Saffiano 가죽 핸들을 더한 넉넉한 토트백입니다. 앞면 포켓으로 실용성을 더하면서도 Prada Re-Edition 라인의 간결한 매력을 살렸습니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZ1QBH44GNKTWQTKWSZ5J",
+    "name": "프라다 리에디션 1978 미디엄 리나일론 및 사피아노 가죽 토트백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BG55534VOOO",
+    "category": "bags",
+    "status": "draft",
+    "material": "Recycled Polyamide",
+    "description": "이 백은 Re-Nylon 바디에 Saffiano 가죽 핸들을 더한 넉넉한 토트백입니다. 앞면 포켓으로 실용성을 더하면서도 Prada Re-Edition 라인의 간결한 매력을 살렸습니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MZ0P9YVY588Q6HEX6VBT9",
+    "name": "프라다 리에디션 사피아노 가죽 미니백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BC204UHVQOM",
+    "category": "bags",
+    "status": "draft",
+    "material": "Calfskin",
+    "description": "이 Prada 백은 Saffiano 가죽의 세련된 질감을 미니 사이즈로 담아낸 백입니다. 탈착식 조절 체인 및 가죽 핸들과 가죽 키링 디테일로 다양한 스타일링이 가능합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYZCQXB8JFMVYZPJ62D88",
+    "name": "프라다 리에디션 2005 리나일론 및 사피아노 가죽 백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BH204IVVWRA",
+    "category": "bags",
+    "status": "draft",
+    "material": "Recycled Polyamide",
+    "description": "Prada Re-Edition 2005 Re-Nylon 및 사피아노 레더 백은 경쾌한 체인 핸들과 로고 프린트 숄더 스트랩으로 다양한 스타일링이 가능합니다. 탈부착 가능한 Re-Nylon 참과 Re-Edition 레더 키링이 프라다 특유의 스포티한 감각을 더합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYXSFD40YK9933VBVAS55",
+    "name": "라지 프라다 갤러리아 사피아노 가죽 백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BA27409VDOO",
+    "category": "bags",
+    "status": "draft",
+    "material": "Calfskin",
+    "description": "Prada Galleria 라지 사피아노 레더 백은 구조적인 실루엣과 세련된 레더 핸들이 돋보이는 아이템입니다. 탈부착 및 길이 조절 가능한 숄더 스트랩과 외부 지퍼 포켓, 전면 레더 트라이앵글 로고가 실용성과 우아함을 함께 완성합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "business",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYW7A0P440P2TMDFVJNQY",
+    "name": "프라다 갤러리아 미디엄 사피아노 가죽 백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BA45732VEOM",
+    "category": "bags",
+    "status": "draft",
+    "material": "Calfskin",
+    "description": "Prada Galleria 미디엄 사피아노 레더 백은 단정한 형태와 견고한 사피아노 레더 핸들이 조화를 이룹니다. 탈부착 가능한 숄더 스트랩과 외부 지퍼 포켓, 전면 레더 트라이앵글 로고로 데일리 룩에 세련된 포인트를 더합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "business",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYTHWA6CTXWW5QPDNBJX4",
+    "name": "프라다 리에디션 1978 스몰 리나일론 백팩",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BZ6778CVOOM",
+    "category": "bags",
+    "status": "draft",
+    "material": "Recycled Polyamide",
+    "description": "Prada Re-Edition 1978 스몰 Re-Nylon 백팩은 사피아노 레더 디테일과 버클 포켓이 어우러진 빈티지한 무드의 백팩입니다. 조절 가능한 하네스 스트랩과 우븐 테이프 핸들, 플랩의 에나멜 메탈 트라이앵글 로고가 브랜드의 아이코닉한 감각을 보여줍니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYS0R7RM3SEP7T4QZ6NVZ",
+    "name": "프라다 자르디니에르 라지 코튼 캔버스 핸드백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BG55418V8OK",
+    "category": "bags",
+    "status": "draft",
+    "material": "Cotton",
+    "description": "Prada Jardinière 라지 코튼 캔버스 핸드백은 여유로운 캔버스 소재감과 전면 자수 로고가 돋보이는 아이템입니다. 캔버스 핸들과 조절 및 탈부착 가능한 로고 숄더 스트랩으로 손에 들거나 어깨에 멜 수 있습니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYQQ7WMWHX49M3V031SB9",
+    "name": "프라다 자르디니에르 스몰 코튼 캔버스 백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BG46418V8OK",
+    "category": "bags",
+    "status": "draft",
+    "material": "Cotton",
+    "description": "Prada Jardinière 스몰 코튼 캔버스 백은 산뜻한 캔버스 텍스처와 전면 자수 로고로 캐주얼한 우아함을 전합니다. 탈부착 및 길이 조절 가능한 로고 프린트 숄더 스트랩이 실용적인 착용감을 더합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYP4VB1GPV8E0Z6E3RRKM",
+    "name": "라지 린넨 혼방 및 가죽 토트백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BG65967VOOO",
+    "category": "bags",
+    "status": "draft",
+    "material": "Cotton, linen",
+    "description": "라지 린넨 블렌드 및 레더 토트백은 내추럴한 소재감에 레더 핸들을 더해 세련된 분위기를 완성합니다. 탈부착 가능한 우븐 테이프 숄더 스트랩과 전면 레더 트라이앵글의 메탈 레터링 로고, 작은 잠금장식이 있는 지퍼 클로저가 실용적인 포인트입니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYMK98XDZ4TDPX4R31RBG",
+    "name": "프라다 버클 미디엄 코튼 캔버스 및 가죽 백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BA41709VOYM",
+    "category": "bags",
+    "status": "draft",
+    "material": "Cotton",
+    "description": "Prada Buckle 미디엄 코튼 캔버스 및 레더 백은 버클 장식 스트랩과 레더 핸들이 어우러진 구조적인 디자인이 특징입니다. 탈부착 및 길이 조절 가능한 레더 숄더 스트랩과 전면 레더 트라이앵글 로고가 프라다다운 세련미를 더합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "statement",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYJWH3WK5501BE2M4NTJB",
+    "name": "프라다 보니 엑스트라 라지 가죽 백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BA439VJVOOM",
+    "category": "bags",
+    "status": "draft",
+    "material": "Calfskin",
+    "description": "Prada Bonnie 엑스트라 라지 레더 백은 넉넉한 실루엣과 부드러운 레더 핸들이 돋보이는 고급스러운 데일리 백입니다. 탈부착 및 길이 조절 가능한 레더 숄더 스트랩과 키링 디테일로 다양한 연출이 가능합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYJDST73YS6J8EQ92B409",
+    "name": "프라다 보니 라지 가죽 핸드백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BA433VJVMOM",
+    "category": "bags",
+    "status": "draft",
+    "material": "",
+    "description": "이 Prada 백은 블랙 컬러의 절제된 분위기로 Prada 특유의 실용적이고 세련된 무드를 전합니다. 데일리 룩에도 자연스럽게 어울리는 고급스러운 백입니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYGY5G7Z2GVAQQRFZRF3P",
+    "name": "프라다 보니 미디엄 가죽 백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BA426VJVMOM",
+    "category": "bags",
+    "status": "draft",
+    "material": "Calfskin",
+    "description": "Prada Bonnie 미디엄 레더 백은 간결한 형태와 레더 핸들의 우아한 균형이 돋보입니다. 탈부착 및 길이 조절 가능한 숄더 스트랩과 키링 디테일을 더해 실용적인 데일리 스타일을 완성합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYFC9SG0H2CT7VX91D3Z3",
+    "name": "프라다 보니 미니 가죽 핸드백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BA486VJVOOM",
+    "category": "bags",
+    "status": "draft",
+    "material": "Calfskin",
+    "description": "Prada Bonnie 레더 미니백은 컴팩트한 사이즈에 프라다의 세련된 감각을 담은 아이템입니다. 레더 핸들과 탈부착 가능한 숄더 스트랩, 키링 디테일로 가볍게 들거나 크로스 스타일로 연출할 수 있습니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYDQV4GFNWP8FQTK0EWC5",
+    "name": "벨트가 달린 프라다 버클 라지 가죽 핸드백",
+    "brand": "Prada",
+    "brandCode": "PRA",
+    "styleCode": "1BA41602VDBO",
+    "category": "bags",
+    "status": "draft",
+    "material": "Calfskin",
+    "description": "Prada Buckle 라지 레더 핸드백 위드 벨트는 버클 벨트 장식이 돋보이는 대담하고 우아한 디자인입니다. 레더 핸들과 탈부착 가능한 숄더 스트랩, 전면 엠보싱 레터링 로고가 고급스러운 존재감을 완성합니다.",
+    "tags": [
+      "prada",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "statement",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MYBXP0NB6T0750ASWF1CQ",
+    "name": "Kelly Depêches 25 파우치",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H083320CKAC",
+    "category": "bags",
+    "status": "draft",
+    "material": "",
+    "description": "Kelly depeches 25 pouch는 베이지와 내추럴 톤이 어우러져 Hermès다운 차분한 품격을 보여줍니다. 군더더기 없는 인상으로 손에 드는 순간 룩을 정제해 줍니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "business",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MY9XTQ1PPGR7YNW54H3E4",
+    "name": "Hac a Dos PM 백팩",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H083589CK89",
+    "category": "bags",
+    "status": "draft",
+    "material": "",
+    "description": "Hac a Dos PM backpack은 블랙 컬러로 완성된 Hermès 백팩으로, 절제된 실루엣 안에 여유로운 고급스러움을 담았습니다. 일상적인 스타일에도 품격 있는 포인트가 됩니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MY8AHHT5N5JWK4AT2JJBR",
+    "name": "24 Noeuds PM 백팩",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H085068CK89",
+    "category": "bags",
+    "status": "draft",
+    "material": "",
+    "description": "24 Noeuds PM backpack은 블랙 컬러의 단정한 분위기와 Hermès의 세련된 감각이 조화를 이룹니다. 백팩의 편안한 형식에 우아한 존재감을 더한 제품입니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MY6R7YATHC2VQQP3Q9999",
+    "name": "Horseback 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H085961CKAB",
+    "category": "bags",
+    "status": "draft",
+    "material": "",
+    "description": "Horseback bag은 블루 컬러가 산뜻한 깊이를 더하는 Hermès 백입니다. 승마 헤리티지를 떠올리게 하는 이름처럼 차분하면서도 개성 있는 분위기를 전합니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MY4WT3AEF9TZZSJAZM0SY",
+    "name": "Videpoches 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H088914CKP0",
+    "category": "bags",
+    "status": "draft",
+    "material": "",
+    "description": "Hermès Videpoches bag은 그레이 컬러의 담백한 톤으로 절제된 우아함을 표현합니다. 과장 없이 고급스러운 Hermès의 미감을 일상 속에 더해 줍니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MY301RDHA9VERKAH8ZXS0",
+    "name": "Hac a Dos PM 백팩",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H085316CKAE",
+    "category": "bags",
+    "status": "draft",
+    "material": "",
+    "description": "Hac a Dos PM backpack은 그레이 컬러의 부드러운 균형감이 돋보이는 Hermès 백팩입니다. 차분한 색감 덕분에 다양한 스타일에 자연스럽게 어울립니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KY3MXZK1103JJGCGGY429KX2",
+    "name": "Steve Light Junior 메신저 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H082119CK37",
+    "category": "bags",
+    "status": "draft",
+    "material": "",
+    "description": "Steve light junior messenger bag은 베이지와 내추럴 컬러가 어우러진 편안한 우아함을 지닌 Hermès 메신저 백입니다. 가볍고 세련된 분위기로 데일리 스타일을 완성합니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "business",
+    "target": "men"
+  },
+  {
+    "id": "01KY3MXXXT550MP0D5CDHZ0Y3E",
+    "name": "Hac a Dos PM 백팩",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H083589CKN7",
+    "category": "bags",
+    "status": "draft",
+    "material": "",
+    "description": "Hac a Dos PM backpack은 블루 컬러로 Hermès 백팩에 생동감 있는 품격을 더합니다. 실용적인 형식과 선명한 색감이 세련된 균형을 이룹니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNBEC5JQBEATVVZSWCC4ZD",
+    "name": "라피아 소재 ICARE 미디엄",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "868748GU6499",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "라피아 소재 ICARE 미디엄은 브라운 톤의 내추럴한 질감이 Saint Laurent의 시크한 분위기와 어우러진 백입니다. 여유로운 무드 속에서도 선명한 존재감을 전합니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNBCP82VZG9PYE00D0Z0FC",
+    "name": "퀼팅 나파 소재 ICARE 미디엄백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "871494NG3212",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED LAMB LE",
+    "description": "퀼팅 나파 소재 ICARE 미디엄백은 그린 컬러와 부드러운 램스킨 나파의 감각이 돋보이는 Saint Laurent 백입니다. 세련된 볼륨감으로 룩에 우아한 긴장감을 더합니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNBBKJ1ND7TNZARY9DFQEH",
+    "name": "퀼팅 나파 소재 ICARE 미디엄백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "871494NG2050",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED LAMB LE",
+    "description": "퀼팅 나파 소재 ICARE 미디엄백은 브라운 컬러의 깊이와 램스킨 나파의 부드러운 분위기가 조화를 이룹니다. Saint Laurent다운 도회적인 시크함을 자연스럽게 완성합니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNB9P7ZJR2QEE6249RPYCW",
+    "name": "퀼팅 나파 소재 ICARE",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "698651NG6195",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED LAMB LE",
+    "description": "퀼팅 나파 소재 ICARE는 보르도 컬러가 주는 농밀한 매력으로 Saint Laurent의 글래머러스한 감성을 드러냅니다. 부드러운 램스킨 나파가 고급스러운 인상을 더합니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNB8DA335ZGN4CA48H5YV3",
+    "name": "퀼팅 나파 소재 ICARE 호보 백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "858160NG3212",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED LAMB LE",
+    "description": "퀼팅 나파 소재 ICARE 호보 백은 그린 컬러와 램스킨 나파의 부드러운 질감이 어우러진 Saint Laurent 백입니다. 느슨한 호보 실루엣에 세련된 에너지를 담았습니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNB2Q4KT3515QFZMF2X9AY",
+    "name": "미디엄 플라멩코 펄스 - 멜로우 나파 램스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "A411FC757240",
+    "category": "bags",
+    "status": "active",
+    "material": "Mellow nappa lambskin",
+    "description": "Loewe Flamenco 펄스는 가볍고 부드러운 구조에 러치드 실루엣, 아이코닉한 노트 드로스트링과 도넛 체인을 더한 백입니다. 미디엄 버전은 멜로우 나파 램스킨으로 제작되어 유연하고 고급스러운 질감을 선사합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "flamenco"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNAZXT9T0GJH9B4W0VA2BX",
+    "name": "미니 플라멩코 플리츠 펄스 - 나파 램스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "A411NB428240",
+    "category": "bags",
+    "status": "active",
+    "material": "Pleated nappa",
+    "description": "Loewe Flamenco 펄스는 부드러운 러치드 실루엣과 노트 드로스트링, 도넛 체인이 어우러진 가벼운 백입니다. 미니 버전은 나파 램스킨에 섬세한 핀치와 열각인으로 3D 플리츠 효과를 더해 입체적인 아름다움을 표현합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "flamenco"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNAX6KMH064SZ0XG9FFWAP",
+    "name": "브레이슬릿 파우치 - 플리츠 나파 램스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "A912P8379579",
+    "category": "bags",
+    "status": "active",
+    "material": "Pleated nappa",
+    "description": "Loewe 브레이슬릿 파우치는 브레이슬릿처럼 변형해 연출할 수 있는 튜브형 백입니다. 양 끝의 엠보싱 플라크 디테일과 플리츠 나파 램스킨의 부드러운 질감이 조형적인 매력을 더합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "mini-bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNAV003GJ7DVT853CVDT2Q",
+    "name": "스카프 백팩 - 스무스 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "ABNYBL019579",
+    "category": "bags",
+    "status": "active",
+    "material": "Smooth calf",
+    "description": "Loewe 스카프 백팩은 두 개의 패널을 우아하게 묶어 독특한 보따리 형태를 재해석한 디자인입니다. 슬라이딩 조절 스트랩으로 다양한 착용이 가능하며, 스무스 카프스킨의 매끈한 질감이 세련된 인상을 완성합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "shoulder-bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNARHQBKE4J4NMZWZ2TV3S",
+    "name": "미니 스카프 백 - 스무스 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "ABNYUN019579",
+    "category": "bags",
+    "status": "active",
+    "material": "Smooth calf",
+    "description": "Loewe 미니 스카프 백은 두 개의 패널을 레더 노트로 묶어 스카프를 연상시키는 실루엣을 완성한 백입니다. 새로운 디스토티드 Pebble 시그니처와 스무스 카프스킨의 매끈한 질감이 세련되고 여성스러운 분위기를 더합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "shoulder-bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNAP8XRC82902Q0PJ8G6FA",
+    "name": "미니 스카프 백 - 스무스 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "ABNYUN018240",
+    "category": "bags",
+    "status": "active",
+    "material": "Smooth calf",
+    "description": "Loewe 미니 스카프 백은 두 개의 패널을 레더 노트로 묶어 스카프를 연상시키는 실루엣을 완성한 백입니다. 새로운 디스토티드 Pebble 시그니처와 스무스 카프스킨의 매끈한 질감이 세련되고 여성스러운 분위기를 더합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "shoulder-bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNAM6CKZ44WEPNEZWAW1JK",
+    "name": "미디엄 스카프 백 - 스무스 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "ABNYBN014927",
+    "category": "bags",
+    "status": "active",
+    "material": "Smooth calf",
+    "description": "Loewe 미디엄 스카프 백은 레더 노트로 이어진 두 개의 패널이 스카프처럼 자연스러운 실루엣을 그리는 디자인입니다. 디스토티드 Pebble 시그니처와 스무스 카프스킨의 고급스러운 질감이 모던한 개성을 완성합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "shoulder-bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNAJA118RTHABRMZZ3X9KN",
+    "name": "미디엄 스카프 백 - 스무스 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "ABNYBN011100",
+    "category": "bags",
+    "status": "active",
+    "material": "Smooth calf",
+    "description": "Loewe 미디엄 스카프 백은 레더 노트로 이어진 두 개의 패널이 스카프처럼 자연스러운 실루엣을 그리는 디자인입니다. 디스토티드 Pebble 시그니처와 스무스 카프스킨의 고급스러운 질감이 모던한 개성을 완성합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "shoulder-bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNAHGTBZK7TWAEJHHWT7GN",
+    "name": "Herbag Messenger 39 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H084623CKAA",
+    "category": "bags",
+    "status": "draft",
+    "material": "Canvas",
+    "description": "Hermès Herbag Messenger 39 백은 H Viking 캔버스와 Hunter 카우하이드가 어우러진 여행용 메신저 백입니다. Clou de Selle 클로저와 탈부착 가능한 내부 지퍼 파우치, 접이식 핸들이 실용성을 높이며 손에 들거나 숄더 및 크로스바디로 연출할 수 있습니다. Herbag 라인의 코드를 수평형 포맷으로 재해석해 한층 남성적인 분위기를 전합니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "business",
+    "target": "men"
+  },
+  {
+    "id": "01KXSNAG37MC65J4K5ZSREZ09H",
+    "name": "Videpoches 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H087987CK10",
+    "category": "bags",
+    "status": "draft",
+    "material": "Leather",
+    "description": "Hermès Videpoches 백은 Togo 카프스킨으로 제작되어 유연하면서도 고급스러운 질감을 선사합니다. 오리가미에서 영감을 받은 오프닝과 두 개의 Clou de Selle 스냅 클로저, 시그니처 펀칭 H 디테일이 특징이며 조절 가능한 Fibre 캔버스 스트랩으로 숄더 또는 크로스바디 착용이 가능합니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNAET3TK7WHXPF7Y9ZRBJ8",
+    "name": "Videpoches 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H087901CKAE",
+    "category": "bags",
+    "status": "draft",
+    "material": "Leather",
+    "description": "Hermès Videpoches 백은 Togo 카프스킨의 풍부한 질감과 오리가미에서 영감을 받은 구조적인 오프닝이 돋보입니다. 두 개의 Clou de Selle 스냅 클로저와 시그니처 펀칭 H 디테일을 갖추었으며, 조절 가능한 Casaque 캔버스 스트랩으로 숄더 또는 크로스바디 스타일을 연출할 수 있습니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNADHEA5V0TN7C1YXRCABN",
+    "name": "Etriviere 50 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H086683CK37",
+    "category": "bags",
+    "status": "draft",
+    "material": "Leather",
+    "description": "Hermès Etriviere 50 백은 Togo 카프스킨으로 제작된 홀드올 백으로, 여유로운 수납력과 절제된 실루엣이 돋보입니다. 지퍼 클로저와 핸들, 리버서블 Etriviere 버클이 있는 탈부착 스트랩을 갖추어 손에 들거나 숄더 및 크로스바디로 착용할 수 있습니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "men"
+  },
+  {
+    "id": "01KXSNAC7DW4T4XRE68917249W",
+    "name": "Tablier Sellier 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H086583CKAC",
+    "category": "bags",
+    "status": "active",
+    "material": "Leather",
+    "description": "Hermès Tablier Sellier 백은 Hunter 카우하이드, Swift 카프스킨, H 캔버스가 조화를 이루는 세련된 디자인입니다. Clou de Selle 클로저와 Etriviere 버클, 탈부착 가능한 내부 파우치가 실용적인 완성도를 높이며 손에 들거나 어깨에 멜 수 있습니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "men"
+  },
+  {
+    "id": "01KXSNAAVKMVP7V5NM29QEQMTR",
+    "name": "Hac a Dos PM 백팩",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H085960CKAB",
+    "category": "bags",
+    "status": "draft",
+    "material": "Canvas",
+    "description": "Hermès Hac a Dos PM 백팩은 Woolycot 캔버스와 Swift 카프스킨으로 제작되어 가볍고 세련된 분위기를 전합니다. 넉넉한 메인 수납공간과 조절 가능한 Wooly 캔버스 스트랩을 갖추어 숄더, 백팩, 크로스바디 등으로 다양하게 착용할 수 있습니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNA9JGQ0KK7EVVQ3MAAHAA",
+    "name": "P'tit Arcon 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H085871CKAO",
+    "category": "bags",
+    "status": "active",
+    "material": "Leather",
+    "description": "Togo와 Swift 카프스킨으로 완성한 Hermès P'tit Arcon 백입니다. 지퍼 클로저와 카드 홀더용 외부 포켓, 시그니처 스냅 훅 디테일을 갖추어 숄더백이나 크로스백으로 우아하게 연출할 수 있습니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNA7R4BZ67JR5V844C7NNN",
+    "name": "Bolide a Dos 백팩",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H085758CKAA",
+    "category": "bags",
+    "status": "draft",
+    "material": "Leather",
+    "description": "내추럴 그레인 카우하이드와 내추럴 카우하이드가 어우러진 Hermès Bolide a Dos 백팩입니다. 가죽 풀탭 지퍼와 내부 포켓, 탑 핸들 및 조절형 스트랩을 갖추어 손에 들거나 숄더·크로스 스타일로 다양하게 착용할 수 있습니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNA61DNQFCRT46RKSEKW6H",
+    "name": "Kelly Messenger 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H085671CK89",
+    "category": "bags",
+    "status": "draft",
+    "material": "Leather",
+    "description": "Togo 카프스킨의 단정한 질감이 돋보이는 Hermès Kelly Messenger 백입니다. 회전식 하드웨어 플랩, 실용적인 포켓 구성과 Chagrin 고트스킨 안감, 조절 가능한 스트랩으로 숄더백이나 크로스백으로 세련되게 연출됩니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "business",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNA4S76VX4GS16XGYSEXVX",
+    "name": "Herbag Messenger 39 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H084623CKAF",
+    "category": "bags",
+    "status": "draft",
+    "material": "Canvas",
+    "description": "Hermès Herbag Messenger 39 백은 H Viking 캔버스와 Hunter 카우하이드가 어우러진 여행용 메신저 백입니다. Clou de Selle 클로저와 탈부착 가능한 내부 지퍼 파우치, 접이식 핸들이 실용성을 높이며 손에 들거나 숄더 및 크로스바디로 연출할 수 있습니다. Herbag 라인의 코드를 수평형 포맷으로 재해석해 한층 남성적인 분위기를 전합니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "business",
+    "target": "men"
+  },
+  {
+    "id": "01KXSNA3AJS7YYNKDCJ6PQA6CX",
+    "name": "Herbag Messenger 39 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H084489CKAC",
+    "category": "bags",
+    "status": "draft",
+    "material": "Canvas",
+    "description": "Militaire 캔버스와 Hunter 카우하이드가 조화를 이루는 Hermès Herbag Messenger 39 백입니다. Herbag의 상징적인 Clou de Selle 클로저와 실용적인 수납 구성을 담고, 가로형 실루엣과 양쪽 스트랩으로 한층 남성적이고 기능적인 무드를 완성합니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "business",
+    "target": "men"
+  },
+  {
+    "id": "01KXSNA1HY068M5K2R7982J365",
+    "name": "Hermès In-The-Loop 18 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H084274CCBW",
+    "category": "bags",
+    "status": "active",
+    "material": "Leather",
+    "description": "taurillon Clemence 레더와 Swift 카프스킨으로 제작한 Hermès In-The-Loop 18 백입니다. Chaine d'Ancre 클로저와 두 개의 내부 포켓이 더해져, 손에 들었을 때 간결하면서도 존재감 있는 스타일을 완성합니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSNA0DT90QND2JDXG669WBH",
+    "name": "Picotin Lock 마이크로백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H084238CKI2",
+    "category": "bags",
+    "status": "active",
+    "material": "Precious leather",
+    "description": "Boreale 오스트리치 소재의 Hermès Picotin Lock 마이크로백입니다. 가죽 코드와 락 클로저가 미니멀한 실루엣에 고급스러운 포인트를 더하며, 손에 가볍게 들어 우아하게 연출할 수 있습니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN9ZBAQ97RC55K1ZWTDDE6",
+    "name": "Jypsiere 미니 백",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H083982CCBR",
+    "category": "bags",
+    "status": "active",
+    "material": "Leather",
+    "description": "Swift 카프스킨으로 완성한 Hermès Jypsiere 미니 백입니다. 회전식 하드웨어 플랩과 조절 가능한 Wooly 캔버스 스트랩이 어우러져 숄더백이나 크로스백으로 자유롭게 착용할 수 있습니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN9XX0EKYSQD7RPJAHFWFR",
+    "name": "Hac a Dos PM 백팩",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H083589CK10",
+    "category": "bags",
+    "status": "draft",
+    "material": "Leather",
+    "description": "Togo 카프스킨으로 제작한 Hermès Hac a Dos PM 백팩입니다. 넉넉한 메인 수납부와 내부 백 포켓, D링과 조절형 스트랩을 갖추어 백팩은 물론 숄더백이나 크로스백으로도 활용할 수 있습니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN9WQ2SJSJ8MDDZQMQQHZ0",
+    "name": "Kelly Depêches 25 파우치",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "H082312CK89",
+    "category": "bags",
+    "status": "draft",
+    "material": "Leather",
+    "description": "Box 카프스킨으로 완성한 Hermès Kelly Depêches 25 파우치입니다. iPad mini를 담을 수 있는 중앙 수납공간과 명함 포켓, Chagrin 고트스킨 안감, 탈착식 랜야드가 더해져 손에 들거나 손목에 걸어 세련되게 사용할 수 있습니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "business",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN8N3JWBDSDN8VJ4VHXFVR",
+    "name": "라피아 소재 ICARE 미디엄",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "868748GAAGU",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "라피아 소재 ICARE 미디엄은 그린 컬러가 내추럴한 라피아 무드에 산뜻한 포인트를 더합니다. Saint Laurent 특유의 시크함을 여유롭게 즐길 수 있는 백입니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN8M3NEQ0BQA43K0H7RNCB",
+    "name": "퀼팅 스웨이드 소재 ICARE 미디엄백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "871494AAF9P",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED CALF LE",
+    "description": "퀼팅 스웨이드 소재 ICARE 미디엄백은 브라운 컬러와 카프 레더 스웨이드의 깊은 질감이 돋보입니다. Saint Laurent의 세련된 감성을 부드럽고 고급스럽게 표현합니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN8J931N758D8MKQ14ACS1",
+    "name": "ICARE 미디엄",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "871494AAGNO",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "ICARE 미디엄은 브라운 컬러로 Saint Laurent의 여유로운 시크함을 담아낸 백입니다. 과하지 않은 존재감으로 데일리 룩에 고급스러운 포인트를 더합니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN8H39RE9778TRYK03CXVW",
+    "name": "스무스 가죽 소재 ICARE 맥시 토트백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "804227AADOO",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED CALF LE",
+    "description": "스무스 가죽 소재 ICARE 맥시 토트백은 브라운 컬러와 매끈한 카프 레더의 질감이 돋보이는 Saint Laurent 백입니다. 넉넉한 토트 실루엣에 도시적인 우아함을 더했습니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN8FT5PMQGC3TEWAGG6JNY",
+    "name": "라피아 소재 ICARE 호보 백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "868740GAAGT",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "라피아 소재 ICARE 호보 백은 베이지 컬러의 내추럴한 분위기로 Saint Laurent의 시크함을 부드럽게 풀어냅니다. 편안하면서도 세련된 여름 무드를 연출하기 좋습니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN8EKFZ99TEHA0K6K8SPBM",
+    "name": "퀼팅 스웨이드 소재 ICARE 미디엄백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "858191AAF9P",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED CALF LE",
+    "description": "퀼팅 스웨이드 소재 ICARE 미디엄백은 브라운 톤의 스웨이드 질감이 깊고 차분한 매력을 전합니다. Saint Laurent다운 세련된 균형감이 돋보이는 백입니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN8DAC0H56RDXCGQZM8YNJ",
+    "name": "가죽 소재 MOMBASA 스몰 백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "851432AAGWJ",
+    "category": "bags",
+    "status": "active",
+    "material": "90% CALFSKIN 10% BRASS",
+    "description": "Saint Laurent MOMBASA 호보 백의 모던한 리바이벌을 스몰 사이즈로 선보인 핸드백입니다. 패딩 카프스킨과 톤온톤 스웨이드 안감, 가죽으로 감싼 핸들이 어우러져 이브닝 룩에 세련된 존재감을 더합니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "evening",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN8CC02V8EW4Y0366M0HRP",
+    "name": "가죽 소재 MOMBASA 미디엄 백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "862029AAGWJ",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED CALF LE",
+    "description": "가죽 소재 MOMBASA 미디엄 백은 블랙 컬러와 카프 레더의 단단한 인상이 어우러진 Saint Laurent 백입니다. 미니멀하면서도 대담한 분위기로 룩을 시크하게 잡아줍니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "evening",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN8BB318HAGGZZ7TF4JGTM",
+    "name": "가죽 소재 MOMBASA 라지백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "A0011MAAGWK",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED CALF LE",
+    "description": "가죽 소재 MOMBASA 라지백은 브라운 컬러의 따뜻한 깊이와 카프 레더의 고급스러운 질감이 돋보입니다. Saint Laurent의 자유롭고 시크한 태도를 여유 있게 표현합니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "evening",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN8A8QA7DYJTPRDRWN4E25",
+    "name": "퀼팅 나파 소재 ICARINO",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "851689AAANG",
+    "category": "bags",
+    "status": "active",
+    "material": "90% LAMBSKIN 10% BRASS",
+    "description": "ICARE의 베이비 버전인 Saint Laurent ICARINO 백입니다. 나파 램스킨 위에 CASSANDRE와 다이아몬드 퀼팅 스티치를 더해, 가볍고 모던한 핸드 캐리 백으로 완성했습니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN89CSWQTH9NKHQFT3KTRZ",
+    "name": "퀼트 처리된 램스킨 소재의 ICARE 맥시 쇼퍼백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "698651AAANG",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED LAMB LE",
+    "description": "퀼트 처리된 램스킨 소재의 ICARE 맥시 쇼퍼백은 블랙 컬러가 Saint Laurent의 강렬한 시크함을 선명하게 드러냅니다. 부드러운 램스킨과 넉넉한 쇼퍼 실루엣이 우아한 존재감을 만듭니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN88H1F05VXKJ0TVDB0V53",
+    "name": "퀼팅 나파 소재 ICARE 호보 백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "858160AAANG",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED LAMB LE",
+    "description": "퀼팅 나파 소재 ICARE 호보 백은 블랙 컬러와 램스킨 나파의 부드러운 질감이 조화를 이루는 Saint Laurent 백입니다. 흐르는 듯한 호보 무드에 도회적인 세련미를 더했습니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN87CAD4QTA1FG0RKX032V",
+    "name": "퀼팅 나파 소재 ICARE 미디엄백",
+    "brand": "Saint Laurent",
+    "brandCode": "YSL",
+    "styleCode": "871494AAANG",
+    "category": "bags",
+    "status": "active",
+    "material": "T 100% DOMESTICATED LAMB LE",
+    "description": "퀼팅 나파 소재 ICARE 미디엄백은 블랙 컬러로 Saint Laurent의 시크한 정체성을 가장 또렷하게 보여줍니다. 부드러운 램스킨 나파가 고급스러운 촉감을 떠올리게 합니다.",
+    "tags": [
+      "ysl",
+      "saint-laurent",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN84JW368FTPHYPWXS6J5R",
+    "name": "미디엄 플라멩코 펄스 - 멜로우 나파 램스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "A411FCRX75",
+    "category": "bags",
+    "status": "active",
+    "material": "Mellow nappa lambskin",
+    "description": "Loewe Flamenco 펄스는 가볍고 부드러운 구조에 러치드 실루엣, 아이코닉한 노트 드로스트링과 도넛 체인을 더한 백입니다. 미디엄 버전은 멜로우 나파 램스킨으로 제작되어 유연하고 고급스러운 질감을 선사합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "flamenco"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN82GFNT98SH6CJHQGXJ8Q",
+    "name": "미니 플라멩코 플리츠 펄스 - 나파 램스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "A411NBPX42",
+    "category": "bags",
+    "status": "active",
+    "material": "Pleated nappa",
+    "description": "Loewe Flamenco 펄스는 부드러운 러치드 실루엣과 노트 드로스트링, 도넛 체인이 어우러진 가벼운 백입니다. 미니 버전은 나파 램스킨에 섬세한 핀치와 열각인으로 3D 플리츠 효과를 더해 입체적인 아름다움을 표현합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "flamenco"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN80VB2SHJJ6PWMFKD67MD",
+    "name": "미니 플라멩코 클러치 - 나파 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "A411FC2XA6",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa calf",
+    "description": "LOEWE Flamenco 클러치는 부드럽게 흐르는 실루엣과 조여 여미는 클로저, 헤리티지 knot 드로스트링이 특징입니다. 미니 사이즈로 선보이는 이 제품은 나파 카프스킨으로 제작되어 유연하고 고급스러운 감촉을 전합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "flamenco"
+    ],
+    "subCategory": "mini",
+    "style": "evening",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN7ZAVJN6TVTH4K8BGXYJV",
+    "name": "미니 플라멩코 클러치 - 나파 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "A411FC2XB0",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa calf",
+    "description": "LOEWE Flamenco 클러치는 부드러운 실루엣과 조여 여미는 클로저가 돋보이는 아이코닉한 백입니다. 나파 카프스킨으로 제작한 미니 버전에 아카이브 감성의 코일링 하드웨어를 더해 섬세한 포인트를 완성했습니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "flamenco"
+    ],
+    "subCategory": "mini",
+    "style": "evening",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN7X05VGQRH8DS8V7056Y6",
+    "name": "미디엄 레이어드 플라멩코 클러치 - 나파 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "A411FC1XEX",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa calf",
+    "description": "LOEWE Flamenco 클러치의 미디엄 레이어드 버전입니다. 나파 카프스킨 위에 멀티컬러 레더 레이어를 정교하게 결합해 깊이감과 입체감을 더했으며, 부드럽게 조여지는 실루엣이 우아하게 연출됩니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "flamenco"
+    ],
+    "subCategory": "mini",
+    "style": "evening",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN7TZZVZRM909R915APK8S",
+    "name": "미니 레이어드 플라멩코 클러치 - 나파 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "A411FC2XAY",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa calf",
+    "description": "LOEWE Flamenco 클러치의 미니 레이어드 버전입니다. 나파 카프스킨에 멀티컬러 레더 레이어를 섬세하게 더해 작은 사이즈에서도 풍부한 깊이감과 감각적인 존재감을 선사합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "flamenco"
+    ],
+    "subCategory": "mini",
+    "style": "evening",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN7SK8Q6A5EKTQY0JZK0KG",
+    "name": "브레이슬릿 파우치 - 플리츠 나파 램스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "A912P84X37",
+    "category": "bags",
+    "status": "active",
+    "material": "Pleated nappa",
+    "description": "Loewe 브레이슬릿 파우치는 브레이슬릿처럼 변형해 연출할 수 있는 튜브형 백입니다. 양 끝의 엠보싱 플라크 디테일과 플리츠 나파 램스킨의 부드러운 질감이 조형적인 매력을 더합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "mini-bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN7QQC7AAKX3DYPZAB8XJ5",
+    "name": "스카프 백팩 - 스무스 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "ABNYBL1X01",
+    "category": "bags",
+    "status": "active",
+    "material": "Smooth calf",
+    "description": "Loewe 스카프 백팩은 두 개의 패널을 우아하게 묶어 독특한 보따리 형태를 재해석한 디자인입니다. 슬라이딩 조절 스트랩으로 다양한 착용이 가능하며, 스무스 카프스킨의 매끈한 질감이 세련된 인상을 완성합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "shoulder-bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN7N0M6NF66GWKGPYJFY7G",
+    "name": "미니 스카프 백 - 스무스 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "ABNYUNNX01",
+    "category": "bags",
+    "status": "active",
+    "material": "Smooth calf",
+    "description": "Loewe 미니 스카프 백은 두 개의 패널을 레더 노트로 묶어 스카프를 연상시키는 실루엣을 완성한 백입니다. 새로운 디스토티드 Pebble 시그니처와 스무스 카프스킨의 매끈한 질감이 세련되고 여성스러운 분위기를 더합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "shoulder-bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN7J4D3VK7KF23VV5V1F5P",
+    "name": "미디엄 스카프 백 - 스무스 카프스킨",
+    "brand": "Loewe",
+    "brandCode": "LOE",
+    "styleCode": "ABNYBNMX01",
+    "category": "bags",
+    "status": "active",
+    "material": "Smooth calf",
+    "description": "Loewe 미디엄 스카프 백은 레더 노트로 이어진 두 개의 패널이 스카프처럼 자연스러운 실루엣을 그리는 디자인입니다. 디스토티드 Pebble 시그니처와 스무스 카프스킨의 고급스러운 질감이 모던한 개성을 완성합니다.",
+    "tags": [
+      "loewe",
+      "bags",
+      "shoulder-bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN7AD5Z3MESW600WZH97CA",
+    "name": "Sac a Depeches light 1-36 브리프케이스",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "C041",
+    "category": "bags",
+    "status": "draft",
+    "material": "Leather",
+    "description": "Hermès Sac a Depeches light 1-36 브리프케이스는 슬림한 실루엣과 절제된 디테일로 단정한 비즈니스 무드를 완성합니다. 가볍게 들고 다니기 좋은 포맷으로, 절제된 우아함이 돋보입니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "business",
+    "target": "men"
+  },
+  {
+    "id": "01KXSN792THAMW8Q9ER4V5HM9H",
+    "name": "Jige Elan 29 클러치",
+    "brand": "Hermes",
+    "brandCode": "HER",
+    "styleCode": "C032",
+    "category": "bags",
+    "status": "active",
+    "material": "Leather",
+    "description": "Swift 카프스킨으로 완성한 Hermès Jige Elan 29 클러치입니다. 간결한 H 클로저가 돋보이며, 손에 들었을 때 정제된 우아함을 더합니다.",
+    "tags": [
+      "hermes",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "evening",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN78EN4F6VXF557P7QRRVX",
+    "name": "로데오 바이커 핸드백 라지",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "7897442ACFT1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "로데오 바이커 핸드백 라지는 블랙 컬러가 Balenciaga 특유의 거친 스트리트 럭셔리 무드를 강조합니다. 대담한 이름처럼 룩에 강한 태도를 더하는 백입니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "statement",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN77X6M20B5TCG2TC4VZ0P",
+    "name": "르 시티 슬릭 토트백 미디엄",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "A000XJ2ACQW1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 슬릭 토트백 미디엄은 블랙 컬러의 날렵한 분위기로 Balenciaga의 모던한 스트리트 감성을 전합니다. 데일리 스타일에 쿨한 긴장감을 더해 줍니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN779312THJY718XQ6F1SC",
+    "name": "르 시티 슬릭 토트백 라지",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "A000XI2ACQW1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 슬릭 토트백 라지는 블랙 컬러로 Balenciaga다운 강렬한 존재감을 완성합니다. 여유 있는 토트 실루엣이 도시적인 스타일에 대담한 포인트가 됩니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN76R3YA2S1T81AWV6CQEW",
+    "name": "르 시티 슬릭 박스백",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "A000XH2ACQV1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 슬릭 박스백은 블랙 컬러의 간결한 인상과 Balenciaga의 스트리트 럭스 감성이 만난 백입니다. 박스백 특유의 또렷한 분위기로 룩을 선명하게 정리합니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN7661H1610Z8VFBJS97R7",
+    "name": "르 시티 모토 미디엄",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "8661052ACRP2",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 모토 미디엄은 카라멜 컬러가 빈티지한 온기를 더하는 Balenciaga 백입니다. 모토 무드의 자유로운 에너지를 세련되게 풀어낸 제품입니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN75KN0PN21XZFYXF4VN8H",
+    "name": "르 시티 호보백 미디엄",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "8731992ABEK1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 호보백 미디엄은 블랙 컬러로 Balenciaga의 쿨하고 여유로운 태도를 담아냅니다. 호보 실루엣의 자연스러운 흐름이 스트리트 룩에 힘을 더합니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN74ZVTXZ0FPXP5EGSEPCP",
+    "name": "르 시티 호보백 라지",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "8732002ABEK1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 호보백 라지는 블랙 컬러와 여유로운 호보 무드가 어우러진 Balenciaga 백입니다. 크게 힘주지 않아도 스타일에 대담한 인상을 남깁니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN74E4N7CRRBDY43G01CDB",
+    "name": "르 시티 버킷백",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "8767572ABEK1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 버킷백은 블랙 컬러의 실용적인 무드에 Balenciaga다운 스트리트 감각을 더한 백입니다. 간결한 형태 안에서도 쿨한 존재감이 살아납니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN73X956V3QCHERNK60SMH",
+    "name": "르 시티 백 스몰",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "8657622ACFH1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 백 스몰은 블랙 컬러로 Balenciaga의 아이코닉한 스트리트 럭셔리 분위기를 압축해 담았습니다. 작은 사이즈에서도 강한 스타일 포인트가 됩니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN73BEJ8NNCJ6HS1AKKZKB",
+    "name": "르 시티 백 미니",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "8657632ACFH1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 백 미니는 블랙 컬러가 주는 선명한 대비로 Balenciaga의 쿨한 태도를 표현합니다. 미니 사이즈 특유의 경쾌함이 룩에 감각적인 포인트를 더합니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN72PY3KDRK31F3V5QNK6Z",
+    "name": "르 시티 백 미디엄",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "823058210F62",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 백 미디엄은 카멜 컬러의 부드러운 깊이로 Balenciaga의 자유로운 감성을 차분하게 풀어냅니다. 데일리 룩에 빈티지한 스트리트 무드를 더하기 좋습니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN724FEWM446N5Q3716CGD",
+    "name": "르 시티 백 라지",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "8657652ACME1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 백 라지는 블랙 컬러와 넉넉한 존재감이 어우러진 Balenciaga 백입니다. 스트리트 럭셔리의 대담한 분위기를 일상 속에서도 자연스럽게 드러냅니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN71K3QEPYXZ2RJX404VGZ",
+    "name": "르 시티 백 이스트-웨스트",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "8676672AB1S4",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 시티 백 이스트-웨스트는 블루 컬러가 Balenciaga의 개성 있는 스트리트 무드에 산뜻한 변주를 더합니다. 가로로 길게 뻗은 이름의 인상이 룩을 한층 감각적으로 보이게 합니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN6ZZSF0KR0JCXRGE0H7PB",
+    "name": "르 시티 백팩 미니",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "A006Q22ACRZ1",
+    "category": "bags",
+    "status": "active",
+    "material": "Material: lambskin, cotton",
+    "description": "Balenciaga Le City Backpack Mini는 블랙 Arena 램스킨의 부드러운 질감과 브라스 하드웨어가 어우러진 미니 백팩입니다. 아이코닉한 Le City 무드를 컴팩트하고 세련된 실루엣으로 즐길 수 있습니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "weekend",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN6ZDYKEWHR229X04W8GHP",
+    "name": "르 셋 숄더백 미디엄",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "8681022ACJ02",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 셋 숄더백 미디엄은 비스킷 컬러의 부드러운 톤으로 Balenciaga의 스트리트 감성을 한층 담백하게 보여줍니다. 숄더백의 편안한 무드가 세련된 일상 스타일과 잘 어울립니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN6YV0HWVEXNF53DJ7NDKN",
+    "name": "르 셋 볼링백 스몰",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "A0001P2ACRT5",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 셋 볼링백 스몰은 로즈 쿼츠 컬러가 Balenciaga의 장난스럽고 쿨한 감성을 부드럽게 표현합니다. 작은 볼링백 실루엣이 룩에 경쾌한 포인트를 더합니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN6Y8739YH4VPHXT6NYSC7",
+    "name": "르 셋 볼링백 미디엄",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "A0001M2ACRT1",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 셋 볼링백 미디엄은 블랙 컬러로 Balenciaga의 스트리트 럭스 분위기를 깔끔하게 완성합니다. 볼링백 특유의 여유로운 형태가 데일리 룩에 쿨한 균형을 더합니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXSN6XJAZDG4MZQ0AGXBM9V0",
+    "name": "르 셋 볼링백 라지",
+    "brand": "Balenciaga",
+    "brandCode": "BAL",
+    "styleCode": "A000G52ACPR6",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "르 셋 볼링백 라지는 블랙과 브라운 컬러 조합이 Balenciaga다운 대담한 개성을 보여줍니다. 여유 있는 볼링백 무드로 스타일에 스트리트 감각을 더합니다.",
+    "tags": [
+      "balenciaga",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8W7FQW76HPHRW0QKBGXER",
+    "name": "라피아 효과 위빙 토트 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BG2482DO3",
+    "category": "bags",
+    "status": "active",
+    "material": "",
+    "description": "라피아 효과 위빙 토트 백은 보르도, 틸, 내추럴 컬러가 어우러져 Miu Miu다운 경쾌한 우아함을 전합니다. 위빙 텍스처의 내추럴한 분위기가 리조트 룩과 데일리 룩 모두에 잘 어울립니다.",
+    "tags": [
+      "miumiu",
+      "bags"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8W6C9HG6GA7GMCJN1PB9E",
+    "name": "아이비 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BG3112IEO",
+    "category": "bags",
+    "status": "active",
+    "material": "Leather",
+    "description": "Miu Miu Ivy 백은 클래식한 토트 실루엣을 실용적이고 우아하게 재해석한 제품입니다. 은은한 가죽 광택과 정교한 마감, 톤온톤 레터링 로고가 어우러져 세련된 분위기를 완성합니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "ivy"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8W4ZS3W5R8B0GBXVEFY1V",
+    "name": "비방 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BB1952IER",
+    "category": "bags",
+    "status": "active",
+    "material": "Leather",
+    "description": "볼링 백 실루엣에서 영감을 받은 Miu Miu 가죽 백입니다. 넉넉하고 실용적인 비율에 빈티지한 질감의 부드러운 가죽과 대비 스티치를 더해, 데일리 룩에 잘 어울리는 세련된 디자인으로 완성했습니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "vivant"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8W3NTNJMV4JEZXP7ETBRM",
+    "name": "아방뛰르 나파 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BC2142BBL",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa leather",
+    "description": "2009년의 아이코닉한 스타일에서 영감을 받은 Miu Miu Aventure 백입니다. 숄더백 버전으로 재해석된 독특한 실루엣과 앤티크 피니시의 스냅 훅 클로저가 어우러져 다재다능한 매력을 전합니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "aventure"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8W28648N76Y62ZCKSMQFE",
+    "name": "아방뛰르 나파 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BC2152BBL",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa leather",
+    "description": "2009년의 아이코닉한 스타일에서 영감을 받은 Miu Miu Aventure 백입니다. 숄더백 버전으로 재해석된 독특한 실루엣과 앤티크 피니시의 스냅 훅 클로저가 어우러져 다재다능한 매력을 전합니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "aventure"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8W11QM49TES4PCAF20MD8",
+    "name": "완더 마테라쎄 나파 가죽 호보 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BC125AN88",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa leather",
+    "description": "Miu Miu Wander 백은 시즌마다 새롭게 재해석되는 Miu Miu의 아이코닉 액세서리입니다. 마테라쎄 나파 가죽의 입체적인 질감과 호보 실루엣이 레트로 감성과 현대적인 우아함을 함께 담아냅니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "wander"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8VZQQBHDQFE84NS7FX4NM",
+    "name": "아르카디 마테라쎄 나파 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BB142AN88",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa leather",
+    "description": "Miu Miu Arcadie 백은 클래식한 탑 핸들 실루엣을 마테라쎄 나파 가죽의 입체적인 텍스처로 세련되게 재해석한 제품입니다. 프런트 레터링 로고와 메탈 하드웨어, 조절 및 탈착 가능한 숄더 스트랩이 더해져 우아하면서도 실용적인 매력을 선사합니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "arcadie"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8VYJ548GCN7AZ3HA2NTAA",
+    "name": "아이비 라피아 핸드백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BA2812IH6",
+    "category": "bags",
+    "status": "active",
+    "material": "Woven Materials",
+    "description": "천연 라피아를 손으로 엮고 섬세한 플로럴 자수를 더한 Miu Miu Ivy 핸드백입니다. 산뜻한 여름 분위기와 장인정신, 사랑스러운 여성미가 어우러져 가볍고 특별한 포인트가 됩니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "ivy"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8VX08T03R0S6N538451FJ",
+    "name": "아이비 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BG2312CRW",
+    "category": "bags",
+    "status": "active",
+    "material": "Leather",
+    "description": "Miu Miu Ivy 가죽 백은 클래식한 실루엣에 메탈 디테일과 Miu Miu 레터링 로고를 더해 아이코닉한 인상을 완성한 제품입니다. 단정하면서도 한눈에 알아볼 수 있는 세련된 무드를 전합니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "ivy"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8VVQ25CX899FJXA69D8E3",
+    "name": "아이비 나파 가죽 쇼퍼 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BG3422BBL",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa leather",
+    "description": "아이코닉한 아이비 백을 현대적으로 재해석한 쇼퍼 백입니다. 부드럽고 여유로운 나파 가죽 실루엣에 로고와 사이드 드로스트링 디테일을 더해 실용성과 세련미를 함께 갖췄습니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "ivy"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8VTD49QE0RYEFW64GKW8D",
+    "name": "비방 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BB1962IER",
+    "category": "bags",
+    "status": "active",
+    "material": "Leather",
+    "description": "볼링백 실루엣에서 영감을 받은 비방 가죽 백입니다. 앤티크한 가죽 질감과 대비되는 탑스티치가 어우러져 데일리 룩에 세련된 포인트를 더합니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "vivant"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8VS6DG5DBPR55VEDT63A9",
+    "name": "비방 나파 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BB2002BBL",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa leather",
+    "description": "부드럽고 실용적인 비율의 비방 나파 가죽 백입니다. 볼링백에서 영감을 받은 실루엣에 잠금 장식 트릭 디테일을 더해 다양한 스타일에 개성 있게 매치할 수 있습니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "vivant"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8VR2C6FQXRCMPJSMGTM2Y",
+    "name": "비방 나파 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BB1992BBL",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa leather",
+    "description": "부드럽고 실용적인 비율의 비방 나파 가죽 백입니다. 볼링백에서 영감을 받은 실루엣에 잠금 장식 트릭 디테일을 더해 다양한 스타일에 개성 있게 매치할 수 있습니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "vivant"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8VPWVQ9DA14FRYQ9JZWDV",
+    "name": "스피릿 나파 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BC217QJB",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa leather",
+    "description": "미우미우 파우치의 컴팩트한 감성을 담은 스피릿 나파 가죽 백입니다. 글로시한 나파 가죽과 스냅 후크 장식 핸들이 기능성과 세련미를 더하고, 레터링 로고가 아이코닉한 포인트를 완성합니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "spirit"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXS8VNM41Q9EQGZHFTWASQBG",
+    "name": "스피릿 나파 가죽 백",
+    "brand": "Miu Miu",
+    "brandCode": "MM",
+    "styleCode": "5BC216QJB",
+    "category": "bags",
+    "status": "active",
+    "material": "Nappa leather",
+    "description": "미우미우 파우치의 컴팩트한 감성을 담은 스피릿 나파 가죽 백입니다. 글로시한 나파 가죽과 스냅 후크 장식 핸들이 기능성과 세련미를 더하고, 레터링 로고가 아이코닉한 포인트를 완성합니다.",
+    "tags": [
+      "miumiu",
+      "bags",
+      "spirit"
+    ],
+    "subCategory": "shoulder",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5PZ3W88SSA7QKR9FZ8S9",
+    "name": "탑 핸들 미니 플랩 백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AS6424B25066",
+    "category": "bags",
+    "status": "active",
+    "material": "Crocodile Embossed Calfskin & Gold-Tone Metal",
+    "description": "크로커다일 엠보싱 카프스킨으로 완성한 그린 컬러의 탑 핸들 미니 플랩 백입니다. 골드 톤 메탈 장식이 우아한 광택을 더해줍니다.",
+    "tags": [
+      "chanel",
+      "bags",
+      "métiers-d’art-2026"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5NZ0GVS3N9NXR5RJY6Q1",
+    "name": "탑 핸들 플랩 백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AS6398B25034",
+    "category": "bags",
+    "status": "active",
+    "material": "Lambskin & Gold-Tone Metal",
+    "description": "화이트와 블랙 조합의 램스킨 탑 핸들 플랩 백입니다. 부드러운 소재감에 골드 톤 메탈 장식을 더해 클래식하면서도 선명한 분위기를 연출합니다.",
+    "tags": [
+      "chanel",
+      "bags",
+      "métiers-d’art-2026"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5N12FTC0YS13ZCN8P9Z6",
+    "name": "쇼핑백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AS6387B24030",
+    "category": "bags",
+    "status": "active",
+    "material": "Lambskin & Gold-Tone Metal",
+    "description": "블랙 램스킨으로 완성한 샤넬 쇼핑백입니다. 골드 톤 메탈 장식이 더해져 데일리로 들기 좋은 세련된 실루엣을 완성합니다.",
+    "tags": [
+      "chanel",
+      "bags",
+      "métiers-d’art-2026"
+    ],
+    "subCategory": "tote",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5M288AJG4C4SP4AS1830",
+    "name": "미니 쇼핑백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AS6199B25749",
+    "category": "bags",
+    "status": "active",
+    "material": "Canvas & Gold-Tone Metal",
+    "description": "블랙, 화이트, 그레이 컬러가 어우러진 캔버스 미니 쇼핑백입니다. 골드 톤 메탈 장식으로 가볍고 캐주얼한 디자인에 고급스러운 포인트를 더했습니다.",
+    "tags": [
+      "chanel",
+      "bags",
+      "fall-winter-2026-pre-collection"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5K16F4BM22D9ZBV4TE5C",
+    "name": "스몰 플랩 백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AS6130B23483",
+    "category": "bags",
+    "status": "active",
+    "material": "Grained Shiny Calfskin & Gold-Tone Metal",
+    "description": "블랙 그레인드 샤이니 카프스킨으로 제작한 스몰 플랩 백입니다. 은은한 질감과 골드 톤 메탈 장식이 조화를 이루어 단정하고 우아한 인상을 줍니다.",
+    "tags": [
+      "chanel",
+      "bags",
+      "spring-summer-2026"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5J2WJHM7B8P4BJW3RPXX",
+    "name": "CHANEL 25 미니 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AS5631B25071",
+    "category": "bags",
+    "status": "active",
+    "material": "Cotton & Wool Tweed & Gold-Tone Metal",
+    "description": "블랙 코튼·울 트위드 소재의 Chanel 25 미니 핸드백입니다. 골드 톤 메탈 장식이 더해져 트위드 특유의 질감과 아이코닉한 무드를 세련되게 살립니다.",
+    "tags": [
+      "chanel",
+      "bags",
+      "métiers-d’art-2026"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5GGJ3G28WYBF0DH5W3TB",
+    "name": "CHANEL 25 미디엄 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AS5311B20304",
+    "category": "bags",
+    "status": "active",
+    "material": "Grained Calfskin & Gold-Tone Metal",
+    "description": "블랙 그레인드 카프스킨으로 완성한 Chanel 25 미디엄 핸드백입니다. 여유 있는 수납감과 골드 톤 메탈 장식이 어우러져 실용적이면서도 고급스럽습니다.",
+    "tags": [
+      "chanel",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5F9WMAYC2YP5TRZB9PG8",
+    "name": "CHANEL 22 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AS3261B19059",
+    "category": "bags",
+    "status": "active",
+    "material": "Shiny Calfskin & Gold-Tone Metal",
+    "description": "블랙 샤이니 카프스킨으로 제작한 Chanel 22 핸드백입니다. 부드러운 광택과 골드 톤 메탈 장식이 만나 여유롭고 세련된 데일리 백으로 완성됩니다.",
+    "tags": [
+      "chanel",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5E1YCSCV7B0AC6M5KK78",
+    "name": "CHANEL 19 라지 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AS1161B04852",
+    "category": "bags",
+    "status": "active",
+    "material": "Shiny Lambskin, Gold-Tone, Silver-Tone & Ruthenium-Finish Metal",
+    "description": "블랙 유광 램스킨으로 완성한 Chanel 19 라지 핸드백입니다. 골드, 실버, 루테늄 피니시 메탈 장식이 어우러져 Chanel 19 특유의 대담하고 세련된 매력을 보여줍니다.",
+    "tags": [
+      "chanel",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5DB1B306TSQH8JQAYB1T",
+    "name": "체인 베니티",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AP5475B25518",
+    "category": "bags",
+    "status": "active",
+    "material": "Metallic Calfskin & White Metal",
+    "description": "핑크 메탈릭 카프스킨으로 완성한 체인 베니티 백입니다. 화이트 메탈 장식이 산뜻한 광택을 더해 작지만 존재감 있는 스타일을 연출합니다.",
+    "tags": [
+      "chanel",
+      "bags",
+      "fall-winter-2026-pre-collection"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5CKK2E1VA3HAR2PA448G",
+    "name": "체인 지갑",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AP5434B25460",
+    "category": "bags",
+    "status": "active",
+    "material": "Shiny Calfskin & Gold-Tone Metal",
+    "description": "버건디 샤이니 카프스킨 소재의 체인 지갑입니다. 골드 톤 메탈 장식이 깊이 있는 컬러와 어우러져 우아한 포인트 아이템으로 좋습니다.",
+    "tags": [
+      "chanel",
+      "bags",
+      "fall-winter-2026-pre-collection"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5BPAF6HKTRQ5RQT26EJX",
+    "name": "체인 달린 CHANEL 19 지갑",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "AP3267B04852",
+    "category": "bags",
+    "status": "active",
+    "material": "Shiny Lambskin, Gold-Tone, Silver-Tone & Ruthenium-Finish Metal",
+    "description": "블랙 유광 램스킨으로 제작한 Chanel 19 체인 지갑입니다. 골드, 실버, 루테늄 피니시 메탈 장식이 조화를 이루어 작은 사이즈에도 아이코닉한 존재감을 더합니다.",
+    "tags": [
+      "chanel",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY5AEWDFS5MTEBYZWCWMWN",
+    "name": "미니 클래식 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "A69900Y04059",
+    "category": "bags",
+    "status": "active",
+    "material": "Lambskin & Gold-Tone Metal",
+    "description": "블랙 램스킨으로 완성한 Mini Classic 핸드백입니다. 골드 톤 메탈 장식이 부드러운 소재감과 어우러져 클래식한 샤넬 무드를 담아냅니다.",
+    "tags": [
+      "chanel",
+      "bags"
+    ],
+    "subCategory": "mini",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY59AY8Z6F009M15TSXW0T",
+    "name": "보이 샤넬 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "A67086Y09953",
+    "category": "bags",
+    "status": "active",
+    "material": "Calfskin & Ruthenium-Finish Metal",
+    "description": "블랙 카프스킨 소재의 Boy Chanel 핸드백입니다. 루테늄 피니시 메탈 장식이 구조적인 실루엣에 모던하고 강렬한 분위기를 더합니다.",
+    "tags": [
+      "chanel",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "statement",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY58BM1EKRCYQ89DQ1VVYH",
+    "name": "보이 샤넬 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "A67085Y09953",
+    "category": "bags",
+    "status": "active",
+    "material": "Calfskin & Ruthenium-Finish Metal",
+    "description": "블랙 카프스킨으로 제작한 스몰 Boy Chanel 핸드백입니다. 루테늄 피니시 메탈 장식이 더해져 시크하고 모던한 인상을 완성합니다.",
+    "tags": [
+      "chanel",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "statement",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY574C0W0E8CBSG33SCGEF",
+    "name": "2.55 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "A37586Y04634",
+    "category": "bags",
+    "status": "active",
+    "material": "Aged Calfskin & Gold-Tone Metal",
+    "description": "블랙 에이지드 카프스킨으로 완성한 2.55 핸드백입니다. 빈티지한 가죽 질감과 골드 톤 메탈 장식이 어우러져 클래식한 품격을 전합니다.",
+    "tags": [
+      "chanel",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "statement",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY56AT0VVZMJJ4T4MJE6RF",
+    "name": "2.55 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "A37586B23746",
+    "category": "bags",
+    "status": "active",
+    "material": "Lambskin & Gold-Tone Metal",
+    "description": "블랙 램스킨 소재의 2.55 핸드백입니다. 부드러운 가죽과 골드 톤 메탈 장식이 조화를 이루어 우아하고 시대를 초월한 분위기를 연출합니다.",
+    "tags": [
+      "chanel",
+      "bags",
+      "spring-summer-2026"
+    ],
+    "subCategory": "handbags",
+    "style": "statement",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY54ZVXPZNY0P7SR3PS5NP",
+    "name": "스몰 클래식 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "A01113Y01864",
+    "category": "bags",
+    "status": "active",
+    "material": "Grained Calfskin & Gold-Tone Metal",
+    "description": "블랙 그레인드 카프스킨으로 제작한 Small Classic 핸드백입니다. 골드 톤 메탈 장식과 섬세한 질감이 어우러져 데일리부터 격식 있는 자리까지 잘 어울립니다.",
+    "tags": [
+      "chanel",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY53FX0MKF1J3QAYW7Y8WD",
+    "name": "클래식 11.12 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "A01112Y01295",
+    "category": "bags",
+    "status": "active",
+    "material": "Lambskin & Gold-Tone Metal",
+    "description": "블랙 램스킨으로 완성한 Classic 11.12 핸드백입니다. 골드 톤 메탈 장식이 더해져 샤넬의 클래식한 우아함을 가장 선명하게 보여줍니다.",
+    "tags": [
+      "chanel",
+      "bags"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  },
+  {
+    "id": "01KXPY52PB3R3W296MEDYQC2E2",
+    "name": "클래식 11.12 핸드백",
+    "brand": "Chanel",
+    "brandCode": "CH",
+    "styleCode": "A01112B25720",
+    "category": "bags",
+    "status": "active",
+    "material": "Grained Shiny Calfskin & Gold-Tone Metal",
+    "description": "다크 레드 그레인드 샤이니 카프스킨 소재의 Classic 11.12 핸드백입니다. 깊이 있는 컬러와 골드 톤 메탈 장식이 만나 우아하면서도 인상적인 분위기를 완성합니다.",
+    "tags": [
+      "chanel",
+      "bags",
+      "fall-winter-2026-pre-collection"
+    ],
+    "subCategory": "handbags",
+    "style": "casual",
+    "target": "women"
+  }
+]
