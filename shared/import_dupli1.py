@@ -154,14 +154,25 @@ def size_for_dupli1(raw: str) -> str:
 
 
 def ensure_jpeg(path: str) -> str:
-    """Return a filesystem path to a JPEG (convert WebP/PNG if needed)."""
+    """Return a filesystem path to a JPEG (convert WebP/PNG if needed).
+
+    Brand packshots often ship with a transparent background. JPEG has no
+    alpha, and a plain RGB conversion leaves those pixels black, so the alpha
+    channel is composited onto white first.
+    """
     data = open(path, "rb").read(16)
     if data[:3] == b"\xff\xd8\xff":
         return path
     image = Image.open(path)
-    if image.mode not in ("RGB", "L"):
-        image = image.convert("RGB")
-    elif image.mode == "L":
+    has_alpha = image.mode in ("RGBA", "LA") or (
+        image.mode == "P" and "transparency" in image.info
+    )
+    if has_alpha:
+        rgba = image.convert("RGBA")
+        canvas = Image.new("RGB", rgba.size, (255, 255, 255))
+        canvas.paste(rgba, mask=rgba.split()[-1])
+        image = canvas
+    elif image.mode != "RGB":
         image = image.convert("RGB")
     dest = os.path.splitext(path)[0] + ".dupli1.jpg"
     buf = io.BytesIO()
