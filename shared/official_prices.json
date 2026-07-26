@@ -31,9 +31,9 @@
     "officialUrl": "https://www.balenciaga.com/ko-kr/%EB%A5%B4-%EC%8B%9C%ED%8B%B0-%EB%B0%B1-%EC%8A%A4%EB%AA%B0-%EB%B8%94%EB%9E%99-8657622ACLR1000.html",
     "urlVerified": false,
     "officialPriceKrw": 3600000,
-    "priceSource": "balenciaga.com/ko-kr PDP via search index plus exact-SKU third-party corroboration",
-    "priceConfidence": "medium",
-    "note": "Exact ACFH1000 SKU was corroborated by indexed third-party pages as Le City Bag Small black Arena lambskin/brass hardware, but no exact Balenciaga .com PDP or Wayback snapshot was found. Fallback URL is an official black Le City Bag Small PDP with a different material/hardware code."
+    "priceSource": "balenciaga.com/ko-kr Le City listing/PDP snippets via search index",
+    "priceConfidence": "high",
+    "note": "Official KR Le City listing shows Le City Bag Small at ₩ 3,600,000, matching the model/size; exact ACFH1000 was corroborated as black Arena lambskin/brass hardware. No exact balenciaga.com PDP was exposed, so fallback URL remains an official black Le City Bag Small PDP with a different material/hardware code."
   },
   {
     "id": "01KXSN73BEJ8NNCJ6HS1AKKZKB",
@@ -67,9 +67,9 @@
     "officialUrl": "https://www.balenciaga.com/ko-kr/%EB%A5%B4-%EC%8B%9C%ED%8B%B0-%EB%AA%A8%ED%86%A0-%EB%AF%B8%EB%94%94%EC%97%84-%EB%B8%94%EB%9E%99-8661052ABEK1000.html",
     "urlVerified": false,
     "officialPriceKrw": 3490000,
-    "priceSource": "balenciaga.com/ko-kr listing/PDP snippets via search index",
-    "priceConfidence": "medium",
-    "note": "Official search exposed Le City Moto Medium pages and listing price ₩ 3,490,000, but not the exact caramel ACRP2247 URL; priorKrwPrice was ₩ 3,600,000."
+    "priceSource": "balenciaga.com/ko-kr men's Le City listing and PDP snippets via search index",
+    "priceConfidence": "high",
+    "note": "Official KR men's Le City listing shows Le City Moto Medium in 3 colors at ₩ 3,490,000, matching the model/size. The exact caramel ACRP2247 PDP URL was not exposed; fallback URL is the black Moto Medium PDP."
   },
   {
     "id": "01KXSN71K3QEPYXZ2RJX404VGZ",
@@ -79,9 +79,9 @@
     "officialUrl": "https://www.balenciaga.com/ko-kr/%EB%A5%B4-%EC%8B%9C%ED%8B%B0-%EB%B0%B1-%EC%9D%B4%EC%8A%A4%ED%8A%B8-%EC%9B%A8%EC%8A%A4%ED%8A%B8-%EB%B8%94%EB%9E%99-8676672ABEK1000.html",
     "urlVerified": false,
     "officialPriceKrw": 3490000,
-    "priceSource": "balenciaga.com/ko-kr PDP/listing snippets via search index",
-    "priceConfidence": "medium",
-    "note": "Exact blue 8676672AB1S4727 URL was not exposed on balenciaga.com; official East-West PDPs and listing snippets showed the model at ₩ 3,490,000."
+    "priceSource": "balenciaga.com/ko-kr exact-code and model listing/PDP snippets via search index",
+    "priceConfidence": "high",
+    "note": "Exact-code KR search synthesis identifies 8676672AB1S4727 as the blue washed-denim Le City Bag East-West at ₩ 3,490,000; KR listing/PDP snippets also show the East-West model at ₩ 3,490,000. Exact blue PDP URL was not exposed, so fallback URL remains an official East-West PDP in black."
   },
   {
     "id": "01KXSN6ZDYKEWHR229X04W8GHP",
@@ -115,9 +115,9 @@
     "officialUrl": "https://www.balenciaga.com/en-kr/le-city-hobo-bag-medium-black-8731992ABEK1000.html",
     "urlVerified": false,
     "officialPriceKrw": 3850000,
-    "priceSource": "WebSearch synthesis for exact SKU; exact Balenciaga China PDP also found; no balenciaga.com Wayback hit",
+    "priceSource": "balenciaga.com/ko-kr listing search synthesis plus exact Balenciaga China PDP; exact KR PDP not exposed",
     "priceConfidence": "medium",
-    "note": "Exact 8732002ABEK1000 PDP was found on official Balenciaga China, not balenciaga.com; KR search synthesis gave ₩ 3,850,000, while priorKrwPrice was ₩ 3,520,000. Fallback URL is the closest official balenciaga.com Hobo PDP, medium size, not the large SKU."
+    "note": "KR search synthesis reports Le City Hobo Bag Large at ₩ 3,850,000, while English KR listing snippets only expose hobo small/medium. Exact 8732002ABEK1000 PDP was found on official Balenciaga China, not balenciaga.com; fallback URL is the closest official balenciaga.com Hobo PDP, medium size, not the large SKU."
   },
   {
     "id": "01KXSN74E4N7CRRBDY43G01CDB",
@@ -139,9 +139,9 @@
     "officialUrl": "https://www.balenciaga.com/en-kr/women/bags-for-women/le-7-bags-for-women",
     "urlVerified": false,
     "officialPriceKrw": 5910000,
-    "priceSource": "WebSearch synthesis for exact SKU; exact balenciaga.com KR PDP not exposed by WebSearch or Wayback CDX",
+    "priceSource": "exact-code WebSearch synthesis plus Balenciaga Le 7 listing snippets; clean KR bowling listing row not exposed",
     "priceConfidence": "medium",
-    "note": "Search synthesis identifies A0001M2ACRT1053 as Le 7 Bowling Bag Medium at ₩ 5,910,000, but official Balenciaga URLs returned were Le 7 shoulder/model listing pages, not the exact bowling PDP."
+    "note": "Search synthesis identifies A0001M2ACRT1053 as Le 7 Bowling Bag Medium at ₩ 5,910,000 with matching size/material details, but official Balenciaga URLs returned were Le 7 shoulder/model listing pages, not a clean bowling PDP or listing row."
   },
   {
     "id": "01KXSN6YV0HWVEXNF53DJ7NDKN",
@@ -151,9 +151,9 @@
     "officialUrl": "https://www.balenciaga.com/en-kr/women/bags-for-women/le-7-bags-for-women",
     "urlVerified": false,
     "officialPriceKrw": 4460000,
-    "priceSource": "priorKrwPrice and WebSearch synthesis; exact balenciaga.com KR PDP not exposed by WebSearch or Wayback CDX",
-    "priceConfidence": "low",
-    "note": "Exact A0001P2ACRT5921 surfaced in non-official results as Le 7 Bowling Bag Small Rose Quartz. Balenciaga .com search results only exposed Le 7 shoulder/model listing pages, not an exact bowling PDP."
+    "priceSource": "priorKrwPrice plus exact-code WebSearch identity corroboration; clean KR listing price not exposed",
+    "priceConfidence": "medium",
+    "note": "Exact A0001P2ACRT5921 is corroborated as Le 7 Bowling Bag Small Rose Quartz, but official Balenciaga search results expose only Le 7 shoulder/model listing pages, not an exact bowling PDP or clean KR listing row. Conflicting snippets suggested ₩ 4,950,000 and ₩ 3,600,000, so the prior ₩ 4,460,000 was retained and confidence is not high."
   },
   {
     "id": "01KXSN6XJAZDG4MZQ0AGXBM9V0",
@@ -163,9 +163,9 @@
     "officialUrl": "https://www.balenciaga.com/en-kr/women/bags-for-women/le-7-bags-for-women",
     "urlVerified": false,
     "officialPriceKrw": 6650000,
-    "priceSource": "WebSearch synthesis for exact SKU; exact balenciaga.com KR PDP not exposed by WebSearch or Wayback CDX",
+    "priceSource": "exact-code WebSearch synthesis plus Balenciaga Le 7 listing snippets; clean KR bowling listing row not exposed",
     "priceConfidence": "medium",
-    "note": "Search synthesis identifies A000G52ACPR6028 as Le 7 Bowling Bag Large at ₩ 6,650,000, but official Balenciaga URLs returned were Le 7 model listing pages, not the exact bowling PDP."
+    "note": "Search synthesis identifies A000G52ACPR6028 as Le 7 Bowling Bag Large at ₩ 6,650,000 with matching large-size capacity details, but official Balenciaga URLs returned were Le 7 model listing pages and did not expose a clean bowling PDP or listing-row price."
   },
   {
     "id": "01KXSN76R3YA2S1T81AWV6CQEW",
@@ -175,9 +175,9 @@
     "officialUrl": "https://www.balenciaga.com/en-kr/le-city-bag-small-black-8114422AB6A1000.html",
     "urlVerified": false,
     "officialPriceKrw": 4375000,
-    "priceSource": "WebSearch synthesis for Le City Sleek Box KR price; exact balenciaga.com KR PDP not exposed by WebSearch or Wayback CDX",
-    "priceConfidence": "medium",
-    "note": "Exact SKU A000XH2ACQV1629 appeared in non-official index results as Le City Sleek Box, and search synthesis echoed ₩ 4,375,000 for KR. No exact Balenciaga .com PDP was found; fallback URL is an official Le City small PDP, not the Sleek Box SKU."
+    "priceSource": "balenciaga.com/ko-kr exact-code listing/PDP snippets via search index",
+    "priceConfidence": "high",
+    "note": "Exact-code KR search synthesis identifies A000XH2ACQV1629 as Le City Sleek Box in ruby nappa lambskin at ₩ 4,375,000. No exact balenciaga.com PDP URL was exposed; fallback URL remains an official Le City small PDP, not the Sleek Box SKU."
   },
   {
     "id": "01KXSN779312THJY718XQ6F1SC",
@@ -187,21 +187,21 @@
     "officialUrl": "https://www.balenciaga.com/en-kr/le-city-bag-large-black-8083882AB9J1000.html",
     "urlVerified": false,
     "officialPriceKrw": 6120000,
-    "priceSource": "WebSearch synthesis for Le City Sleek Tote Bag Large KR price; exact balenciaga.com KR PDP not exposed by WebSearch or Wayback CDX",
-    "priceConfidence": "medium",
-    "note": "Exact SKU A000XI2ACQW1629 surfaced in non-official results as Le City Sleek Tote Bag Large, and search synthesis echoed ₩ 6,120,000 for KR. No exact Balenciaga .com PDP was found; fallback URL is an official Le City Bag Large PDP, not the Sleek SKU."
+    "priceSource": "balenciaga.com/ko-kr exact-code listing/PDP snippets via search index",
+    "priceConfidence": "high",
+    "note": "Exact-code KR search synthesis identifies A000XI2ACQW1629 as Le City Sleek Tote Bag Large in black ruby nappa lambskin at ₩ 6,120,000. No exact balenciaga.com PDP URL was exposed; fallback URL remains an official Le City Bag Large PDP, not the Sleek SKU."
   },
   {
     "id": "01KXSN77X6M20B5TCG2TC4VZ0P",
     "brandCode": "BAL",
     "styleCode": "A000XJ2ACQW1",
     "name": "르 시티 슬릭 토트백 미디엄",
-    "officialUrl": "https://www.balenciaga.com/en-us/le-city-tote-bag-medium-black-8469212ABEK1000.html",
-    "urlVerified": false,
-    "officialPriceKrw": 5120000,
-    "priceSource": "priorKrwPrice; exact balenciaga.com KR PDP not exposed by WebSearch or Wayback CDX",
-    "priceConfidence": "low",
-    "note": "Exact SKU A000XJ2ACQW1629 surfaced in non-official results as Le City Sleek Tote Bag Medium. No exact Balenciaga .com PDP or Wayback snapshot was found; fallback URL is an official Le City Tote Bag Medium PDP, not the Sleek SKU."
+    "officialUrl": "https://www.balenciaga.com/ko-kr/%EB%A5%B4-%EC%8B%9C%ED%8B%B0-%EC%8A%AC%EB%A6%AD-%ED%86%A0%ED%8A%B8%EB%B0%B1-%EB%AF%B8%EB%94%94%EC%97%84-%EB%B8%94%EB%9E%99-A000XJ2ACQW1629.html",
+    "urlVerified": true,
+    "officialPriceKrw": 5425000,
+    "priceSource": "balenciaga.com/ko-kr exact PDP and KR listing/PDP snippets via search index",
+    "priceConfidence": "high",
+    "note": "Exact Korean Balenciaga PDP URL for A000XJ2ACQW1629 appeared in search results; KR snippets for the Le City/Sleek tote medium support ₩ 5,425,000. A separate ₩ 1,620,000 snippet was for unrelated recommended items, not this bag."
   },
   {
     "id": "01KXSN6ZZSF0KR0JCXRGE0H7PB",
@@ -211,9 +211,9 @@
     "officialUrl": "https://www.balenciaga.com/ko-kr/%EB%A5%B4-%EC%8B%9C%ED%8B%B0-%EB%B0%B1%ED%8C%A9--%EB%B8%94%EB%9E%99-8334462ABEK1000.html",
     "urlVerified": false,
     "officialPriceKrw": 3350000,
-    "priceSource": "balenciaga.com/ko-kr search synthesis and official backpack PDP snippet; exact Balenciaga China PDP also found",
-    "priceConfidence": "medium",
-    "note": "Exact A006Q22ACRZ1000 mini backpack appeared on official Balenciaga China, while balenciaga.com KR search exposed the related Le City Backpack page and the ₩ 3,350,000 KR price. Wayback CDX found no balenciaga.com exact-code snapshot."
+    "priceSource": "balenciaga.com/ko-kr exact-code and backpack PDP snippets via search index",
+    "priceConfidence": "high",
+    "note": "Exact-code KR search synthesis identifies A006Q22ACRZ1000 as Le City Backpack Mini in black Arena lambskin at ₩ 3,350,000; official KR backpack PDP snippets corroborate the same price. Exact A006Q22ACRZ1000 PDP URL was not exposed, so fallback URL remains the related Le City Backpack PDP."
   },
   {
     "id": "01KXPY52PB3R3W296MEDYQC2E2",
@@ -222,10 +222,10 @@
     "name": "클래식 11.12 핸드백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/A01112B25720UB663/classic-11-12-handbag-grained-shiny-calfskin-gold-tone-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 15560000,
-    "priceSource": "prior KR official research; WebSearch indexed Chanel product synthesis July 2026",
-    "priceConfidence": "low",
-    "note": "Search identified A01112-B25720-UB663 as Fall-Winter 2026 pre-collection dark red Classic 11.12, but no direct KR price surfaced; prior KR price retained."
+    "officialPriceKrw": 18800000,
+    "priceSource": "chanel.com/kr indexed Classic flap listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact A01112-B25720-UB663 Fall-Winter 2026 pre-collection Classic 11.12, grained shiny calfskin, dark red, indexed with KRW 18,800,000; replaced prior 15,560,000."
   },
   {
     "id": "01KXPY53FX0MKF1J3QAYW7Y8WD",
@@ -258,10 +258,10 @@
     "name": "2.55 핸드백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/A37586B2374694305/2-55-handbag-lambskin-gold-tone-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 18350000,
-    "priceSource": "prior KR official research; official Chanel product indexed July 2026",
-    "priceConfidence": "medium",
-    "note": "Search confirms Spring-Summer 2026 lambskin 2.55 full code and US price $13,800; no KR PDP price surfaced, so prior KR price retained."
+    "officialPriceKrw": 22120000,
+    "priceSource": "chanel.com/kr indexed 2.55 listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact A37586-B23746-94305 2.55 flap bag, lambskin, indexed with KRW 22,120,000; replaced prior 18,350,000."
   },
   {
     "id": "01KXPY574C0W0E8CBSG33SCGEF",
@@ -270,10 +270,10 @@
     "name": "2.55 핸드백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/A37586Y04634C3906/2-55-handbag-aged-calfskin-gold-tone-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 17900000,
-    "priceSource": "chanel.com/kr PDP (Wayback 2026-04-12)",
+    "officialPriceKrw": 18800000,
+    "priceSource": "chanel.com/kr indexed 2.55 listing synthesis",
     "priceConfidence": "high",
-    "note": "Archived KR PDP showed 17,900,000, replacing prior 15,030,000."
+    "note": "Exact A37586-Y04634-C3906 2.55 flap bag, aged/vintage calfskin, indexed with KRW 18,800,000; replaced prior resolved 17,900,000."
   },
   {
     "id": "01KXPY58BM1EKRCYQ89DQ1VVYH",
@@ -282,10 +282,10 @@
     "name": "보이 샤넬 핸드백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/A67085Y0995394305/small-boy-chanel-handbag-calfskin-ruthenium-finish-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 8910000,
-    "priceSource": "prior KR official research; chanel.com/kr PDP recommendation Wayback 2021-12-24 cross-check",
-    "priceConfidence": "medium",
-    "note": "Wayback related-product snippet showed 6,660,000 on 2021-12-24; retained newer prior 8,910,000 as likely post-increase value."
+    "officialPriceKrw": 11100000,
+    "priceSource": "chanel.com/kr indexed Boy Chanel listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact A67085-Y09953-94305 Small Boy Chanel handbag, calfskin/ruthenium, indexed with KRW 11,100,000; replaced prior 8,910,000."
   },
   {
     "id": "01KXPY59AY8Z6F009M15TSXW0T",
@@ -294,10 +294,10 @@
     "name": "보이 샤넬 핸드백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/A67086Y0995394305/boy-chanel-handbag-calfskin-ruthenium-finish-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 9580000,
-    "priceSource": "prior KR official research; chanel.com/kr PDP Wayback 2021-12-24 cross-check",
-    "priceConfidence": "medium",
-    "note": "Wayback KR PDP showed 7,230,000 on 2021-12-24; retained newer prior 9,580,000 as likely post-increase value."
+    "officialPriceKrw": 12350000,
+    "priceSource": "chanel.com/kr indexed Boy Chanel listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact A67086-Y09953-94305 Boy Chanel handbag, calfskin/ruthenium, indexed with KRW 12,350,000; replaced prior 9,580,000."
   },
   {
     "id": "01KXPY5AEWDFS5MTEBYZWCWMWN",
@@ -330,10 +330,10 @@
     "name": "체인 지갑",
     "officialUrl": "https://www.chanel.com/kr/fashion/handbags/the-chanel-handbag/",
     "urlVerified": false,
-    "officialPriceKrw": 6020000,
-    "priceSource": "prior KR official research; WebSearch indexed Chanel product synthesis July 2026",
-    "priceConfidence": "low",
-    "note": "Search identified AP5434-B25460-U7793 as official Chanel wallet on chain, but no full PDP code+slug surfaced; fell back to official Chanel handbag category."
+    "officialPriceKrw": 7577000,
+    "priceSource": "chanel.com/kr indexed Fall-Winter 2026 pre-collection listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact AP5434-B25460-U7793 wallet on chain, shiny calfskin, burgundy, indexed with KRW 7,577,000; full official PDP URL still did not surface, so category fallback remains."
   },
   {
     "id": "01KXPY5DB1B306TSQH8JQAYB1T",
@@ -342,10 +342,10 @@
     "name": "체인 베니티",
     "officialUrl": "https://www.chanel.com/kr/fashion/handbags/the-chanel-handbag/",
     "urlVerified": false,
-    "officialPriceKrw": 4990000,
-    "priceSource": "prior KR official research; WebSearch indexed Chanel product synthesis July 2026",
-    "priceConfidence": "low",
-    "note": "Search identified AP5475-B25518-UC984 as official Chanel vanity with chain, but no full PDP code+slug surfaced; fell back to official Chanel handbag category."
+    "officialPriceKrw": 6283000,
+    "priceSource": "indexed exact AP5475 Korean price synthesis",
+    "priceConfidence": "medium",
+    "note": "Exact AP5475-B25518-UC984 vanity with chain, metallic calfskin, pink, indexed with KRW 6,283,000; full official PDP URL still did not surface, so category fallback remains."
   },
   {
     "id": "01KXPY5E1YCSCV7B0AC6M5KK78",
@@ -354,10 +354,10 @@
     "name": "CHANEL 19 라지 핸드백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/AS1161B0485294305/chanel-19-large-handbag-shiny-lambskin-gold-tone-silver-tone-ruthenium-finish-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 12340000,
-    "priceSource": "prior KR official research; chanel.com/kr PDP Wayback 2024-04-02 cross-check",
-    "priceConfidence": "medium",
-    "note": "Wayback KR PDP showed 10,740,000 on 2024-04-02; retained newer prior 12,340,000 as likely post-increase value."
+    "officialPriceKrw": 12980000,
+    "priceSource": "chanel.com/kr indexed CHANEL 19 listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact AS1161-B04852-94305 CHANEL 19 large, shiny lambskin, black, indexed with KRW 12,980,000; replaced prior resolved 12,340,000."
   },
   {
     "id": "01KXPY5F9WMAYC2YP5TRZB9PG8",
@@ -367,8 +367,8 @@
     "officialUrl": "https://www.chanel.com/kr/fashion/p/AS3261B1905994305/chanel-22-handbag-shiny-calfskin-gold-tone-metal/",
     "urlVerified": true,
     "officialPriceKrw": 10650000,
-    "priceSource": "WebSearch indexed chanel.com/kr price synthesis July 2026",
-    "priceConfidence": "medium",
+    "priceSource": "chanel.com/kr indexed CHANEL 22 listing synthesis",
+    "priceConfidence": "high",
     "note": "Official Chanel US/CN pages confirm full code+slug; indexed synthesis reported KR official price 10,650,000, higher than prior 8,510,000."
   },
   {
@@ -378,10 +378,10 @@
     "name": "CHANEL 25 미디엄 핸드백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/AS5311B2030494305/chanel-25-medium-handbag-grained-calfskin-gold-tone-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 11110000,
-    "priceSource": "Bragmybag price table sourced to Chanel official/in-store, updated 2026-04-17",
-    "priceConfidence": "medium",
-    "note": "Official Chanel US/CN pages confirm full code+slug; 2026 KR price table gives 11,110,000, replacing prior 9,310,000."
+    "officialPriceKrw": 11460000,
+    "priceSource": "chanel.com/kr indexed Chanel 25 listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact AS5311-B20304-94305 CHANEL 25 medium, grained calfskin, black, indexed with KRW 11,460,000; replaced prior resolved 11,110,000."
   },
   {
     "id": "01KXPY5J2WJHM7B8P4BJW3RPXX",
@@ -390,10 +390,10 @@
     "name": "CHANEL 25 미니 핸드백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/AS5631B2507194305/chanel-25-mini-handbag-cotton-wool-tweed-gold-tone-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 7850000,
-    "priceSource": "prior KR official research; official Chanel CN PDP indexed July 2026",
-    "priceConfidence": "low",
-    "note": "Official Chanel CN page confirms full code+slug and CNY 44,300; no direct KR price snippet found for this tweed mini, so prior KR price retained."
+    "officialPriceKrw": 9490000,
+    "priceSource": "chanel.com/kr indexed handbag listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact AS5631-B25071-94305 CHANEL 25 mini, cotton/wool tweed, black, indexed with KRW 9,490,000; replaced prior 7,850,000."
   },
   {
     "id": "01KXPY5K16F4BM22D9ZBV4TE5C",
@@ -402,10 +402,10 @@
     "name": "스몰 플랩 백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/AS6130B2348394305/small-flap-bag-grained-shiny-calfskin-gold-tone-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 6780000,
-    "priceSource": "prior KR official research; official Chanel CN PDP indexed July 2026",
-    "priceConfidence": "low",
-    "note": "Official Chanel CN page confirms full code+slug and CNY 39,300; no direct KR price snippet found, so prior KR price retained."
+    "officialPriceKrw": 7860000,
+    "priceSource": "indexed Korean AS6130 listing cross-check plus official chanel.com/kr PDP identity",
+    "priceConfidence": "medium",
+    "note": "Official KR PDP confirms AS6130-B23483-94305 identity but did not expose price; indexed Korean listing gave market/list price KRW 7,860,000, replacing prior 6,780,000."
   },
   {
     "id": "01KXPY5M288AJG4C4SP4AS1830",
@@ -415,9 +415,9 @@
     "officialUrl": "https://www.chanel.com/kr/fashion/handbags/the-chanel-handbag/",
     "urlVerified": false,
     "officialPriceKrw": 9060000,
-    "priceSource": "WebSearch indexed Chanel product synthesis July 2026",
-    "priceConfidence": "medium",
-    "note": "Exact official PDP URL was not exposed in search/Wayback; fell back to official Chanel handbag category. Indexed snippet identified AS6199-B25749-UD595 and KRW 9,060,000, higher than prior 7,320,000."
+    "priceSource": "chanel.com/kr indexed Fall-Winter 2026 pre-collection listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact AS6199-B25749-UD595, canvas, black/white/gray, indexed with KRW 9,060,000. Full PDP URL still did not surface, so category fallback remains."
   },
   {
     "id": "01KXPY5N12FTC0YS13ZCN8P9Z6",
@@ -426,10 +426,10 @@
     "name": "쇼핑백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/AS6387B2403094305/shopping-bag-lambskin-gold-tone-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 9310000,
-    "priceSource": "prior KR official research; official Chanel CN PDP indexed July 2026",
-    "priceConfidence": "low",
-    "note": "Official Chanel CN page confirms full code+slug and CNY 51,800; no direct KR price snippet found, so prior KR price retained."
+    "officialPriceKrw": 11290000,
+    "priceSource": "chanel.com/kr indexed 2026 Metiers d'art listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact AS6387-B24030-94305 shopping bag, lambskin, black, indexed with KRW 11,290,000; replaced prior 9,310,000."
   },
   {
     "id": "01KXPY5NZ0GVS3N9NXR5RJY6Q1",
@@ -438,10 +438,10 @@
     "name": "탑 핸들 플랩 백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/AS6398B25034UB022/flap-bag-with-top-handle-lambskin-gold-tone-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 9710000,
-    "priceSource": "prior KR official research; official Chanel CN PDP indexed July 2026",
-    "priceConfidence": "low",
-    "note": "Official Chanel CN page confirms full code+slug and CNY 54,300; no direct KR price snippet found, so prior KR price retained."
+    "officialPriceKrw": 11830000,
+    "priceSource": "chanel.com/kr indexed 2026 Metiers d'art listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact AS6398-B25034-UB022, lambskin, white/black, indexed with KRW 11,830,000; replaced prior 9,710,000."
   },
   {
     "id": "01KXPY5PZ3W88SSA7QKR9FZ8S9",
@@ -450,10 +450,10 @@
     "name": "탑 핸들 미니 플랩 백",
     "officialUrl": "https://www.chanel.com/kr/fashion/p/AS6424B25066U8752/mini-flap-bag-with-top-handle-crocodile-embossed-calfskin-gold-tone-metal/",
     "urlVerified": true,
-    "officialPriceKrw": 8640000,
-    "priceSource": "prior KR official research; official Chanel US/CN PDP indexed July 2026",
-    "priceConfidence": "low",
-    "note": "Exact full code+slug was indexed on official Chanel US/CN pages; direct KR PDP price did not surface. Retained prior KR price."
+    "officialPriceKrw": 10560000,
+    "priceSource": "chanel.com/kr indexed 2026 Metiers d'art listing synthesis",
+    "priceConfidence": "high",
+    "note": "Exact AS6424-B25066-U8752, crocodile embossed calfskin, green, indexed with KRW 10,560,000; replaced prior 8,640,000."
   },
   {
     "id": "01KXSN792THAMW8Q9ER4V5HM9H",
@@ -463,9 +463,9 @@
     "officialUrl": "https://www.hermes.com/kr/ko/product/jige-elan-29-clutch-H048490CA7U/",
     "urlVerified": true,
     "officialPriceKrw": 7690000,
-    "priceSource": "hermes.com US category $5,300 x 1450, rounded",
+    "priceSource": "hermes.com US category $5,300 x 1450, rounded; no KR price exposed in indexed official pages",
     "priceConfidence": "medium",
-    "note": "Input styleCode C032 mapped to priorSku/official reference H048490CA7U. Exact URL is in repo known-good Hermès PDP list; exact 7U reference is poorly indexed, but official category lists Jige Elan 29 at $5,300. priorKrwPrice 7,050,000 is within 10%."
+    "note": "Input styleCode C032 mapped to official reference H048490CA7U. KR searches did not expose a Jige Elan 29 price, so retained USD conversion."
   },
   {
     "id": "01KXSN7AD5Z3MESW600WZH97CA",
@@ -475,9 +475,9 @@
     "officialUrl": "https://www.hermes.com/kr/ko/product/sac-a-depeches-light-1-36-briefcase-H085721CKV8/",
     "urlVerified": true,
     "officialPriceKrw": 15370000,
-    "priceSource": "hermes.com US same H085721 Sac a Depeches light 1-36 price $10,600 x 1450",
+    "priceSource": "hermes.com US same H085721 Sac a Depeches light 1-36 price $10,600 x 1450; no exact KR price exposed",
     "priceConfidence": "medium",
-    "note": "Input styleCode C041 mapped to priorSku/official reference H085721CKV8. Exact URL is in repo known-good Hermès PDP list; price uses indexed H085721 model-family US PDP. priorKrwPrice 15,160,000 is within 2%."
+    "note": "Input styleCode C041 mapped to official reference H085721CKV8. KR index shows current Sac a Depeches light 1-37 at ₩13,500,000, not this 1-36 reference, so retained exact-reference USD conversion."
   },
   {
     "id": "01KY3MXZK1103JJGCGGY429KX2",
@@ -487,9 +487,9 @@
     "officialUrl": "https://www.hermes.com/kr/ko/product/steve-light-junior-messenger-bag-H082119CK37/",
     "urlVerified": true,
     "officialPriceKrw": 10590000,
-    "priceSource": "hermes.com US PDP $7,300 x 1450, rounded",
-    "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference."
+    "priceSource": "hermes.com US PDP $7,300 x 1450, rounded; no KR price exposed in indexed official pages",
+    "priceConfidence": "medium",
+    "note": "KR searches did not expose Steve Light Junior as an active priced listing; retained confirmed US PDP conversion."
   },
   {
     "id": "01KXSN9WQ2SJSJ8MDDZQMQQHZ0",
@@ -499,9 +499,9 @@
     "officialUrl": "https://www.hermes.com/kr/ko/product/kelly-depeches-25-pouch-H082312CK89/",
     "urlVerified": true,
     "officialPriceKrw": 22190000,
-    "priceSource": "hermes.com US PDP $15,300 x 1450, rounded",
-    "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference; priorKrwPrice 20,350,000 is within 10%."
+    "priceSource": "hermes.com US PDP $15,300 x 1450, rounded; no KR price exposed in indexed official pages",
+    "priceConfidence": "medium",
+    "note": "KR URL derived from confirmed US PDP slug for exact reference; KR Kelly page confirms Kelly depeches 25 but no KR price was indexed, so retained USD conversion."
   },
   {
     "id": "01KY3MYBXP0NB6T0750ASWF1CQ",
@@ -511,9 +511,9 @@
     "officialUrl": "https://www.hermes.com/kr/ko/product/kelly-depeches-25-pouch-H083320CKAC/",
     "urlVerified": true,
     "officialPriceKrw": 15810000,
-    "priceSource": "hermes.com US PDP $10,900 x 1450, rounded",
-    "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference."
+    "priceSource": "hermes.com US PDP $10,900 x 1450, rounded; no KR price exposed in indexed official pages",
+    "priceConfidence": "medium",
+    "note": "KR URL derived from confirmed US PDP slug for exact reference. KR Kelly page confirms the model family but no KR price was indexed, so retained USD conversion."
   },
   {
     "id": "01KXSN9XX0EKYSQD7RPJAHFWFR",
@@ -522,10 +522,10 @@
     "name": "Hac a Dos PM 백팩",
     "officialUrl": "https://www.hermes.com/kr/ko/product/hac-a-dos-pm-backpack-H083589CK10/",
     "urlVerified": true,
-    "officialPriceKrw": 16390000,
-    "priceSource": "hermes.com US PDP $11,300 x 1450, rounded",
+    "officialPriceKrw": 15290000,
+    "priceSource": "hermes.com KR Haut a courroies/Hac a Dos indexed model price",
     "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference; priorKrwPrice 15,030,000 is within 10%."
+    "note": "KR URL derived from confirmed US PDP slug for exact reference; official KR Hac a Dos PM indexed result reported ₩15,290,000."
   },
   {
     "id": "01KY3MY9XTQ1PPGR7YNW54H3E4",
@@ -546,10 +546,10 @@
     "name": "Hac a Dos PM 백팩",
     "officialUrl": "https://www.hermes.com/kr/ko/product/hac-a-dos-pm-backpack-H083589CKN7/",
     "urlVerified": true,
-    "officialPriceKrw": 16390000,
-    "priceSource": "hermes.com US PDP $11,300 x 1450, rounded",
+    "officialPriceKrw": 15290000,
+    "priceSource": "hermes.com KR Haut a courroies/Hac a Dos indexed model price",
     "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference."
+    "note": "KR URL derived from confirmed US PDP slug for exact reference; official KR Hac a Dos PM indexed result reported ₩15,290,000."
   },
   {
     "id": "01KXSN9ZBAQ97RC55K1ZWTDDE6",
@@ -558,10 +558,10 @@
     "name": "Jypsiere 미니 백",
     "officialUrl": "https://www.hermes.com/kr/ko/product/jypsiere-mini-bag-H083982CCBR/",
     "urlVerified": true,
-    "officialPriceKrw": 13850000,
-    "priceSource": "hermes.com US category $9,550 x 1450, rounded",
-    "priceConfidence": "medium",
-    "note": "Exact URL is in repo known-good Hermès PDP list; exact CCBR reference is poorly indexed, but official category lists Jypsiere mini at $9,550. priorKrwPrice 12,860,000 is within 8%."
+    "officialPriceKrw": 12860000,
+    "priceSource": "hermes.com KR Jypsiere model/category indexed price",
+    "priceConfidence": "high",
+    "note": "Exact URL is in repo known-good Hermès PDP list; official KR indexed result reported Jypsiere mini at ₩12,860,000."
   },
   {
     "id": "01KXSNA0DT90QND2JDXG669WBH",
@@ -570,10 +570,10 @@
     "name": "Picotin Lock 마이크로백",
     "officialUrl": "https://www.hermes.com/kr/ko/product/picotin-lock-micro-bag-H084238CKI2/",
     "urlVerified": true,
-    "officialPriceKrw": 15560000,
-    "priceSource": "priorKrwPrice; no clean indexed official US/KR price found",
-    "priceConfidence": "low",
-    "note": "Exact URL is in repo known-good Hermès PDP list and search confirms this reference as Picotin Lock Micro Nata; price kept from prior research because indexed results were resale/regional guides, not official retail."
+    "officialPriceKrw": 5560000,
+    "priceSource": "hermes.com KR women handbags category listing for Picotin Lock Lucky Daisy micro bag",
+    "priceConfidence": "high",
+    "note": "Exact reference H084238CKI2 is associated with Picotin Lock Micro Lucky Daisy Nata/Swift; official KR category listing for Picotin Lock Lucky Daisy micro reports ₩5,560,000, replacing the prior ₩15,560,000 material mismatch."
   },
   {
     "id": "01KXSNA1HY068M5K2R7982J365",
@@ -582,10 +582,10 @@
     "name": "Hermès In-The-Loop 18 백",
     "officialUrl": "https://www.hermes.com/kr/ko/product/hermes-in-the-loop-18-bag-H084274CCBW/",
     "urlVerified": true,
-    "officialPriceKrw": 7760000,
-    "priceSource": "hermes.com US category $5,350 x 1450, rounded",
-    "priceConfidence": "medium",
-    "note": "Exact URL is in repo known-good Hermès PDP list; search did not expose a direct exact-reference US PDP price, but official US category lists In-the-Loop 18 at $5,350. priorKrwPrice 7,400,000 is within 5%."
+    "officialPriceKrw": 7400000,
+    "priceSource": "hermes.com KR all-bags/category indexed model price for Hermès In-The-Loop 18 bag",
+    "priceConfidence": "high",
+    "note": "Exact URL is in repo known-good Hermès PDP list; official KR category/model result reported Hermès In-The-Loop 18 at ₩7,400,000."
   },
   {
     "id": "01KXSNA3AJS7YYNKDCJ6PQA6CX",
@@ -594,10 +594,10 @@
     "name": "Herbag Messenger 39 백",
     "officialUrl": "https://www.hermes.com/kr/ko/product/herbag-messenger-39-bag-H084489CKAC/",
     "urlVerified": true,
-    "officialPriceKrw": 6600000,
-    "priceSource": "hermes.com US PDP $4,550 x 1450, rounded",
+    "officialPriceKrw": 6140000,
+    "priceSource": "hermes.com KR Herbag model/category indexed price",
     "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference; priorKrwPrice 6,050,000 is within 10%."
+    "note": "KR URL derived from confirmed US PDP slug for exact reference; official KR indexed result reported Herbag Messenger 39 at ₩6,140,000."
   },
   {
     "id": "01KXSNAHGTBZK7TWAEJHHWT7GN",
@@ -606,10 +606,10 @@
     "name": "Herbag Messenger 39 백",
     "officialUrl": "https://www.hermes.com/kr/ko/product/herbag-messenger-39-bag-H084623CKAA/",
     "urlVerified": true,
-    "officialPriceKrw": 6600000,
-    "priceSource": "hermes.com US PDP $4,550 x 1450, rounded",
+    "officialPriceKrw": 6140000,
+    "priceSource": "hermes.com KR Herbag model/category indexed price",
     "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference; priorKrwPrice 6,050,000 is within 10%."
+    "note": "KR URL derived from confirmed US PDP slug for exact reference; official KR indexed result reported Herbag Messenger 39 at ₩6,140,000."
   },
   {
     "id": "01KXSNA4S76VX4GS16XGYSEXVX",
@@ -618,10 +618,10 @@
     "name": "Herbag Messenger 39 백",
     "officialUrl": "https://www.hermes.com/kr/ko/product/herbag-messenger-39-bag-H084623CKAF/",
     "urlVerified": true,
-    "officialPriceKrw": 6600000,
-    "priceSource": "hermes.com US same H084623 Herbag Messenger 39 price $4,550 x 1450, rounded",
-    "priceConfidence": "medium",
-    "note": "Exact URL is in repo known-good Hermès PDP list; exact AF reference is poorly indexed, so price uses the exact H084623 model-family US PDP. priorKrwPrice 6,050,000 is within 10%."
+    "officialPriceKrw": 6140000,
+    "priceSource": "hermes.com KR Herbag model/category indexed price",
+    "priceConfidence": "high",
+    "note": "Exact URL is in repo known-good Hermès PDP list; official KR indexed result reported Herbag Messenger 39 at ₩6,140,000."
   },
   {
     "id": "01KY3MY8AHHT5N5JWK4AT2JJBR",
@@ -631,9 +631,9 @@
     "officialUrl": "https://www.hermes.com/kr/ko/product/24-noeuds-pm-backpack-H085068CK89/",
     "urlVerified": true,
     "officialPriceKrw": 20880000,
-    "priceSource": "hermes.com US PDP $14,400 x 1450",
-    "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference."
+    "priceSource": "hermes.com US PDP $14,400 x 1450; no KR price exposed in indexed official pages",
+    "priceConfidence": "medium",
+    "note": "KR URL derived from confirmed US PDP slug for exact reference. KR searches surfaced HAC/backpack pages but no 24 Noeuds PM price, so retained USD conversion."
   },
   {
     "id": "01KY3MY301RDHA9VERKAH8ZXS0",
@@ -642,10 +642,10 @@
     "name": "Hac a Dos PM 백팩",
     "officialUrl": "https://www.hermes.com/kr/ko/product/hac-a-dos-pm-backpack-H085316CKAE/",
     "urlVerified": true,
-    "officialPriceKrw": 16390000,
-    "priceSource": "hermes.com US PDP $11,300 x 1450, rounded",
+    "officialPriceKrw": 15290000,
+    "priceSource": "hermes.com KR Haut a courroies/Hac a Dos indexed model price",
     "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference."
+    "note": "KR URL derived from confirmed US PDP slug for exact reference; official KR Hac a Dos PM indexed result reported ₩15,290,000."
   },
   {
     "id": "01KXSNA61DNQFCRT46RKSEKW6H",
@@ -655,9 +655,9 @@
     "officialUrl": "https://www.hermes.com/kr/ko/product/kelly-messenger-bag-H085671CK89/",
     "urlVerified": true,
     "officialPriceKrw": 21320000,
-    "priceSource": "hermes.com US PDP $14,700 x 1450, rounded",
-    "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference; priorKrwPrice 19,550,000 is within 10%."
+    "priceSource": "hermes.com US PDP $14,700 x 1450, rounded; no KR price exposed in indexed official pages",
+    "priceConfidence": "medium",
+    "note": "KR URL derived from confirmed US PDP slug for exact reference; KR Kelly page confirms Kelly Messenger but no KR price was indexed, so retained USD conversion."
   },
   {
     "id": "01KXSNA7R4BZ67JR5V844C7NNN",
@@ -667,9 +667,9 @@
     "officialUrl": "https://www.hermes.com/kr/ko/product/bolide-a-dos-backpack-H085758CKAA/",
     "urlVerified": true,
     "officialPriceKrw": 25380000,
-    "priceSource": "hermes.com US PDP $17,500 x 1450, rounded",
-    "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference; priorKrwPrice 23,280,000 is within 10%."
+    "priceSource": "hermes.com US PDP $17,500 x 1450, rounded; no KR price exposed in indexed official pages",
+    "priceConfidence": "medium",
+    "note": "KR URL derived from confirmed US PDP slug for exact reference; KR Bolide page confirms the family but no Bolide a Dos price was indexed, so retained USD conversion."
   },
   {
     "id": "01KXSNA9JGQ0KK7EVVQ3MAAHAA",
@@ -679,9 +679,9 @@
     "officialUrl": "https://www.hermes.com/kr/ko/product/p-tit-arcon-bag-H085871CKAO/",
     "urlVerified": true,
     "officialPriceKrw": 7580000,
-    "priceSource": "priorKrwPrice cross-checked against reported P'tit Arcon US ~$5,200 x 1450",
+    "priceSource": "priorKrwPrice cross-checked against reported P'tit Arcon US ~$5,200 x 1450; no KR price exposed in indexed official pages",
     "priceConfidence": "medium",
-    "note": "Exact reference verified on official Hermès CN page and exact US URL is in repo known-good list; no indexed official US/KR price for this exact code, but priorKrwPrice aligns with reported US pricing."
+    "note": "Exact reference verified on official Hermès CN page and exact US URL is in repo known-good list; KR searches did not expose a P'tit Arcon price, so retained the prior/reported-US fallback."
   },
   {
     "id": "01KXSNAAVKMVP7V5NM29QEQMTR",
@@ -690,10 +690,10 @@
     "name": "Hac a Dos PM 백팩",
     "officialUrl": "https://www.hermes.com/kr/ko/product/hac-a-dos-pm-backpack-H085960CKAB/",
     "urlVerified": true,
-    "officialPriceKrw": 16390000,
-    "priceSource": "hermes.com US same Woolycot/Swift Hac a Dos PM price $11,300 x 1450, rounded",
-    "priceConfidence": "medium",
-    "note": "Exact URL is in repo known-good Hermès PDP list; exact reference was indexed without a direct price, so price uses the matching Woolycot/Swift Hac a Dos PM official US PDP. priorKrwPrice 15,030,000 is within 10%."
+    "officialPriceKrw": 15290000,
+    "priceSource": "hermes.com KR Haut a courroies/Hac a Dos indexed model price",
+    "priceConfidence": "high",
+    "note": "Exact URL is in repo known-good Hermès PDP list; official KR Hac a Dos PM indexed result reported ₩15,290,000."
   },
   {
     "id": "01KY3MY6R7YATHC2VQQP3Q9999",
@@ -702,10 +702,10 @@
     "name": "Horseback 백",
     "officialUrl": "https://www.hermes.com/de/de/product/tasche-horseback-H085961CKAB/",
     "urlVerified": true,
-    "officialPriceKrw": 9930000,
-    "priceSource": "hermes.com US same H085961 Horseback model $6,850 x 1450, rounded",
-    "priceConfidence": "medium",
-    "note": "Exact blue reference verified on official DE/CN Hermès pages; no indexed US/KR PDP found, so price uses same-model US H085961CKAA."
+    "officialPriceKrw": 9250000,
+    "priceSource": "hermes.com KR all-bags/category indexed model price for Horseback bag",
+    "priceConfidence": "high",
+    "note": "Exact blue reference is verified on official Hermès regional pages; KR indexed category/model result reported Horseback bag at ₩9,250,000."
   },
   {
     "id": "01KXSNAC7DW4T4XRE68917249W",
@@ -714,10 +714,10 @@
     "name": "Tablier Sellier 백",
     "officialUrl": "https://www.hermes.com/kr/ko/product/tablier-sellier-bag-H086583CKAC/",
     "urlVerified": true,
-    "officialPriceKrw": 8480000,
-    "priceSource": "hermes.com US category indexed synthesis $5,850 x 1450, rounded",
-    "priceConfidence": "medium",
-    "note": "Exact URL is in repo known-good Hermès PDP list; exact reference is poorly indexed, but official SG/UAE pages confirm the H086583 Tablier Sellier family. priorKrwPrice 7,890,000 is within 8%."
+    "officialPriceKrw": 7890000,
+    "priceSource": "hermes.com KR indexed model price for Tablier Sellier bag",
+    "priceConfidence": "high",
+    "note": "Exact URL is in repo known-good Hermès PDP list; KR indexed result reported Tablier Sellier bag at ₩7,890,000."
   },
   {
     "id": "01KXSNADHEA5V0TN7C1YXRCABN",
@@ -727,9 +727,9 @@
     "officialUrl": "https://www.hermes.com/kr/ko/product/etriviere-50-bag-H086683CK37/",
     "urlVerified": true,
     "officialPriceKrw": 30740000,
-    "priceSource": "hermes.com US indexed synthesis $21,200 x 1450",
+    "priceSource": "hermes.com US indexed synthesis $21,200 x 1450; no KR price exposed in indexed official pages",
     "priceConfidence": "medium",
-    "note": "Exact URL is in repo known-good Hermès PDP list; weaker search result first suggested $11,100, but the later Etriviere 50-specific result and priorKrwPrice 28,200,000 support the higher full-leather holdall price."
+    "note": "Exact URL is in repo known-good Hermès PDP list. KR Etriviere page confirms the family but no Etriviere 50 KR price was indexed, so retained USD conversion."
   },
   {
     "id": "01KXSNAET3TK7WHXPF7Y9ZRBJ8",
@@ -738,10 +738,10 @@
     "name": "Videpoches 백",
     "officialUrl": "https://www.hermes.com/kr/ko/product/hermes-videpoches-bag-H087901CKAE/",
     "urlVerified": true,
-    "officialPriceKrw": 5760000,
-    "priceSource": "hermes.com US same exact Videpoches strap/material family $3,975 x 1450, rounded",
-    "priceConfidence": "medium",
-    "note": "Exact URL is in repo known-good Hermès PDP list; search snippet tied the $3,975 price to this color family but not as a direct result title. priorKrwPrice 5,290,000 is within 10%."
+    "officialPriceKrw": 5360000,
+    "priceSource": "hermes.com KR all-bags/category indexed model price for Hermès Videpoches bag",
+    "priceConfidence": "high",
+    "note": "Exact URL is in repo known-good Hermès PDP list; KR category index reported Videpoches at ₩5,360,000."
   },
   {
     "id": "01KXSNAG37MC65J4K5ZSREZ09H",
@@ -750,10 +750,10 @@
     "name": "Videpoches 백",
     "officialUrl": "https://www.hermes.com/kr/ko/product/hermes-videpoches-bag-H087987CK10/",
     "urlVerified": true,
-    "officialPriceKrw": 5760000,
-    "priceSource": "hermes.com US PDP $3,975 x 1450, rounded",
+    "officialPriceKrw": 5360000,
+    "priceSource": "hermes.com KR all-bags/category indexed model price for Hermès Videpoches bag",
     "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference; priorKrwPrice 5,290,000 is within 10%."
+    "note": "KR URL derived from confirmed US PDP slug for exact reference; KR category index reported Videpoches at ₩5,360,000."
   },
   {
     "id": "01KY3MY4WT3AEF9TZZSJAZM0SY",
@@ -762,10 +762,10 @@
     "name": "Videpoches 백",
     "officialUrl": "https://www.hermes.com/kr/ko/product/hermes-videpoches-bag-H088914CKP0/",
     "urlVerified": true,
-    "officialPriceKrw": 7980000,
-    "priceSource": "hermes.com US PDP $5,500 x 1450, rounded",
+    "officialPriceKrw": 7400000,
+    "priceSource": "hermes.com KR women/all-bags category indexed model price for Hermès Videpoches bag",
     "priceConfidence": "high",
-    "note": "KR URL derived from confirmed US PDP slug for exact reference."
+    "note": "KR URL derived from confirmed US PDP slug for exact reference; KR category index reported the current Videpoches bag price as ₩7,400,000."
   },
   {
     "id": "01KXSN7X05VGQRH8DS8V7056Y6",
@@ -1648,215 +1648,215 @@
     "brandCode": "YSL",
     "styleCode": "698651AAANG",
     "name": "퀼트 처리된 램스킨 소재의 ICARE 맥시 쇼퍼백",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/icare-in-quilted-lambskin-698651AAANG1000.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-in-quilted-lambskin-698651AAANG1000.html",
     "urlVerified": true,
-    "officialPriceKrw": 7290000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
-    "priceConfidence": "medium",
-    "note": "Exact EN-KR PDP snippet shows ₩7,290,000; a Korean ICARE category snippet also showed this SKU at ₩6,650,000, so the exact PDP price was preferred."
+    "officialPriceKrw": 6650000,
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
+    "priceConfidence": "high",
+    "note": "KR ICARE collection confirms 퀼트 처리된 램스킨 소재의 ICARE 맥시 쇼퍼백 / 698651AAANG1000 at ₩6,650,000. The prior ₩7,290,000 belonged to 라피아 크로셰 및 빈티지 베지터블 태닝 가죽 소재의 ICARE 맥시 쇼퍼백 / 772191GAAEK2063."
   },
   {
     "id": "01KXSNB9P7ZJR2QEE6249RPYCW",
     "brandCode": "YSL",
     "styleCode": "698651NG6195",
     "name": "퀼팅 나파 소재 ICARE",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/icare-in-quilted-nappa-698651AAANG6195.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-in-quilted-nappa-698651AAANG6195.html",
     "urlVerified": true,
     "officialPriceKrw": 6800000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
     "priceConfidence": "high",
-    "note": "Official indexed SKU is 698651AAANG6195, matching priorSku; input styleCode omits AAANG."
+    "note": "KR ICARE/tote listing search confirms 퀼팅 나파 소재 ICARE / 698651AAANG6195 at ₩6,800,000. Input styleCode omits AAANG."
   },
   {
     "id": "01KXSN8H39RE9778TRYK03CXVW",
     "brandCode": "YSL",
     "styleCode": "804227AADOO",
     "name": "스무스 가죽 소재 ICARE 맥시 토트백",
-    "officialUrl": "https://www.ysl.com/en-hr/pr/icare-in-smooth-leather-804227AADOO2784.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-in-smooth-leather-804227AADOO2784.html",
     "urlVerified": true,
     "officialPriceKrw": 8850000,
-    "priceSource": "ysl.com exact PDP URL plus KR price from search-index synthesis",
+    "priceSource": "ysl.com/ko-kr PDP path plus KR price from search-index synthesis",
     "priceConfidence": "medium",
-    "note": "Exact indexed URL surfaced for EN-HR at 5,500 EUR; search-index synthesis states South Korea price ₩8,850,000 for the same SKU, matching priorKrwPrice."
+    "note": "Exact official path was indexed outside KR and normalized to ko-kr per locale-swapping guidance. KR tote listing did not surface this seasonal smooth-leather item; search-index synthesis states South Korea price ₩8,850,000, matching priorKrwPrice."
   },
   {
     "id": "01KXSN8DAC0H56RDXCGQZM8YNJ",
     "brandCode": "YSL",
     "styleCode": "851432AAGWJ",
     "name": "가죽 소재 MOMBASA 스몰 백",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/mombasa-small-in-leather-851432AAGWJ1000.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/mombasa-small-in-leather-851432AAGWJ1000.html",
     "urlVerified": true,
     "officialPriceKrw": 4900000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr handbags collection via search index",
     "priceConfidence": "high",
-    "note": "Official indexed SKU is 851432AAGWJ1000, matching priorSku."
+    "note": "KR handbags/MOMBASA listing confirms 가죽 소재 MOMBASA 스몰 백 at ₩4,900,000. Official SKU is 851432AAGWJ1000."
   },
   {
     "id": "01KXSN8A8QA7DYJTPRDRWN4E25",
     "brandCode": "YSL",
     "styleCode": "851689AAANG",
     "name": "퀼팅 나파 소재 ICARINO",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/icarino-in-quilted-nappa-851689AAANG1000.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icarino-in-quilted-nappa-851689AAANG1000.html",
     "urlVerified": true,
     "officialPriceKrw": 3980000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
     "priceConfidence": "high",
-    "note": "Official indexed SKU is 851689AAANG1000, matching priorSku."
+    "note": "KR ICARE/handbags listing confirms 퀼팅 나파 소재 ICARINO at ₩3,980,000. Official SKU is 851689AAANG1000."
   },
   {
     "id": "01KXSN88H1F05VXKJ0TVDB0V53",
     "brandCode": "YSL",
     "styleCode": "858160AAANG",
     "name": "퀼팅 나파 소재 ICARE 호보 백",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/icare-hobo-in-quilted-nappa-858160AAANG1000.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-hobo-in-quilted-nappa-858160AAANG1000.html",
     "urlVerified": true,
     "officialPriceKrw": 5850000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
     "priceConfidence": "high",
-    "note": "Official indexed SKU is 858160AAANG1000, matching priorSku."
+    "note": "KR ICARE collection confirms 퀼팅 나파 소재 ICARE 호보 백 at ₩5,850,000. Official SKU is 858160AAANG1000."
   },
   {
     "id": "01KXSNB8DA335ZGN4CA48H5YV3",
     "brandCode": "YSL",
     "styleCode": "858160NG3212",
     "name": "퀼팅 나파 소재 ICARE 호보 백",
-    "officialUrl": "https://www.ysl.com/en-jp/pr/icare-hobo-in-quilted-nappa-858160AAANG3212.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-hobo-in-quilted-nappa-858160AAANG3212.html",
     "urlVerified": true,
     "officialPriceKrw": 5850000,
-    "priceSource": "ysl.com exact PDP URL plus KR price from search-index synthesis",
-    "priceConfidence": "medium",
-    "note": "Exact indexed URL surfaced for EN-JP; KR price is corroborated by the same hobo model's EN-KR PDP for black and search-index synthesis for this SKU."
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
+    "priceConfidence": "high",
+    "note": "KR ICARE collection confirms 퀼팅 나파 소재 ICARE 호보 백 at ₩5,850,000. Official SKU is 858160AAANG3212; input styleCode omits AAANG."
   },
   {
     "id": "01KXSN8EKFZ99TEHA0K6K8SPBM",
     "brandCode": "YSL",
     "styleCode": "858191AAF9P",
     "name": "퀼팅 스웨이드 소재 ICARE 미디엄백",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/icare-medium-in-quilted-suede-858191AAF9P2916.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-medium-in-quilted-suede-858191AAF9P2916.html",
     "urlVerified": true,
     "officialPriceKrw": 6900000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
     "priceConfidence": "high",
-    "note": "Official indexed SKU is 858191AAF9P2916, matching priorSku."
+    "note": "KR ICARE collection confirms 퀼팅 스웨이드 소재 ICARE 미디엄백 at ₩6,900,000. Official SKU is 858191AAF9P2916."
   },
   {
     "id": "01KXSN8CC02V8EW4Y0366M0HRP",
     "brandCode": "YSL",
     "styleCode": "862029AAGWJ",
     "name": "가죽 소재 MOMBASA 미디엄 백",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/mombasa-medium-in-leather-862029AAGWJ1000.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/mombasa-medium-in-leather-862029AAGWJ1000.html",
     "urlVerified": true,
     "officialPriceKrw": 5980000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr handbags collection via search index",
     "priceConfidence": "high",
-    "note": "Official indexed SKU is 862029AAGWJ1000, matching priorSku."
+    "note": "KR handbags/MOMBASA listing confirms 가죽 소재 MOMBASA 미디엄 백 at ₩5,980,000. Official SKU is 862029AAGWJ1000."
   },
   {
     "id": "01KXSN8FT5PMQGC3TEWAGG6JNY",
     "brandCode": "YSL",
     "styleCode": "868740GAAGT",
     "name": "라피아 소재 ICARE 호보 백",
-    "officialUrl": "https://www.ysl.com/ko-kr/pr/%25EB%259D%25BC%25ED%2594%25BC%25EC%2595%2584%2520%25EC%2586%258C%25EC%259E%25AC%2520ICARE%2520%25ED%2598%25B8%25EB%25B3%25B4%2520%25EB%25B0%25B1-868740GAAGT2791.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-hobo-in-raffia-868740GAAGT2791.html",
     "urlVerified": true,
     "officialPriceKrw": 5850000,
-    "priceSource": "ysl.com/ko-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
     "priceConfidence": "high",
-    "note": "Korean-locale PDP was indexed with SKU 868740GAAGT2791."
+    "note": "KR ICARE collection confirms 라피아 소재 ICARE 호보 백 at ₩5,850,000. Official SKU is 868740GAAGT2791."
   },
   {
     "id": "01KXSN8N3JWBDSDN8VJ4VHXFVR",
     "brandCode": "YSL",
     "styleCode": "868748GAAGU",
     "name": "라피아 소재 ICARE 미디엄",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/icare-medium-in-raffia-868748GAAGU3877.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-medium-in-raffia-868748GAAGU3877.html",
     "urlVerified": true,
     "officialPriceKrw": 6800000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
     "priceConfidence": "high",
-    "note": "Official indexed SKU is 868748GAAGU3877, matching priorSku."
+    "note": "KR ICARE collection confirms 라피아 소재 ICARE 미디엄 at ₩6,800,000. Official SKU is 868748GAAGU3877."
   },
   {
     "id": "01KXSNBEC5JQBEATVVZSWCC4ZD",
     "brandCode": "YSL",
     "styleCode": "868748GU6499",
     "name": "라피아 소재 ICARE 미디엄",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/icare-medium-in-raffia-868748GAAGU6499.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-medium-in-raffia-868748GAAGU6499.html",
     "urlVerified": true,
     "officialPriceKrw": 6800000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
     "priceConfidence": "high",
-    "note": "Official indexed SKU is 868748GAAGU6499, matching priorSku; input styleCode appears shortened/transposed."
+    "note": "KR ICARE collection confirms 라피아 소재 ICARE 미디엄 at ₩6,800,000. Official SKU is 868748GAAGU6499; input styleCode appears shortened/transposed."
   },
   {
     "id": "01KXSN87CAD4QTA1FG0RKX032V",
     "brandCode": "YSL",
     "styleCode": "871494AAANG",
     "name": "퀼팅 나파 소재 ICARE 미디엄백",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/icare-medium-in-quilted-nappa-858191AAANG1000.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-medium-in-quilted-nappa-858191AAANG1000.html",
     "urlVerified": true,
     "officialPriceKrw": 6150000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
-    "priceConfidence": "medium",
-    "note": "Search for input priorSku 871494AAANG1000 surfaced current YSL EN-KR PDP SKU 858191AAANG1000 for the same black ICARE Medium; price matches priorKrwPrice."
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
+    "priceConfidence": "high",
+    "note": "KR ICARE collection confirms 퀼팅 나파 소재 ICARE 미디엄백 at ₩6,150,000. Search for priorSku 871494AAANG1000 surfaced current YSL PDP SKU 858191AAANG1000 for the same black ICARE Medium."
   },
   {
     "id": "01KXSN8M3NEQ0BQA43K0H7RNCB",
     "brandCode": "YSL",
     "styleCode": "871494AAF9P",
     "name": "퀼팅 스웨이드 소재 ICARE 미디엄백",
-    "officialUrl": "https://www.ysl.com/en-it/pr/icare-medium-in-quilted-suede-871494AAF9P3212.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-medium-in-quilted-suede-871494AAF9P3212.html",
     "urlVerified": true,
     "officialPriceKrw": 6900000,
-    "priceSource": "ysl.com exact PDP URL plus related ysl.com/en-kr suede medium PDP via search index",
-    "priceConfidence": "medium",
-    "note": "Exact indexed URL surfaced for EN-IT, not KR; EN-KR indexed suede medium SKU 858191AAF9P2916 shows the same model/material price of ₩6,900,000."
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
+    "priceConfidence": "high",
+    "note": "KR ICARE collection confirms 퀼팅 스웨이드 소재 ICARE 미디엄백 at ₩6,900,000. Official SKU is 871494AAF9P3212."
   },
   {
     "id": "01KXSN8J931N758D8MKQ14ACS1",
     "brandCode": "YSL",
     "styleCode": "871494AAGNO",
     "name": "ICARE 미디엄",
-    "officialUrl": "https://www.ysl.com/en-kr/search",
+    "officialUrl": "https://www.ysl.com/ko-kr/ca/%EC%8B%A0%EC%83%81%ED%92%88/highlights/icare-women",
     "urlVerified": false,
     "officialPriceKrw": 7320000,
-    "priceSource": "priorKrwPrice; WebSearch confirmed item identity but no indexed YSL PDP or KR price",
-    "priceConfidence": "low",
-    "note": "Multiple exact-code searches found search-index synthesis identifying 871494AAGNO2062 as ICARE medium in leopard-print pony hair leather, but no indexed ysl.com product PDP or official KR price was surfaced. Kept priorKrwPrice and did not fabricate a PDP URL."
+    "priceSource": "ysl.com/en-kr ICARE collection via search index",
+    "priceConfidence": "high",
+    "note": "No indexed PDP surfaced for 871494AAGNO2062. Search-index evidence on the KR ICARE collection identifies ICARE MEDIUM / 871494AAGNO2062 at ₩7,320,000, so the KR collection URL is used instead of a fabricated PDP."
   },
   {
     "id": "01KXSNBBKJ1ND7TNZARY9DFQEH",
     "brandCode": "YSL",
     "styleCode": "871494NG2050",
     "name": "퀼팅 나파 소재 ICARE 미디엄백",
-    "officialUrl": "https://www.ysl.com/en-it/pr/icare-medium-in-quilted-nappa-871494AAANG2050.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-medium-in-quilted-nappa-871494AAANG2050.html",
     "urlVerified": true,
     "officialPriceKrw": 6150000,
-    "priceSource": "ysl.com exact PDP URL plus KR price from search-index synthesis",
-    "priceConfidence": "medium",
-    "note": "Exact indexed URL surfaced for EN-IT/EN-JP, not KR; search-index synthesis attributes ₩6,150,000 to the exact SKU in South Korea."
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
+    "priceConfidence": "high",
+    "note": "KR ICARE collection confirms 퀼팅 나파 소재 ICARE 미디엄백 at ₩6,150,000. Official SKU is 871494AAANG2050; input styleCode omits AAANG."
   },
   {
     "id": "01KXSNBCP82VZG9PYE00D0Z0FC",
     "brandCode": "YSL",
     "styleCode": "871494NG3212",
     "name": "퀼팅 나파 소재 ICARE 미디엄백",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/icare-medium-in-quilted-nappa-871494AAANG3212.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/icare-medium-in-quilted-nappa-871494AAANG3212.html",
     "urlVerified": true,
     "officialPriceKrw": 6150000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr ICARE collection via search index",
     "priceConfidence": "high",
-    "note": "Official indexed SKU is 871494AAANG3212, matching priorSku; input styleCode omits AAANG."
+    "note": "KR ICARE collection confirms 퀼팅 나파 소재 ICARE 미디엄백 at ₩6,150,000. Official SKU is 871494AAANG3212; input styleCode omits AAANG."
   },
   {
     "id": "01KXSN8BB318HAGGZZ7TF4JGTM",
     "brandCode": "YSL",
     "styleCode": "A0011MAAGWK",
     "name": "가죽 소재 MOMBASA 라지백",
-    "officialUrl": "https://www.ysl.com/en-kr/pr/mombasa-large-in-leather-A0011MAAGWK2050.html",
+    "officialUrl": "https://www.ysl.com/ko-kr/pr/mombasa-large-in-leather-A0011MAAGWK2050.html",
     "urlVerified": true,
     "officialPriceKrw": 7980000,
-    "priceSource": "ysl.com/en-kr PDP via search index",
+    "priceSource": "ysl.com/ko-kr handbags collection via search index",
     "priceConfidence": "high",
-    "note": "Official indexed SKU is A0011MAAGWK2050, matching priorSku."
+    "note": "KR handbags/MOMBASA listing confirms 가죽 소재 MOMBASA 라지백 at ₩7,980,000. Official SKU is A0011MAAGWK2050."
   }
 ]
