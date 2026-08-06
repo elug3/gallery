@@ -94,31 +94,49 @@ def resolve_collision(
     variant: dict,
     occupied: set[tuple],
 ) -> dict[str, str] | None:
-    """Return size/edition overrides so the option key is free, or None if impossible."""
+    """Return size/edition/display overrides so the option is free.
+
+    Dupli1 enforces UNIQUE(product_id, color, size) on the display strings, so
+    edition alone is not enough — colliding options need a distinct ``size``
+    label (and preferably a sizeCode / editionCode for the human SKU).
+    """
     color = (variant.get("colorCode") or "").upper()
     size = (variant.get("sizeCode") or "OS").upper() or "OS"
     edition = (variant.get("editionCode") or "").upper()
+    style = (product.get("styleCode") or "").strip()
+    desc = (product.get("description") or "").lower()
+    url = ((product.get("attributes") or {}).get("product_official_site_url") or "").lower()
 
-    candidates: list[tuple[str, str]] = [(size, edition)]
+    # (sizeCode, editionCode, sizeDisplay)
+    candidates: list[tuple[str, str, str]] = []
     if hints_small(product, variant):
-        candidates.append(("SML", edition))
-    # Prefer alternate construction before inventing more sizes.
+        candidates.append(("SML", edition, "Small"))
+    if "lambskin" in desc or "램스킨" in desc or "lambskin" in url:
+        candidates.append(("OS", "A", "Lambskin"))
+    if "aged" in desc or "에이지드" in desc:
+        candidates.append(("OS", "A", "Aged Calfskin"))
+    if style:
+        candidates.append(("OS", "A", f"Style {style[:12]}"))
     for ed in ("A", "R", "V"):
-        candidates.append((size, ed))
+        candidates.append(("OS", ed, f"Edition {ed}"))
+        candidates.append(("MED", ed, "Medium"))
+        candidates.append(("MIN", ed, "Mini"))
         if hints_small(product, variant):
-            candidates.append(("SML", ed))
-    candidates.append(("MED", edition))
-    candidates.append(("MIN", edition))
+            candidates.append(("SML", ed, "Small"))
 
-    seen: set[tuple[str, str]] = set()
-    for size_c, ed_c in candidates:
-        key = (size_c, ed_c)
+    seen: set[tuple[str, str, str]] = set()
+    for size_c, ed_c, size_display in candidates:
+        key = (size_c, ed_c, size_display)
         if key in seen:
             continue
         seen.add(key)
+        # occupied tracks colorCode/sizeCode/edition; also avoid duplicate size labels
         opt = (color, size_c, ed_c)
         if opt not in occupied:
-            return {"sizeCode": size_c, "editionCode": ed_c}
+            out = {"sizeCode": size_c, "size": size_display}
+            if ed_c:
+                out["editionCode"] = ed_c
+            return out
     return None
 
 
@@ -155,13 +173,22 @@ def plan_group(client: Dupli1, items: list[dict]) -> dict[str, Any]:
     losers = full[1:]
 
     occupied = {option_key(v) for v in (keeper.get("variants") or [])}
+    # DB UNIQUE(product_id, color, size) uses display strings.
+    occupied_labels = {
+        ((v.get("color") or "").strip().lower(), (v.get("size") or "").strip().lower())
+        for v in (keeper.get("variants") or [])
+    }
     actions: list[dict[str, Any]] = []
 
     for loser in losers:
         for variant in loser.get("variants") or []:
             key = option_key(variant)
+            label = (
+                (variant.get("color") or "").strip().lower(),
+                (variant.get("size") or "").strip().lower(),
+            )
             overrides: dict[str, str] = {}
-            if key in occupied:
+            if key in occupied or label in occupied_labels:
                 resolved = resolve_collision(loser, variant, occupied)
                 if not resolved:
                     actions.append(
@@ -175,10 +202,7 @@ def plan_group(client: Dupli1, items: list[dict]) -> dict[str, Any]:
                     )
                     continue
                 overrides = resolved
-                # Fill size display when we changed size code.
-                if overrides.get("sizeCode") and overrides["sizeCode"] != (
-                    variant.get("sizeCode") or "OS"
-                ):
+                if not overrides.get("size") and overrides.get("sizeCode"):
                     overrides["size"] = size_display(overrides["sizeCode"])
 
             payload = {
@@ -201,6 +225,12 @@ def plan_group(client: Dupli1, items: list[dict]) -> dict[str, Any]:
                     variant,
                     size_code=payload["sizeCode"],
                     edition=payload.get("editionCode") or "",
+                )
+            )
+            occupied_labels.add(
+                (
+                    (payload.get("color") or "").strip().lower(),
+                    (payload.get("size") or "").strip().lower(),
                 )
             )
             actions.append(

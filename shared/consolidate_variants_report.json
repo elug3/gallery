@@ -1,0 +1,2291 @@
+{
+  "dryRun": false,
+  "groupCount": 26,
+  "plans": [
+    {
+      "brand": "Hermes",
+      "name": "Hac a Dos PM 백팩",
+      "base": "hac a dos pm 백팩",
+      "keeperId": "01KY3MY9XTQ1PPGR7YNW54H3E4",
+      "keeperStyle": "H083589CK89",
+      "loserIds": [
+        "01KY3MY301RDHA9VERKAH8ZXS0",
+        "01KY3MXXXT550MP0D5CDHZ0Y3E",
+        "01KXSNAAVKMVP7V5NM29QEQMTR",
+        "01KXSN9XX0EKYSQD7RPJAHFWFR"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MY301RDHA9VERKAH8ZXS0",
+          "fromSku": "H085316CKAE",
+          "payload": {
+            "color": "Grey",
+            "colorCode": "GRY",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MY301RDHA9VERKAH8ZXS0/H085316CKAE/f42fae98-0ddf-4792-bcc7-3289216ce5e0",
+              "https://d180wegphwork2.cloudfront.net/01KY3MY301RDHA9VERKAH8ZXS0/H085316CKAE/60ce38e5-1d35-4c42-a7cf-14ce965e779a",
+              "https://d180wegphwork2.cloudfront.net/01KY3MY301RDHA9VERKAH8ZXS0/H085316CKAE/9bc242e9-68f4-439f-8761-bf58f9f14934",
+              "https://d180wegphwork2.cloudfront.net/01KY3MY301RDHA9VERKAH8ZXS0/H085316CKAE/33280e8a-3559-46a1-a67b-775ffd5815a5",
+              "https://d180wegphwork2.cloudfront.net/01KY3MY301RDHA9VERKAH8ZXS0/H085316CKAE/9ca948e6-be16-4f39-8448-f364f04ebcdf"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MY301RDHA9VERKAH8ZXS0",
+          "name": "Hac a Dos PM 백팩"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MXXXT550MP0D5CDHZ0Y3E",
+          "fromSku": "H083589CKN7",
+          "payload": {
+            "color": "Blue",
+            "colorCode": "BLU",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MXXXT550MP0D5CDHZ0Y3E/H083589CKN7/310dc768-f61e-485a-a9f8-9d1991163ff1",
+              "https://d180wegphwork2.cloudfront.net/01KY3MXXXT550MP0D5CDHZ0Y3E/H083589CKN7/3cebda92-6270-4c0c-82ec-b421a01653d9",
+              "https://d180wegphwork2.cloudfront.net/01KY3MXXXT550MP0D5CDHZ0Y3E/H083589CKN7/653123db-9e52-4b70-8c5d-5227a5b4eb26",
+              "https://d180wegphwork2.cloudfront.net/01KY3MXXXT550MP0D5CDHZ0Y3E/H083589CKN7/8e647589-8c82-4846-91e2-c3c3ca238131",
+              "https://d180wegphwork2.cloudfront.net/01KY3MXXXT550MP0D5CDHZ0Y3E/H083589CKN7/9a69a181-6440-46e9-a396-66dd671c08cb"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MXXXT550MP0D5CDHZ0Y3E",
+          "name": "Hac a Dos PM 백팩"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNAAVKMVP7V5NM29QEQMTR",
+          "fromSku": "H085960CKAB",
+          "payload": {
+            "color": "bleu marine/caban/caban",
+            "colorCode": "BLE",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNAAVKMVP7V5NM29QEQMTR/H085960CKAB/0f25fa3f-ec4e-467a-af43-5ddeb2573f4d",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAAVKMVP7V5NM29QEQMTR/H085960CKAB/728fec56-eb1a-474b-84d0-291528d7e5db",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAAVKMVP7V5NM29QEQMTR/H085960CKAB/3709e897-6cf6-4c40-b8af-011b2d8e280d",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAAVKMVP7V5NM29QEQMTR/H085960CKAB/b9ba2a13-9f6b-459e-82da-813435ed3712",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAAVKMVP7V5NM29QEQMTR/H085960CKAB/2a02956f-fbd4-41e9-a8d7-262226c31a0c"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNAAVKMVP7V5NM29QEQMTR",
+          "name": "Hac a Dos PM 백팩"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN9XX0EKYSQD7RPJAHFWFR",
+          "fromSku": "H083589CK10",
+          "payload": {
+            "color": "craie",
+            "colorCode": "CRA",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN9XX0EKYSQD7RPJAHFWFR/H083589CK10/43276c45-df56-4d09-bdfe-ffee33811bf6",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9XX0EKYSQD7RPJAHFWFR/H083589CK10/00e72d10-53d1-4c28-bcb0-99ccb3d2dd00",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9XX0EKYSQD7RPJAHFWFR/H083589CK10/a19aa42f-25fb-4735-a824-a858766ec750",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9XX0EKYSQD7RPJAHFWFR/H083589CK10/fe2821dc-dc05-4462-9b52-c46b8f8150d8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9XX0EKYSQD7RPJAHFWFR/H083589CK10/f5fd0c0b-0f08-48b4-ba3e-edbe13e04cc0"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN9XX0EKYSQD7RPJAHFWFR",
+          "name": "Hac a Dos PM 백팩"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MY301RDHA9VERKAH8ZXS0",
+          "fromSku": "H085316CKAE",
+          "payload": {
+            "color": "Grey",
+            "colorCode": "GRY",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MY301RDHA9VERKAH8ZXS0/H085316CKAE/f42fae98-0ddf-4792-bcc7-3289216ce5e0",
+              "https://d180wegphwork2.cloudfront.net/01KY3MY301RDHA9VERKAH8ZXS0/H085316CKAE/60ce38e5-1d35-4c42-a7cf-14ce965e779a",
+              "https://d180wegphwork2.cloudfront.net/01KY3MY301RDHA9VERKAH8ZXS0/H085316CKAE/9bc242e9-68f4-439f-8761-bf58f9f14934",
+              "https://d180wegphwork2.cloudfront.net/01KY3MY301RDHA9VERKAH8ZXS0/H085316CKAE/33280e8a-3559-46a1-a67b-775ffd5815a5",
+              "https://d180wegphwork2.cloudfront.net/01KY3MY301RDHA9VERKAH8ZXS0/H085316CKAE/9ca948e6-be16-4f39-8448-f364f04ebcdf"
+            ]
+          },
+          "ok": true,
+          "createdSku": "HER_H083589CK89_GRY_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MY301RDHA9VERKAH8ZXS0",
+          "name": "Hac a Dos PM 백팩",
+          "ok": true,
+          "status": "archived"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MXXXT550MP0D5CDHZ0Y3E",
+          "fromSku": "H083589CKN7",
+          "payload": {
+            "color": "Blue",
+            "colorCode": "BLU",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MXXXT550MP0D5CDHZ0Y3E/H083589CKN7/310dc768-f61e-485a-a9f8-9d1991163ff1",
+              "https://d180wegphwork2.cloudfront.net/01KY3MXXXT550MP0D5CDHZ0Y3E/H083589CKN7/3cebda92-6270-4c0c-82ec-b421a01653d9",
+              "https://d180wegphwork2.cloudfront.net/01KY3MXXXT550MP0D5CDHZ0Y3E/H083589CKN7/653123db-9e52-4b70-8c5d-5227a5b4eb26",
+              "https://d180wegphwork2.cloudfront.net/01KY3MXXXT550MP0D5CDHZ0Y3E/H083589CKN7/8e647589-8c82-4846-91e2-c3c3ca238131",
+              "https://d180wegphwork2.cloudfront.net/01KY3MXXXT550MP0D5CDHZ0Y3E/H083589CKN7/9a69a181-6440-46e9-a396-66dd671c08cb"
+            ]
+          },
+          "ok": true,
+          "createdSku": "HER_H083589CK89_BLU_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MXXXT550MP0D5CDHZ0Y3E",
+          "name": "Hac a Dos PM 백팩",
+          "ok": true,
+          "status": "archived"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNAAVKMVP7V5NM29QEQMTR",
+          "fromSku": "H085960CKAB",
+          "payload": {
+            "color": "bleu marine/caban/caban",
+            "colorCode": "BLE",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNAAVKMVP7V5NM29QEQMTR/H085960CKAB/0f25fa3f-ec4e-467a-af43-5ddeb2573f4d",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAAVKMVP7V5NM29QEQMTR/H085960CKAB/728fec56-eb1a-474b-84d0-291528d7e5db",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAAVKMVP7V5NM29QEQMTR/H085960CKAB/3709e897-6cf6-4c40-b8af-011b2d8e280d",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAAVKMVP7V5NM29QEQMTR/H085960CKAB/b9ba2a13-9f6b-459e-82da-813435ed3712",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAAVKMVP7V5NM29QEQMTR/H085960CKAB/2a02956f-fbd4-41e9-a8d7-262226c31a0c"
+            ]
+          },
+          "ok": true,
+          "createdSku": "HER_H083589CK89_BLE_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNAAVKMVP7V5NM29QEQMTR",
+          "name": "Hac a Dos PM 백팩",
+          "ok": true,
+          "status": "archived"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN9XX0EKYSQD7RPJAHFWFR",
+          "fromSku": "H083589CK10",
+          "payload": {
+            "color": "craie",
+            "colorCode": "CRA",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN9XX0EKYSQD7RPJAHFWFR/H083589CK10/43276c45-df56-4d09-bdfe-ffee33811bf6",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9XX0EKYSQD7RPJAHFWFR/H083589CK10/00e72d10-53d1-4c28-bcb0-99ccb3d2dd00",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9XX0EKYSQD7RPJAHFWFR/H083589CK10/a19aa42f-25fb-4735-a824-a858766ec750",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9XX0EKYSQD7RPJAHFWFR/H083589CK10/fe2821dc-dc05-4462-9b52-c46b8f8150d8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9XX0EKYSQD7RPJAHFWFR/H083589CK10/f5fd0c0b-0f08-48b4-ba3e-edbe13e04cc0"
+            ]
+          },
+          "ok": true,
+          "createdSku": "HER_H083589CK89_CRA_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN9XX0EKYSQD7RPJAHFWFR",
+          "name": "Hac a Dos PM 백팩",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Hermes",
+      "name": "Herbag Messenger 39 백",
+      "base": "herbag messenger 39",
+      "keeperId": "01KXSNAHGTBZK7TWAEJHHWT7GN",
+      "keeperStyle": "H084623CKAA",
+      "loserIds": [
+        "01KXSNA3AJS7YYNKDCJ6PQA6CX",
+        "01KXSNA4S76VX4GS16XGYSEXVX"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNA3AJS7YYNKDCJ6PQA6CX",
+          "fromSku": "H084489CKAC",
+          "payload": {
+            "color": "bleu marine/bleu indigo",
+            "colorCode": "BLE",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNA3AJS7YYNKDCJ6PQA6CX/H084489CKAC/d8ef5827-8a3c-4547-b5aa-0a6417712806",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA3AJS7YYNKDCJ6PQA6CX/H084489CKAC/8e3194d0-60c4-47e7-9edb-4d873b85a8bd",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA3AJS7YYNKDCJ6PQA6CX/H084489CKAC/66523bd3-1511-4066-bf7a-5129981df4b2",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA3AJS7YYNKDCJ6PQA6CX/H084489CKAC/f5a3b00c-e71b-4f16-b19f-10c33815b149",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA3AJS7YYNKDCJ6PQA6CX/H084489CKAC/0d47919a-f158-465b-ac4e-a49d4abfe547"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNA3AJS7YYNKDCJ6PQA6CX",
+          "name": "Herbag Messenger 39 백"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNA4S76VX4GS16XGYSEXVX",
+          "fromSku": "H084623CKAF",
+          "payload": {
+            "color": "écru/beige/naturel sable",
+            "colorCode": "BGE",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNA4S76VX4GS16XGYSEXVX/H084623CKAF/b71941f2-508f-4bc5-9f1e-49bbc87dcadf",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA4S76VX4GS16XGYSEXVX/H084623CKAF/83fdd8de-7c48-4611-874a-8ea5cb1631c3",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA4S76VX4GS16XGYSEXVX/H084623CKAF/a294370a-9d0c-4e5b-8334-2443c56b44ff",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA4S76VX4GS16XGYSEXVX/H084623CKAF/9dba18a5-a612-4f49-a351-f7a865aa3376"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNA4S76VX4GS16XGYSEXVX",
+          "name": "Herbag Messenger 39 백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNA3AJS7YYNKDCJ6PQA6CX",
+          "fromSku": "H084489CKAC",
+          "payload": {
+            "color": "bleu marine/bleu indigo",
+            "colorCode": "BLE",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNA3AJS7YYNKDCJ6PQA6CX/H084489CKAC/d8ef5827-8a3c-4547-b5aa-0a6417712806",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA3AJS7YYNKDCJ6PQA6CX/H084489CKAC/8e3194d0-60c4-47e7-9edb-4d873b85a8bd",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA3AJS7YYNKDCJ6PQA6CX/H084489CKAC/66523bd3-1511-4066-bf7a-5129981df4b2",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA3AJS7YYNKDCJ6PQA6CX/H084489CKAC/f5a3b00c-e71b-4f16-b19f-10c33815b149",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA3AJS7YYNKDCJ6PQA6CX/H084489CKAC/0d47919a-f158-465b-ac4e-a49d4abfe547"
+            ]
+          },
+          "ok": true,
+          "createdSku": "HER_H084623CKAA_BLE_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNA3AJS7YYNKDCJ6PQA6CX",
+          "name": "Herbag Messenger 39 백",
+          "ok": true,
+          "status": "archived"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNA4S76VX4GS16XGYSEXVX",
+          "fromSku": "H084623CKAF",
+          "payload": {
+            "color": "écru/beige/naturel sable",
+            "colorCode": "BGE",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNA4S76VX4GS16XGYSEXVX/H084623CKAF/b71941f2-508f-4bc5-9f1e-49bbc87dcadf",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA4S76VX4GS16XGYSEXVX/H084623CKAF/83fdd8de-7c48-4611-874a-8ea5cb1631c3",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA4S76VX4GS16XGYSEXVX/H084623CKAF/a294370a-9d0c-4e5b-8334-2443c56b44ff",
+              "https://d180wegphwork2.cloudfront.net/01KXSNA4S76VX4GS16XGYSEXVX/H084623CKAF/9dba18a5-a612-4f49-a351-f7a865aa3376"
+            ]
+          },
+          "ok": true,
+          "createdSku": "HER_H084623CKAA_BGE_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNA4S76VX4GS16XGYSEXVX",
+          "name": "Herbag Messenger 39 백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Hermes",
+      "name": "Videpoches 백",
+      "base": "videpoches",
+      "keeperId": "01KY3MY4WT3AEF9TZZSJAZM0SY",
+      "keeperStyle": "H088914CKP0",
+      "loserIds": [
+        "01KXSNAG37MC65J4K5ZSREZ09H",
+        "01KXSNAET3TK7WHXPF7Y9ZRBJ8"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNAG37MC65J4K5ZSREZ09H",
+          "fromSku": "H087987CK10",
+          "payload": {
+            "color": "craie",
+            "colorCode": "CRA",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/0c634792-b9ee-4647-a8be-03c791da876c",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/3db90f10-5b7a-4151-9b2e-a1b305eb077a",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/ed2408fc-a7f4-4525-a491-d73c9ea35434",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/f0c9145b-76a8-4c36-86dd-78f95f5b51f6",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/494be0d5-258f-402f-80d6-67fcad5946ec",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/99638d1e-93ff-4ca7-8811-158e43a16177"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNAG37MC65J4K5ZSREZ09H",
+          "name": "Videpoches 백"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNAET3TK7WHXPF7Y9ZRBJ8",
+          "fromSku": "H087901CKAE",
+          "payload": {
+            "color": "vert loden/vert loden/dune",
+            "colorCode": "VER",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNAET3TK7WHXPF7Y9ZRBJ8/H087901CKAE/ea5e26e3-b248-4ef0-95db-7dfa806f76ec",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAET3TK7WHXPF7Y9ZRBJ8/H087901CKAE/0b564a9e-c2bb-4b8b-b06f-5af7831bc4a6",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAET3TK7WHXPF7Y9ZRBJ8/H087901CKAE/4e148257-c813-49a8-96b8-2d339fab5f47",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAET3TK7WHXPF7Y9ZRBJ8/H087901CKAE/eeb07163-ba81-4742-b2aa-fb2bf3340031",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAET3TK7WHXPF7Y9ZRBJ8/H087901CKAE/46232c27-f5dd-416d-9c4b-ff57ff988361"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNAET3TK7WHXPF7Y9ZRBJ8",
+          "name": "Videpoches 백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNAG37MC65J4K5ZSREZ09H",
+          "fromSku": "H087987CK10",
+          "payload": {
+            "color": "craie",
+            "colorCode": "CRA",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/0c634792-b9ee-4647-a8be-03c791da876c",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/3db90f10-5b7a-4151-9b2e-a1b305eb077a",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/ed2408fc-a7f4-4525-a491-d73c9ea35434",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/f0c9145b-76a8-4c36-86dd-78f95f5b51f6",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/494be0d5-258f-402f-80d6-67fcad5946ec",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAG37MC65J4K5ZSREZ09H/H087987CK10/99638d1e-93ff-4ca7-8811-158e43a16177"
+            ]
+          },
+          "ok": true,
+          "createdSku": "HER_H088914CKP0_CRA_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNAG37MC65J4K5ZSREZ09H",
+          "name": "Videpoches 백",
+          "ok": true,
+          "status": "archived"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNAET3TK7WHXPF7Y9ZRBJ8",
+          "fromSku": "H087901CKAE",
+          "payload": {
+            "color": "vert loden/vert loden/dune",
+            "colorCode": "VER",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNAET3TK7WHXPF7Y9ZRBJ8/H087901CKAE/ea5e26e3-b248-4ef0-95db-7dfa806f76ec",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAET3TK7WHXPF7Y9ZRBJ8/H087901CKAE/0b564a9e-c2bb-4b8b-b06f-5af7831bc4a6",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAET3TK7WHXPF7Y9ZRBJ8/H087901CKAE/4e148257-c813-49a8-96b8-2d339fab5f47",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAET3TK7WHXPF7Y9ZRBJ8/H087901CKAE/eeb07163-ba81-4742-b2aa-fb2bf3340031",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAET3TK7WHXPF7Y9ZRBJ8/H087901CKAE/46232c27-f5dd-416d-9c4b-ff57ff988361"
+            ]
+          },
+          "ok": true,
+          "createdSku": "HER_H088914CKP0_VER_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNAET3TK7WHXPF7Y9ZRBJ8",
+          "name": "Videpoches 백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Loewe",
+      "name": "미니 스카프 백 - 스무스 카프스킨",
+      "base": "미니 스카프 백 스무스 카프스킨",
+      "keeperId": "01KXSNARHQBKE4J4NMZWZ2TV3S",
+      "keeperStyle": "ABNYUN019579",
+      "loserIds": [
+        "01KXSNAP8XRC82902Q0PJ8G6FA",
+        "01KXSN7N0M6NF66GWKGPYJFY7G"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNAP8XRC82902Q0PJ8G6FA",
+          "fromSku": "ABNYUNNX01-8240",
+          "payload": {
+            "color": "Lemon",
+            "colorCode": "LEM",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/57c2057e-6268-4ffc-a879-ba2b572cfa8e",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/55730d34-cc84-475e-ba35-a7e1fa26cd98",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/7bcb76b3-9b61-46e3-81e3-a1506b6bcfa4",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/c4f3b8eb-e3e4-45d5-8213-4688c8272134",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/9f9e1faf-1ff7-4675-8435-c8e95caa1dd0",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/03449a2c-daeb-4aef-83b7-463fbed82e57",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/92a412aa-1f87-4f02-a3a6-0d7751a2c4ac",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/83d41068-6223-4d66-bd94-7cd775bf2270",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/3db15d23-281f-40b1-b18a-818aa3c775e5",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/334cb563-5f48-4647-919e-50c4c763b9b0",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/68c72a61-e034-4b91-ad49-f97220dfb98e"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNAP8XRC82902Q0PJ8G6FA",
+          "name": "미니 스카프 백 - 스무스 카프스킨"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN7N0M6NF66GWKGPYJFY7G",
+          "fromSku": "ABNYUNNX01-1950",
+          "payload": {
+            "color": "Soft White",
+            "colorCode": "WHT",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/a41163f2-41e7-4643-a5af-874ffa347294",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/11ceedc3-8558-491c-82ac-d3b59992b953",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/0523d364-3cca-4dcc-8e26-a7bb3bd97992",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/02308e31-e6c1-431b-a683-55f82dc6de05",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/c8e39c42-8df3-4ae6-9e30-28de8e1cd8e8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/789c92e9-bc31-47dd-a625-c0e3f778beff",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/c6910319-78da-485e-ac19-baed4f457688",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/9ef804e8-2d93-4ffc-9f2f-218fd7f5b4fc",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/3f144740-14d8-46f7-92c5-f66100951e70",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/6c42401b-6c0f-4174-90f8-59ab29db1ab9",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/74a64dd7-c10c-4aeb-8897-4e658afc06c6"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN7N0M6NF66GWKGPYJFY7G",
+          "name": "미니 스카프 백 - 스무스 카프스킨"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNAP8XRC82902Q0PJ8G6FA",
+          "fromSku": "ABNYUNNX01-8240",
+          "payload": {
+            "color": "Lemon",
+            "colorCode": "LEM",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/57c2057e-6268-4ffc-a879-ba2b572cfa8e",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/55730d34-cc84-475e-ba35-a7e1fa26cd98",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/7bcb76b3-9b61-46e3-81e3-a1506b6bcfa4",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/c4f3b8eb-e3e4-45d5-8213-4688c8272134",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/9f9e1faf-1ff7-4675-8435-c8e95caa1dd0",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/03449a2c-daeb-4aef-83b7-463fbed82e57",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/92a412aa-1f87-4f02-a3a6-0d7751a2c4ac",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/83d41068-6223-4d66-bd94-7cd775bf2270",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/3db15d23-281f-40b1-b18a-818aa3c775e5",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/334cb563-5f48-4647-919e-50c4c763b9b0",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAP8XRC82902Q0PJ8G6FA/ABNYUNNX01-8240/68c72a61-e034-4b91-ad49-f97220dfb98e"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LOE_ABNYUN019579_LEM_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNAP8XRC82902Q0PJ8G6FA",
+          "name": "미니 스카프 백 - 스무스 카프스킨",
+          "ok": true,
+          "status": "archived"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN7N0M6NF66GWKGPYJFY7G",
+          "fromSku": "ABNYUNNX01-1950",
+          "payload": {
+            "color": "Soft White",
+            "colorCode": "WHT",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/a41163f2-41e7-4643-a5af-874ffa347294",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/11ceedc3-8558-491c-82ac-d3b59992b953",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/0523d364-3cca-4dcc-8e26-a7bb3bd97992",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/02308e31-e6c1-431b-a683-55f82dc6de05",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/c8e39c42-8df3-4ae6-9e30-28de8e1cd8e8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/789c92e9-bc31-47dd-a625-c0e3f778beff",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/c6910319-78da-485e-ac19-baed4f457688",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/9ef804e8-2d93-4ffc-9f2f-218fd7f5b4fc",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/3f144740-14d8-46f7-92c5-f66100951e70",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/6c42401b-6c0f-4174-90f8-59ab29db1ab9",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7N0M6NF66GWKGPYJFY7G/ABNYUNNX01-1950/74a64dd7-c10c-4aeb-8897-4e658afc06c6"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LOE_ABNYUN019579_WHT_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN7N0M6NF66GWKGPYJFY7G",
+          "name": "미니 스카프 백 - 스무스 카프스킨",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Loewe",
+      "name": "미디엄 스카프 백 - 스무스 카프스킨",
+      "base": "미디엄 스카프 백 스무스 카프스킨",
+      "keeperId": "01KXSNAJA118RTHABRMZZ3X9KN",
+      "keeperStyle": "ABNYBN011100",
+      "loserIds": [
+        "01KXSN7J4D3VK7KF23VV5V1F5P",
+        "01KXSNAM6CKZ44WEPNEZWAW1JK"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN7J4D3VK7KF23VV5V1F5P",
+          "fromSku": "ABNYBNMX01-1950",
+          "payload": {
+            "color": "Soft White",
+            "colorCode": "WHT",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/d7de1ef8-af14-45cb-b919-f04ba6455651",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/3f088c3f-bc78-4988-8c4d-33bd3a3071a4",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/3ca67c8b-3d2d-4fec-9f32-7ba0f1d0d7e2",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/5a2b7e18-a35a-42b0-b92d-5d6c6eb72d67",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/d4524fd4-4421-4119-a599-3d140b55839b",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/f27d168b-2744-49f2-93cd-0e9bf3a4b373",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/ab4685aa-a2bd-469f-ac3e-f810ea48d80e",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/e906f574-360c-4a9d-a115-f55d87b16c6a",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/4f3c5c6e-1e2e-4147-89a8-95d7409509d9",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/a7768af2-bd51-4a3a-85c3-d8b257657df8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/c386dbfc-e2f6-4487-99da-cbc8b3831e48"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN7J4D3VK7KF23VV5V1F5P",
+          "name": "미디엄 스카프 백 - 스무스 카프스킨"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNAM6CKZ44WEPNEZWAW1JK",
+          "fromSku": "ABNYBNMX01-4927",
+          "payload": {
+            "color": "Squirrel",
+            "colorCode": "SQU",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/eebbb61a-b3ee-497e-8936-26b39668fc50",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/27e5ee10-1fe8-4f5a-b12d-67a4c7715d37",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/5aa158e9-6777-46db-987c-efb0b27f5eef",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/194443d7-cdbe-446b-ba7e-102894603baa",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/c720ab7b-b061-43f3-8a59-4edf4c2c9d80",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/67357567-f322-4c0e-bb8f-5d8d534de771",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/f597c5b6-acee-4e0d-8ee7-55aa0a7c457a",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/9c20e4d6-ecd1-4efb-a41e-aa4f6b460525",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/280f0a5c-f4c6-4092-b163-e0fcc58a1b5a",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/731d4a31-7068-48bd-9dbe-5c2bf608e88a"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNAM6CKZ44WEPNEZWAW1JK",
+          "name": "미디엄 스카프 백 - 스무스 카프스킨"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN7J4D3VK7KF23VV5V1F5P",
+          "fromSku": "ABNYBNMX01-1950",
+          "payload": {
+            "color": "Soft White",
+            "colorCode": "WHT",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/d7de1ef8-af14-45cb-b919-f04ba6455651",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/3f088c3f-bc78-4988-8c4d-33bd3a3071a4",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/3ca67c8b-3d2d-4fec-9f32-7ba0f1d0d7e2",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/5a2b7e18-a35a-42b0-b92d-5d6c6eb72d67",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/d4524fd4-4421-4119-a599-3d140b55839b",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/f27d168b-2744-49f2-93cd-0e9bf3a4b373",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/ab4685aa-a2bd-469f-ac3e-f810ea48d80e",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/e906f574-360c-4a9d-a115-f55d87b16c6a",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/4f3c5c6e-1e2e-4147-89a8-95d7409509d9",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/a7768af2-bd51-4a3a-85c3-d8b257657df8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7J4D3VK7KF23VV5V1F5P/ABNYBNMX01-1950/c386dbfc-e2f6-4487-99da-cbc8b3831e48"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LOE_ABNYBN011100_WHT_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN7J4D3VK7KF23VV5V1F5P",
+          "name": "미디엄 스카프 백 - 스무스 카프스킨",
+          "ok": true,
+          "status": "archived"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSNAM6CKZ44WEPNEZWAW1JK",
+          "fromSku": "ABNYBNMX01-4927",
+          "payload": {
+            "color": "Squirrel",
+            "colorCode": "SQU",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/eebbb61a-b3ee-497e-8936-26b39668fc50",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/27e5ee10-1fe8-4f5a-b12d-67a4c7715d37",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/5aa158e9-6777-46db-987c-efb0b27f5eef",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/194443d7-cdbe-446b-ba7e-102894603baa",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/c720ab7b-b061-43f3-8a59-4edf4c2c9d80",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/67357567-f322-4c0e-bb8f-5d8d534de771",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/f597c5b6-acee-4e0d-8ee7-55aa0a7c457a",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/9c20e4d6-ecd1-4efb-a41e-aa4f6b460525",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/280f0a5c-f4c6-4092-b163-e0fcc58a1b5a",
+              "https://d180wegphwork2.cloudfront.net/01KXSNAM6CKZ44WEPNEZWAW1JK/ABNYBNMX01-4927/731d4a31-7068-48bd-9dbe-5c2bf608e88a"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LOE_ABNYBN011100_SQU_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSNAM6CKZ44WEPNEZWAW1JK",
+          "name": "미디엄 스카프 백 - 스무스 카프스킨",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Louis Vuitton",
+      "name": "스피디 18 반둘리에",
+      "base": "스피디 18 반둘리에",
+      "keeperId": "01KY3N05W1GS3H9ZGYVZTBYC0V",
+      "keeperStyle": "N00208",
+      "loserIds": [
+        "01KY3MZV9ASH72VYADKZQMNKVH",
+        "01KY3MZXBVMZVCDR34DJ88KQA1"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MZV9ASH72VYADKZQMNKVH",
+          "fromSku": "M27557",
+          "payload": {
+            "color": "Blue Denim",
+            "colorCode": "BLU",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/dd113060-88da-404e-8ea0-fa81c24c8da8",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/3ee55090-a424-481e-aba8-e0d56b8dd2f0",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/a3735bbc-8d37-41e7-8c3a-d116d65b7843",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/014f0350-f2d9-479f-977b-9594bb27bd5e",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/82233343-322f-4ebe-a3b1-07547c48cde2",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/af5a6c67-058a-4891-ac7a-4835f7afa0bd"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MZV9ASH72VYADKZQMNKVH",
+          "name": "스피디 18 반둘리에"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MZXBVMZVCDR34DJ88KQA1",
+          "fromSku": "M29050",
+          "payload": {
+            "color": "Indigo",
+            "colorCode": "IND",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/2a445d08-9fc2-4c28-9f93-446f4aaf1149",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/8a8d6a6c-16eb-479d-84e5-82ebfafcd9ff",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/6c06b94c-bb21-4a71-8b22-403b0743e54a",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/534783cb-4b53-466d-84c9-ed4cfdceff5e",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/0bb9b8d9-9cb4-4a8e-97bd-0998a980737b",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/25929ef8-6843-4ae4-a845-63bc9e841d81"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MZXBVMZVCDR34DJ88KQA1",
+          "name": "스피디 18 반둘리에"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MZV9ASH72VYADKZQMNKVH",
+          "fromSku": "M27557",
+          "payload": {
+            "color": "Blue Denim",
+            "colorCode": "BLU",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/dd113060-88da-404e-8ea0-fa81c24c8da8",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/3ee55090-a424-481e-aba8-e0d56b8dd2f0",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/a3735bbc-8d37-41e7-8c3a-d116d65b7843",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/014f0350-f2d9-479f-977b-9594bb27bd5e",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/82233343-322f-4ebe-a3b1-07547c48cde2",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZV9ASH72VYADKZQMNKVH/M27557/af5a6c67-058a-4891-ac7a-4835f7afa0bd"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LV_N00208_BLU_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MZV9ASH72VYADKZQMNKVH",
+          "name": "스피디 18 반둘리에",
+          "ok": true,
+          "status": "archived"
+        },
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MZXBVMZVCDR34DJ88KQA1",
+          "fromSku": "M29050",
+          "payload": {
+            "color": "Indigo",
+            "colorCode": "IND",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/2a445d08-9fc2-4c28-9f93-446f4aaf1149",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/8a8d6a6c-16eb-479d-84e5-82ebfafcd9ff",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/6c06b94c-bb21-4a71-8b22-403b0743e54a",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/534783cb-4b53-466d-84c9-ed4cfdceff5e",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/0bb9b8d9-9cb4-4a8e-97bd-0998a980737b",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZXBVMZVCDR34DJ88KQA1/M29050/25929ef8-6843-4ae4-a845-63bc9e841d81"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LV_N00208_IND_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MZXBVMZVCDR34DJ88KQA1",
+          "name": "스피디 18 반둘리에",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "2.55 핸드백",
+      "base": "255 핸드",
+      "keeperId": "01KXPY574C0W0E8CBSG33SCGEF",
+      "keeperStyle": "A37586Y04634",
+      "loserIds": [
+        "01KXPY56AT0VVZMJJ4T4MJE6RF"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXPY56AT0VVZMJJ4T4MJE6RF",
+          "fromSku": "A37586B2374694305",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/44234791-c755-4522-835e-c6eee8f17ca2",
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/2d0a7eff-9ef8-4bff-882a-63a752c45fac",
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/aabb96f7-f32d-42e3-b629-a1a62eedab8e",
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/44aaccc6-42e3-4883-a920-d7b8673c9e23",
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/2c8e8ff0-8119-4511-bddb-ad8852dd8e57",
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/23bc40fc-b6c9-4f97-a776-615380c2d485"
+            ],
+            "editionCode": "A"
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXPY56AT0VVZMJJ4T4MJE6RF",
+          "name": "2.55 핸드백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXPY56AT0VVZMJJ4T4MJE6RF",
+          "fromSku": "A37586B2374694305",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/44234791-c755-4522-835e-c6eee8f17ca2",
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/2d0a7eff-9ef8-4bff-882a-63a752c45fac",
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/aabb96f7-f32d-42e3-b629-a1a62eedab8e",
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/44aaccc6-42e3-4883-a920-d7b8673c9e23",
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/2c8e8ff0-8119-4511-bddb-ad8852dd8e57",
+              "https://d180wegphwork2.cloudfront.net/01KXPY56AT0VVZMJJ4T4MJE6RF/A37586B2374694305/23bc40fc-b6c9-4f97-a776-615380c2d485"
+            ],
+            "editionCode": "A"
+          },
+          "ok": false,
+          "error": "POST /api/v1/products/01KXPY574C0W0E8CBSG33SCGEF/variants -> 409: {'error': 'create variant: conflict', 'code': 409}"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXPY56AT0VVZMJJ4T4MJE6RF",
+          "name": "2.55 핸드백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "보이 샤넬 핸드백",
+      "base": "보이 샤넬 핸드",
+      "keeperId": "01KXPY59AY8Z6F009M15TSXW0T",
+      "keeperStyle": "A67086Y09953",
+      "loserIds": [
+        "01KXPY58BM1EKRCYQ89DQ1VVYH"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXPY58BM1EKRCYQ89DQ1VVYH",
+          "fromSku": "A67085Y0995394305",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "Small",
+            "sizeCode": "SML",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/1ed65e49-a441-4a8a-a826-773e73669570",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/ea2ef943-4b75-4925-ac50-3aaa21eff5ff",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/b47b9307-0fcc-40b2-ac22-8b54985fa240",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/ae55026a-1d63-4c81-9756-3b38a5184b5d",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/77587649-2e88-4c74-a2d4-43942e532c1f",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/e0ede7bb-09b9-44f6-87aa-c02684b7677d",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/8dae93fb-e0ce-471e-b79d-f3549f60daba",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/086e5c68-9214-4df0-86ca-7b88a990a011"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXPY58BM1EKRCYQ89DQ1VVYH",
+          "name": "보이 샤넬 핸드백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXPY58BM1EKRCYQ89DQ1VVYH",
+          "fromSku": "A67085Y0995394305",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "Small",
+            "sizeCode": "SML",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/1ed65e49-a441-4a8a-a826-773e73669570",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/ea2ef943-4b75-4925-ac50-3aaa21eff5ff",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/b47b9307-0fcc-40b2-ac22-8b54985fa240",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/ae55026a-1d63-4c81-9756-3b38a5184b5d",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/77587649-2e88-4c74-a2d4-43942e532c1f",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/e0ede7bb-09b9-44f6-87aa-c02684b7677d",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/8dae93fb-e0ce-471e-b79d-f3549f60daba",
+              "https://d180wegphwork2.cloudfront.net/01KXPY58BM1EKRCYQ89DQ1VVYH/A67085Y0995394305/086e5c68-9214-4df0-86ca-7b88a990a011"
+            ]
+          },
+          "ok": true,
+          "createdSku": "CH_A67086Y09953_BLK_SML"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXPY58BM1EKRCYQ89DQ1VVYH",
+          "name": "보이 샤넬 핸드백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Chanel",
+      "name": "클래식 11.12 핸드백",
+      "base": "클래식 1112 핸드",
+      "keeperId": "01KXPY53FX0MKF1J3QAYW7Y8WD",
+      "keeperStyle": "A01112Y01295",
+      "loserIds": [
+        "01KXPY52PB3R3W296MEDYQC2E2"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXPY52PB3R3W296MEDYQC2E2",
+          "fromSku": "A01112B25720UB663",
+          "payload": {
+            "color": "Dark Red",
+            "colorCode": "RED",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/b7d65028-387d-42cf-b854-cdb8f9650c2d",
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/993f7f03-fb5c-4eee-a8db-719d74860034",
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/04c76857-1d35-4240-8ce2-590aa8f1fe4c",
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/532c99d6-0265-416d-863b-b6d01e65bf5e",
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/d496832a-0275-4d68-bc27-83b2cd6d4e09",
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/84c8733b-6ea2-4103-bce9-51c665a4dfba"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXPY52PB3R3W296MEDYQC2E2",
+          "name": "클래식 11.12 핸드백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXPY52PB3R3W296MEDYQC2E2",
+          "fromSku": "A01112B25720UB663",
+          "payload": {
+            "color": "Dark Red",
+            "colorCode": "RED",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/b7d65028-387d-42cf-b854-cdb8f9650c2d",
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/993f7f03-fb5c-4eee-a8db-719d74860034",
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/04c76857-1d35-4240-8ce2-590aa8f1fe4c",
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/532c99d6-0265-416d-863b-b6d01e65bf5e",
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/d496832a-0275-4d68-bc27-83b2cd6d4e09",
+              "https://d180wegphwork2.cloudfront.net/01KXPY52PB3R3W296MEDYQC2E2/A01112B25720UB663/84c8733b-6ea2-4103-bce9-51c665a4dfba"
+            ]
+          },
+          "ok": true,
+          "createdSku": "CH_A01112Y01295_RED_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXPY52PB3R3W296MEDYQC2E2",
+          "name": "클래식 11.12 핸드백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Hermes",
+      "name": "Kelly Depêches 25 파우치",
+      "base": "kelly depêches 25 파우치",
+      "keeperId": "01KY3MYBXP0NB6T0750ASWF1CQ",
+      "keeperStyle": "H083320CKAC",
+      "loserIds": [
+        "01KXSN9WQ2SJSJ8MDDZQMQQHZ0"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN9WQ2SJSJ8MDDZQMQQHZ0",
+          "fromSku": "H082312CK89",
+          "payload": {
+            "color": "noir",
+            "colorCode": "NOI",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN9WQ2SJSJ8MDDZQMQQHZ0/H082312CK89/1a736523-5383-49d4-9ebf-f34341b02676",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9WQ2SJSJ8MDDZQMQQHZ0/H082312CK89/8d06b142-6205-4613-a3b1-5e0a26f416a3",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9WQ2SJSJ8MDDZQMQQHZ0/H082312CK89/774d7c98-b4ae-4a9c-829b-59b18add2508",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9WQ2SJSJ8MDDZQMQQHZ0/H082312CK89/06896923-c526-400b-b40b-c89347c05c14"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN9WQ2SJSJ8MDDZQMQQHZ0",
+          "name": "Kelly Depêches 25 파우치"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN9WQ2SJSJ8MDDZQMQQHZ0",
+          "fromSku": "H082312CK89",
+          "payload": {
+            "color": "noir",
+            "colorCode": "NOI",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN9WQ2SJSJ8MDDZQMQQHZ0/H082312CK89/1a736523-5383-49d4-9ebf-f34341b02676",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9WQ2SJSJ8MDDZQMQQHZ0/H082312CK89/8d06b142-6205-4613-a3b1-5e0a26f416a3",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9WQ2SJSJ8MDDZQMQQHZ0/H082312CK89/774d7c98-b4ae-4a9c-829b-59b18add2508",
+              "https://d180wegphwork2.cloudfront.net/01KXSN9WQ2SJSJ8MDDZQMQQHZ0/H082312CK89/06896923-c526-400b-b40b-c89347c05c14"
+            ]
+          },
+          "ok": true,
+          "createdSku": "HER_H083320CKAC_NOI_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN9WQ2SJSJ8MDDZQMQQHZ0",
+          "name": "Kelly Depêches 25 파우치",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Loewe",
+      "name": "미니 플라멩코 클러치 - 나파 카프스킨",
+      "base": "미니 플라멩코 클러치 나파 카프스킨",
+      "keeperId": "01KXSN80VB2SHJJ6PWMFKD67MD",
+      "keeperStyle": "A411FC2XA6",
+      "loserIds": [
+        "01KXSN7ZAVJN6TVTH4K8BGXYJV"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN7ZAVJN6TVTH4K8BGXYJV",
+          "fromSku": "A411FC2XB0-9538",
+          "payload": {
+            "color": "Clover Green",
+            "colorCode": "GRN",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/2c39b4c5-4a2b-49ec-8659-9abd256dcfcd",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/2c662ce0-0f22-445e-80b2-4a1cded27efc",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/83a4fc2f-34ba-44b3-94ed-8208401a8541",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/d8d573dc-335b-41b2-a059-6da05b74475c",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/e6fe77a5-8c76-4755-ac73-a185da2bbf0c",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/cbf5b8eb-107c-4823-9cfd-2d646d6c89c6",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/30ec2ace-155d-4957-abad-05e9060d29b6",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/28dd150e-d37f-4b0e-b269-87194cbe1ec0"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN7ZAVJN6TVTH4K8BGXYJV",
+          "name": "미니 플라멩코 클러치 - 나파 카프스킨"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN7ZAVJN6TVTH4K8BGXYJV",
+          "fromSku": "A411FC2XB0-9538",
+          "payload": {
+            "color": "Clover Green",
+            "colorCode": "GRN",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/2c39b4c5-4a2b-49ec-8659-9abd256dcfcd",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/2c662ce0-0f22-445e-80b2-4a1cded27efc",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/83a4fc2f-34ba-44b3-94ed-8208401a8541",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/d8d573dc-335b-41b2-a059-6da05b74475c",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/e6fe77a5-8c76-4755-ac73-a185da2bbf0c",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/cbf5b8eb-107c-4823-9cfd-2d646d6c89c6",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/30ec2ace-155d-4957-abad-05e9060d29b6",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7ZAVJN6TVTH4K8BGXYJV/A411FC2XB0-9538/28dd150e-d37f-4b0e-b269-87194cbe1ec0"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LOE_A411FC2XA6_GRN_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN7ZAVJN6TVTH4K8BGXYJV",
+          "name": "미니 플라멩코 클러치 - 나파 카프스킨",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Loewe",
+      "name": "미니 플라멩코 플리츠 펄스 - 나파 램스킨",
+      "base": "미니 플라멩코 플리츠 펄스 나파 램스킨",
+      "keeperId": "01KXSNAZXT9T0GJH9B4W0VA2BX",
+      "keeperStyle": "A411NB428240",
+      "loserIds": [
+        "01KXSN82GFNT98SH6CJHQGXJ8Q"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN82GFNT98SH6CJHQGXJ8Q",
+          "fromSku": "A411NBPX42-1100",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/1eb96b7d-0502-4bb4-b6dc-cb63f139438f",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/47b9e47c-4778-43ac-960c-2fc4c5dcded8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/f823ff0b-352c-4edf-96f8-cb8705ed802d",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/40f62414-1b17-4d7d-8357-271059f4b9ba",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/ef23ec78-8032-4639-97d4-fa69759d542a",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/67d5ba9c-628f-4abf-9e46-c9ef7fad44df",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/ca28d68d-6834-4bd9-9879-2361f3ec24e8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/dd088685-5fd0-4700-9259-2fc03fab51e4",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/9a7807f8-3bf8-42ab-b608-e6852298e7da",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/6a89ac3f-1da4-4fd9-996c-24f009d631e3",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/9f03c40d-94ea-49cd-9a62-e1c04af1546e"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN82GFNT98SH6CJHQGXJ8Q",
+          "name": "미니 플라멩코 플리츠 펄스 - 나파 램스킨"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN82GFNT98SH6CJHQGXJ8Q",
+          "fromSku": "A411NBPX42-1100",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/1eb96b7d-0502-4bb4-b6dc-cb63f139438f",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/47b9e47c-4778-43ac-960c-2fc4c5dcded8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/f823ff0b-352c-4edf-96f8-cb8705ed802d",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/40f62414-1b17-4d7d-8357-271059f4b9ba",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/ef23ec78-8032-4639-97d4-fa69759d542a",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/67d5ba9c-628f-4abf-9e46-c9ef7fad44df",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/ca28d68d-6834-4bd9-9879-2361f3ec24e8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/dd088685-5fd0-4700-9259-2fc03fab51e4",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/9a7807f8-3bf8-42ab-b608-e6852298e7da",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/6a89ac3f-1da4-4fd9-996c-24f009d631e3",
+              "https://d180wegphwork2.cloudfront.net/01KXSN82GFNT98SH6CJHQGXJ8Q/A411NBPX42-1100/9f03c40d-94ea-49cd-9a62-e1c04af1546e"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LOE_A411NB428240_BLK_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN82GFNT98SH6CJHQGXJ8Q",
+          "name": "미니 플라멩코 플리츠 펄스 - 나파 램스킨",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Loewe",
+      "name": "미디엄 플라멩코 펄스 - 멜로우 나파 램스킨",
+      "base": "미디엄 플라멩코 펄스 멜로우 나파 램스킨",
+      "keeperId": "01KXSNB2Q4KT3515QFZMF2X9AY",
+      "keeperStyle": "A411FC757240",
+      "loserIds": [
+        "01KXSN84JW368FTPHYPWXS6J5R"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN84JW368FTPHYPWXS6J5R",
+          "fromSku": "A411FCRX75-0018",
+          "payload": {
+            "color": "Dark Chestnut",
+            "colorCode": "DAR",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/0a774cda-ba7d-49f4-8e70-edeef7b9bb86",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/3ffae1bf-f729-4d5a-a301-3e2452406adf",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/5593f854-0b23-4a81-ae9a-4e8afdf95982",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/5d36b13e-da6f-4eee-b78a-8eb5acec9f86",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/9876250f-6dc5-4735-8d25-eef16366fa22",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/fc801a11-4b67-4e4e-b16e-af9d2e438476",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/7c61ee21-3c96-4ec8-bd3f-5ada6122027b",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/20503d8f-04dd-4b0c-ba55-e8a44170787e",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/98394284-4c46-4fb1-a51c-b76656b9aecf",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/78201914-afc4-49e7-8db2-10ec5fff984c",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/feb106d7-9f17-4165-82a4-c1ec3813fda8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/9d15be02-3517-4208-a81a-368b7345cc7f",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/0725581f-3cf9-4097-b1ad-45b764b16999"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN84JW368FTPHYPWXS6J5R",
+          "name": "미디엄 플라멩코 펄스 - 멜로우 나파 램스킨"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN84JW368FTPHYPWXS6J5R",
+          "fromSku": "A411FCRX75-0018",
+          "payload": {
+            "color": "Dark Chestnut",
+            "colorCode": "DAR",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/0a774cda-ba7d-49f4-8e70-edeef7b9bb86",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/3ffae1bf-f729-4d5a-a301-3e2452406adf",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/5593f854-0b23-4a81-ae9a-4e8afdf95982",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/5d36b13e-da6f-4eee-b78a-8eb5acec9f86",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/9876250f-6dc5-4735-8d25-eef16366fa22",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/fc801a11-4b67-4e4e-b16e-af9d2e438476",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/7c61ee21-3c96-4ec8-bd3f-5ada6122027b",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/20503d8f-04dd-4b0c-ba55-e8a44170787e",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/98394284-4c46-4fb1-a51c-b76656b9aecf",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/78201914-afc4-49e7-8db2-10ec5fff984c",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/feb106d7-9f17-4165-82a4-c1ec3813fda8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/9d15be02-3517-4208-a81a-368b7345cc7f",
+              "https://d180wegphwork2.cloudfront.net/01KXSN84JW368FTPHYPWXS6J5R/A411FCRX75-0018/0725581f-3cf9-4097-b1ad-45b764b16999"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LOE_A411FC757240_DAR_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN84JW368FTPHYPWXS6J5R",
+          "name": "미디엄 플라멩코 펄스 - 멜로우 나파 램스킨",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Loewe",
+      "name": "브레이슬릿 파우치 - 플리츠 나파 램스킨",
+      "base": "브레이슬릿 파우치 플리츠 나파 램스킨",
+      "keeperId": "01KXSNAX6KMH064SZ0XG9FFWAP",
+      "keeperStyle": "A912P8379579",
+      "loserIds": [
+        "01KXSN7SK8Q6A5EKTQY0JZK0KG"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN7SK8Q6A5EKTQY0JZK0KG",
+          "fromSku": "A912P84X37-9538",
+          "payload": {
+            "color": "Clover Green",
+            "colorCode": "GRN",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN7SK8Q6A5EKTQY0JZK0KG/A912P84X37-9538/f780c7df-1408-4a45-ad39-82d1bbd5fc5d",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7SK8Q6A5EKTQY0JZK0KG/A912P84X37-9538/9dbe7cc8-b0cf-4492-a41c-47b05c06fe06",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7SK8Q6A5EKTQY0JZK0KG/A912P84X37-9538/6ca44585-b061-4ed1-b5c6-6985aa688801",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7SK8Q6A5EKTQY0JZK0KG/A912P84X37-9538/af713af0-fedc-4672-a9cb-814686d3e6e4",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7SK8Q6A5EKTQY0JZK0KG/A912P84X37-9538/d49368da-6303-49cd-b086-01db01709e6e"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN7SK8Q6A5EKTQY0JZK0KG",
+          "name": "브레이슬릿 파우치 - 플리츠 나파 램스킨"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN7SK8Q6A5EKTQY0JZK0KG",
+          "fromSku": "A912P84X37-9538",
+          "payload": {
+            "color": "Clover Green",
+            "colorCode": "GRN",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN7SK8Q6A5EKTQY0JZK0KG/A912P84X37-9538/f780c7df-1408-4a45-ad39-82d1bbd5fc5d",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7SK8Q6A5EKTQY0JZK0KG/A912P84X37-9538/9dbe7cc8-b0cf-4492-a41c-47b05c06fe06",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7SK8Q6A5EKTQY0JZK0KG/A912P84X37-9538/6ca44585-b061-4ed1-b5c6-6985aa688801",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7SK8Q6A5EKTQY0JZK0KG/A912P84X37-9538/af713af0-fedc-4672-a9cb-814686d3e6e4",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7SK8Q6A5EKTQY0JZK0KG/A912P84X37-9538/d49368da-6303-49cd-b086-01db01709e6e"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LOE_A912P8379579_GRN_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN7SK8Q6A5EKTQY0JZK0KG",
+          "name": "브레이슬릿 파우치 - 플리츠 나파 램스킨",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Loewe",
+      "name": "스카프 백팩 - 스무스 카프스킨",
+      "base": "스카프 백팩 스무스 카프스킨",
+      "keeperId": "01KXSNAV003GJ7DVT853CVDT2Q",
+      "keeperStyle": "ABNYBL019579",
+      "loserIds": [
+        "01KXSN7QQC7AAKX3DYPZAB8XJ5"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN7QQC7AAKX3DYPZAB8XJ5",
+          "fromSku": "ABNYBL1X01-1100",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/6be21b94-1a7f-4274-bd9f-b502d4aa6478",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/31ee3e86-fb0b-4524-803f-04099dfb97c4",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/bf7fc7f5-c2b2-4ad6-bfc7-f5d35ef5775d",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/fe4effe6-b857-45ca-94d6-82c69bdef583",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/cd7cc653-6040-4d2f-bfa3-7d740bbe9cb8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/9184e4a4-3e8a-4e6f-a716-83d3b8f3c882",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/5e69cdb1-1962-43ea-ba6c-91369603591d",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/80b8cb74-f313-41aa-92ec-5e97c1c43d71"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN7QQC7AAKX3DYPZAB8XJ5",
+          "name": "스카프 백팩 - 스무스 카프스킨"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN7QQC7AAKX3DYPZAB8XJ5",
+          "fromSku": "ABNYBL1X01-1100",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/6be21b94-1a7f-4274-bd9f-b502d4aa6478",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/31ee3e86-fb0b-4524-803f-04099dfb97c4",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/bf7fc7f5-c2b2-4ad6-bfc7-f5d35ef5775d",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/fe4effe6-b857-45ca-94d6-82c69bdef583",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/cd7cc653-6040-4d2f-bfa3-7d740bbe9cb8",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/9184e4a4-3e8a-4e6f-a716-83d3b8f3c882",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/5e69cdb1-1962-43ea-ba6c-91369603591d",
+              "https://d180wegphwork2.cloudfront.net/01KXSN7QQC7AAKX3DYPZAB8XJ5/ABNYBL1X01-1100/80b8cb74-f313-41aa-92ec-5e97c1c43d71"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LOE_ABNYBL019579_BLK_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN7QQC7AAKX3DYPZAB8XJ5",
+          "name": "스카프 백팩 - 스무스 카프스킨",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Louis Vuitton",
+      "name": "네버풀 반둘리에 인사이드 아웃 BB",
+      "base": "네버풀 반둘리에 인사이드 아웃 bb",
+      "keeperId": "01KY3N09Y9B4EX247EMBYRZVBT",
+      "keeperStyle": "M12106",
+      "loserIds": [
+        "01KY3MZ8MNDD4EA73DX2B1YPTT"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MZ8MNDD4EA73DX2B1YPTT",
+          "fromSku": "M12099",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/9297fd06-2a2a-4ec3-98fc-f17dc0759463",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/4b3fc82f-c734-4fbe-a82f-7f1cd5c220c9",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/1741bc7f-d5bd-4c02-9447-a4b38dacce00",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/533bbe7d-5fd0-4db5-8745-a67b7a0c3972",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/58ed2176-226b-4a75-91d6-630132f2d511",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/ddfddff8-b588-4081-8dfb-cde7d5e8e54e",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/16ca9f83-b0d0-4367-aac5-f5f993bc2ac8",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/2587c4dd-ac02-4ca7-ab96-a140bed79b10"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MZ8MNDD4EA73DX2B1YPTT",
+          "name": "네버풀 반둘리에 인사이드 아웃 BB"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MZ8MNDD4EA73DX2B1YPTT",
+          "fromSku": "M12099",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/9297fd06-2a2a-4ec3-98fc-f17dc0759463",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/4b3fc82f-c734-4fbe-a82f-7f1cd5c220c9",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/1741bc7f-d5bd-4c02-9447-a4b38dacce00",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/533bbe7d-5fd0-4db5-8745-a67b7a0c3972",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/58ed2176-226b-4a75-91d6-630132f2d511",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/ddfddff8-b588-4081-8dfb-cde7d5e8e54e",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/16ca9f83-b0d0-4367-aac5-f5f993bc2ac8",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZ8MNDD4EA73DX2B1YPTT/M12099/2587c4dd-ac02-4ca7-ab96-a140bed79b10"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LV_M12106_BLK_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MZ8MNDD4EA73DX2B1YPTT",
+          "name": "네버풀 반둘리에 인사이드 아웃 BB",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Louis Vuitton",
+      "name": "네버풀 인사이드 아웃 BB (Neverfull Inside Out BB)",
+      "base": "네버풀 인사이드 아웃 bb neverfull inside out bb",
+      "keeperId": "01KY3MZAGD5S5R2DY0FGMRJ4M1",
+      "keeperStyle": "M12109",
+      "loserIds": [
+        "01KY3MZGEVCBYD8C65RMKXVS4K"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MZGEVCBYD8C65RMKXVS4K",
+          "fromSku": "M15210",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/aa8d66e0-4700-4d35-9dfd-ab495020d478",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/4321472e-138c-44e6-9394-f5121a1b792b",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/5d4ca599-5e4d-4bc5-9ef8-d529249aaf78",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/db8d1eed-657f-4db3-806a-768b90e01362",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/ec40a2c2-dbd6-4239-b88b-d91b15e5ffaa",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/6408c71a-b8e6-47d5-8966-6a6620399b14",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/b7dc07c2-97d2-4eb4-a212-1ca822718c7a"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MZGEVCBYD8C65RMKXVS4K",
+          "name": "네버풀 인사이드 아웃 BB (Neverfull Inside Out BB)"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3MZGEVCBYD8C65RMKXVS4K",
+          "fromSku": "M15210",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/aa8d66e0-4700-4d35-9dfd-ab495020d478",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/4321472e-138c-44e6-9394-f5121a1b792b",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/5d4ca599-5e4d-4bc5-9ef8-d529249aaf78",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/db8d1eed-657f-4db3-806a-768b90e01362",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/ec40a2c2-dbd6-4239-b88b-d91b15e5ffaa",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/6408c71a-b8e6-47d5-8966-6a6620399b14",
+              "https://d180wegphwork2.cloudfront.net/01KY3MZGEVCBYD8C65RMKXVS4K/M15210/b7dc07c2-97d2-4eb4-a212-1ca822718c7a"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LV_M12109_BLK_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3MZGEVCBYD8C65RMKXVS4K",
+          "name": "네버풀 인사이드 아웃 BB (Neverfull Inside Out BB)",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Louis Vuitton",
+      "name": "온더고 BB",
+      "base": "온더고 bb",
+      "keeperId": "01KY3N03NBBYDYRJMWPXE5AM50",
+      "keeperStyle": "M47054",
+      "loserIds": [
+        "01KY3N01FJ0XMBERD51AV3CCKX"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3N01FJ0XMBERD51AV3CCKX",
+          "fromSku": "M46993",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/54f3c48a-ffc0-41ee-b330-0b3e08cce950",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/0b417570-005b-4021-babc-e5fc8e6db14c",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/fab0b5a2-a150-4d79-9fd2-aa61f5eee2c4",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/291d4044-758f-4efe-b1fb-b9308eeebeb2",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/ddb427ea-4c0e-435e-8cd8-01a0de0e6b4e",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/1ad67025-fc17-416b-bdbe-3c8c0a5310e9",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/b9083df6-0ec0-48ef-9ab4-bc5d98e74e1b",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/a3c35a73-264a-4c34-9124-0d4155a260de"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3N01FJ0XMBERD51AV3CCKX",
+          "name": "온더고 BB"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KY3N01FJ0XMBERD51AV3CCKX",
+          "fromSku": "M46993",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/54f3c48a-ffc0-41ee-b330-0b3e08cce950",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/0b417570-005b-4021-babc-e5fc8e6db14c",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/fab0b5a2-a150-4d79-9fd2-aa61f5eee2c4",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/291d4044-758f-4efe-b1fb-b9308eeebeb2",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/ddb427ea-4c0e-435e-8cd8-01a0de0e6b4e",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/1ad67025-fc17-416b-bdbe-3c8c0a5310e9",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/b9083df6-0ec0-48ef-9ab4-bc5d98e74e1b",
+              "https://d180wegphwork2.cloudfront.net/01KY3N01FJ0XMBERD51AV3CCKX/M46993/a3c35a73-264a-4c34-9124-0d4155a260de"
+            ]
+          },
+          "ok": true,
+          "createdSku": "LV_M47054_BLK_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KY3N01FJ0XMBERD51AV3CCKX",
+          "name": "온더고 BB",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Miu Miu",
+      "name": "비방 가죽 백",
+      "base": "비방 가죽",
+      "keeperId": "01KXS8W4ZS3W5R8B0GBXVEFY1V",
+      "keeperStyle": "5BB1952IER",
+      "loserIds": [
+        "01KXS8VTD49QE0RYEFW64GKW8D"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXS8VTD49QE0RYEFW64GKW8D",
+          "fromSku": "5BB196_2IER_F0002_V_OOO",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/05886658-5a7b-4cb8-be35-0dee76c8f803",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/107fea9e-155c-485b-8c60-0925d3d0251a",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/c4a416d1-fdcf-412e-976a-fcdeff2aff0a",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/1f4be11c-e587-434a-a8f1-f919dc1ae290",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/f7e766ed-22ff-4625-845d-77aa31abd2df",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/d00a17d3-8b5c-4760-977a-918597fe07b8",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/ae755698-dc9b-4b62-8aa7-a5cdeaeca84f"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXS8VTD49QE0RYEFW64GKW8D",
+          "name": "비방 가죽 백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXS8VTD49QE0RYEFW64GKW8D",
+          "fromSku": "5BB196_2IER_F0002_V_OOO",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/05886658-5a7b-4cb8-be35-0dee76c8f803",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/107fea9e-155c-485b-8c60-0925d3d0251a",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/c4a416d1-fdcf-412e-976a-fcdeff2aff0a",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/1f4be11c-e587-434a-a8f1-f919dc1ae290",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/f7e766ed-22ff-4625-845d-77aa31abd2df",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/d00a17d3-8b5c-4760-977a-918597fe07b8",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VTD49QE0RYEFW64GKW8D/5BB196_2IER_F0002_V_OOO/ae755698-dc9b-4b62-8aa7-a5cdeaeca84f"
+            ]
+          },
+          "ok": true,
+          "createdSku": "MM_5BB1952IER_BLK_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXS8VTD49QE0RYEFW64GKW8D",
+          "name": "비방 가죽 백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Miu Miu",
+      "name": "비방 나파 가죽 백",
+      "base": "비방 나파 가죽",
+      "keeperId": "01KXS8VR2C6FQXRCMPJSMGTM2Y",
+      "keeperStyle": "5BB1992BBL",
+      "loserIds": [
+        "01KXS8VS6DG5DBPR55VEDT63A9"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXS8VS6DG5DBPR55VEDT63A9",
+          "fromSku": "5BB200_2BBL_F0638_V_OOO",
+          "payload": {
+            "color": "Begonia Pink",
+            "colorCode": "PNK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXS8VS6DG5DBPR55VEDT63A9/5BB200_2BBL_F0638_V_OOO/af7f9819-a1e0-4678-8b2b-1abaef21d888",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VS6DG5DBPR55VEDT63A9/5BB200_2BBL_F0638_V_OOO/b682dfe0-8494-47da-ad42-ad7a1f4cac93",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VS6DG5DBPR55VEDT63A9/5BB200_2BBL_F0638_V_OOO/88554527-d290-4a6d-9905-d6d136cf515a",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VS6DG5DBPR55VEDT63A9/5BB200_2BBL_F0638_V_OOO/d9897716-487b-4521-a1b6-f3830b8c64b7",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VS6DG5DBPR55VEDT63A9/5BB200_2BBL_F0638_V_OOO/8dd3226c-1f42-4f8b-9572-6925db3f0e8c"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXS8VS6DG5DBPR55VEDT63A9",
+          "name": "비방 나파 가죽 백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXS8VS6DG5DBPR55VEDT63A9",
+          "fromSku": "5BB200_2BBL_F0638_V_OOO",
+          "payload": {
+            "color": "Begonia Pink",
+            "colorCode": "PNK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXS8VS6DG5DBPR55VEDT63A9/5BB200_2BBL_F0638_V_OOO/af7f9819-a1e0-4678-8b2b-1abaef21d888",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VS6DG5DBPR55VEDT63A9/5BB200_2BBL_F0638_V_OOO/b682dfe0-8494-47da-ad42-ad7a1f4cac93",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VS6DG5DBPR55VEDT63A9/5BB200_2BBL_F0638_V_OOO/88554527-d290-4a6d-9905-d6d136cf515a",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VS6DG5DBPR55VEDT63A9/5BB200_2BBL_F0638_V_OOO/d9897716-487b-4521-a1b6-f3830b8c64b7",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VS6DG5DBPR55VEDT63A9/5BB200_2BBL_F0638_V_OOO/8dd3226c-1f42-4f8b-9572-6925db3f0e8c"
+            ]
+          },
+          "ok": true,
+          "createdSku": "MM_5BB1992BBL_PNK_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXS8VS6DG5DBPR55VEDT63A9",
+          "name": "비방 나파 가죽 백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Miu Miu",
+      "name": "스피릿 나파 가죽 백",
+      "base": "스피릿 나파 가죽",
+      "keeperId": "01KXS8VPWVQ9DA14FRYQ9JZWDV",
+      "keeperStyle": "5BC217QJB",
+      "loserIds": [
+        "01KXS8VNM41Q9EQGZHFTWASQBG"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXS8VNM41Q9EQGZHFTWASQBG",
+          "fromSku": "5BC216_QJB_F0002_V_OOO",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXS8VNM41Q9EQGZHFTWASQBG/5BC216_QJB_F0002_V_OOO/68376902-66fc-4fea-89d5-2b6028fa0627",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VNM41Q9EQGZHFTWASQBG/5BC216_QJB_F0002_V_OOO/b501779a-66ec-4ccc-8e5d-c050690a74b7",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VNM41Q9EQGZHFTWASQBG/5BC216_QJB_F0002_V_OOO/fbe8801e-8a9f-4a45-99dc-e00701602981",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VNM41Q9EQGZHFTWASQBG/5BC216_QJB_F0002_V_OOO/207273c4-af33-49ee-a22a-78ee34c7ca10",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VNM41Q9EQGZHFTWASQBG/5BC216_QJB_F0002_V_OOO/428a8087-a63e-4795-b403-377b90fa5f70"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXS8VNM41Q9EQGZHFTWASQBG",
+          "name": "스피릿 나파 가죽 백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXS8VNM41Q9EQGZHFTWASQBG",
+          "fromSku": "5BC216_QJB_F0002_V_OOO",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXS8VNM41Q9EQGZHFTWASQBG/5BC216_QJB_F0002_V_OOO/68376902-66fc-4fea-89d5-2b6028fa0627",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VNM41Q9EQGZHFTWASQBG/5BC216_QJB_F0002_V_OOO/b501779a-66ec-4ccc-8e5d-c050690a74b7",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VNM41Q9EQGZHFTWASQBG/5BC216_QJB_F0002_V_OOO/fbe8801e-8a9f-4a45-99dc-e00701602981",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VNM41Q9EQGZHFTWASQBG/5BC216_QJB_F0002_V_OOO/207273c4-af33-49ee-a22a-78ee34c7ca10",
+              "https://d180wegphwork2.cloudfront.net/01KXS8VNM41Q9EQGZHFTWASQBG/5BC216_QJB_F0002_V_OOO/428a8087-a63e-4795-b403-377b90fa5f70"
+            ]
+          },
+          "ok": true,
+          "createdSku": "MM_5BC217QJB_BLK_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXS8VNM41Q9EQGZHFTWASQBG",
+          "name": "스피릿 나파 가죽 백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Miu Miu",
+      "name": "아방뛰르 나파 가죽 백",
+      "base": "아방뛰르 나파 가죽",
+      "keeperId": "01KXS8W3NTNJMV4JEZXP7ETBRM",
+      "keeperStyle": "5BC2142BBL",
+      "loserIds": [
+        "01KXS8W28648N76Y62ZCKSMQFE"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXS8W28648N76Y62ZCKSMQFE",
+          "fromSku": "5BC215_2BBL_F0NBL_V_OOO",
+          "payload": {
+            "color": "Briarwood",
+            "colorCode": "BRI",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/ec7e2fb7-7ee0-400b-bcdc-2cc6a1ac4c48",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/3a085b63-34b8-4651-b7e4-823bf639e5e7",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/97aa2bd1-0a06-4d48-adaa-ff59b5fa4679",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/6c9652db-299b-4867-af7b-cbefc795092b",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/cb3acaa4-d332-4bcc-8dcf-de3c1d371e87",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/c6b5263a-ae2d-4316-910c-8d80d8fff27d",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/f1a843de-2f2c-4a80-afd1-db503f29d6f5"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXS8W28648N76Y62ZCKSMQFE",
+          "name": "아방뛰르 나파 가죽 백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXS8W28648N76Y62ZCKSMQFE",
+          "fromSku": "5BC215_2BBL_F0NBL_V_OOO",
+          "payload": {
+            "color": "Briarwood",
+            "colorCode": "BRI",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/ec7e2fb7-7ee0-400b-bcdc-2cc6a1ac4c48",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/3a085b63-34b8-4651-b7e4-823bf639e5e7",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/97aa2bd1-0a06-4d48-adaa-ff59b5fa4679",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/6c9652db-299b-4867-af7b-cbefc795092b",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/cb3acaa4-d332-4bcc-8dcf-de3c1d371e87",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/c6b5263a-ae2d-4316-910c-8d80d8fff27d",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W28648N76Y62ZCKSMQFE/5BC215_2BBL_F0NBL_V_OOO/f1a843de-2f2c-4a80-afd1-db503f29d6f5"
+            ]
+          },
+          "ok": true,
+          "createdSku": "MM_5BC2142BBL_BRI_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXS8W28648N76Y62ZCKSMQFE",
+          "name": "아방뛰르 나파 가죽 백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Miu Miu",
+      "name": "아이비 가죽 백",
+      "base": "아이비 가죽",
+      "keeperId": "01KXS8VX08T03R0S6N538451FJ",
+      "keeperStyle": "5BG2312CRW",
+      "loserIds": [
+        "01KXS8W6C9HG6GA7GMCJN1PB9E"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXS8W6C9HG6GA7GMCJN1PB9E",
+          "fromSku": "5BG311_2IEO_F0BW5_V_OON",
+          "payload": {
+            "color": "Palisander",
+            "colorCode": "SND",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXS8W6C9HG6GA7GMCJN1PB9E/5BG311_2IEO_F0BW5_V_OON/5d6734e1-a4cc-4f0f-8c7c-79c44741b73d",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W6C9HG6GA7GMCJN1PB9E/5BG311_2IEO_F0BW5_V_OON/622e1d7f-2b1f-452c-a841-ed14d58a09d4",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W6C9HG6GA7GMCJN1PB9E/5BG311_2IEO_F0BW5_V_OON/3c05ae3f-f4a4-4d15-b413-3557c1a78c10",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W6C9HG6GA7GMCJN1PB9E/5BG311_2IEO_F0BW5_V_OON/9f4aa4ff-1bcd-4ef9-9332-a5d5db7e9c9e",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W6C9HG6GA7GMCJN1PB9E/5BG311_2IEO_F0BW5_V_OON/8b864905-4751-4323-9ebc-73f6dff8ce64"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXS8W6C9HG6GA7GMCJN1PB9E",
+          "name": "아이비 가죽 백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXS8W6C9HG6GA7GMCJN1PB9E",
+          "fromSku": "5BG311_2IEO_F0BW5_V_OON",
+          "payload": {
+            "color": "Palisander",
+            "colorCode": "SND",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXS8W6C9HG6GA7GMCJN1PB9E/5BG311_2IEO_F0BW5_V_OON/5d6734e1-a4cc-4f0f-8c7c-79c44741b73d",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W6C9HG6GA7GMCJN1PB9E/5BG311_2IEO_F0BW5_V_OON/622e1d7f-2b1f-452c-a841-ed14d58a09d4",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W6C9HG6GA7GMCJN1PB9E/5BG311_2IEO_F0BW5_V_OON/3c05ae3f-f4a4-4d15-b413-3557c1a78c10",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W6C9HG6GA7GMCJN1PB9E/5BG311_2IEO_F0BW5_V_OON/9f4aa4ff-1bcd-4ef9-9332-a5d5db7e9c9e",
+              "https://d180wegphwork2.cloudfront.net/01KXS8W6C9HG6GA7GMCJN1PB9E/5BG311_2IEO_F0BW5_V_OON/8b864905-4751-4323-9ebc-73f6dff8ce64"
+            ]
+          },
+          "ok": true,
+          "createdSku": "MM_5BG2312CRW_SND_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXS8W6C9HG6GA7GMCJN1PB9E",
+          "name": "아이비 가죽 백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Saint Laurent",
+      "name": "라피아 소재 ICARE 미디엄",
+      "base": "라피아 소재 icare 미디엄",
+      "keeperId": "01KXSNBEC5JQBEATVVZSWCC4ZD",
+      "keeperStyle": "868748GU6499",
+      "loserIds": [
+        "01KXSN8N3JWBDSDN8VJ4VHXFVR"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN8N3JWBDSDN8VJ4VHXFVR",
+          "fromSku": "868748GAAGU3877",
+          "payload": {
+            "color": "Green",
+            "colorCode": "GRN",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/33a025b0-7841-4234-b1ab-4127cf9a6371",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/445769d5-62ba-440f-92fb-a38a70d8c2f9",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/2e874d39-1fb1-49ac-b94f-5f6d804acfe3",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/d90dfbb6-992d-4092-a90c-d58dcd78f2fa",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/5bf5ae03-5f5c-42e4-80f0-898c52dd3e37",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/e008f667-d86b-4362-b2fd-ccee50715aa9"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN8N3JWBDSDN8VJ4VHXFVR",
+          "name": "라피아 소재 ICARE 미디엄"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN8N3JWBDSDN8VJ4VHXFVR",
+          "fromSku": "868748GAAGU3877",
+          "payload": {
+            "color": "Green",
+            "colorCode": "GRN",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/33a025b0-7841-4234-b1ab-4127cf9a6371",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/445769d5-62ba-440f-92fb-a38a70d8c2f9",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/2e874d39-1fb1-49ac-b94f-5f6d804acfe3",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/d90dfbb6-992d-4092-a90c-d58dcd78f2fa",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/5bf5ae03-5f5c-42e4-80f0-898c52dd3e37",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8N3JWBDSDN8VJ4VHXFVR/868748GAAGU3877/e008f667-d86b-4362-b2fd-ccee50715aa9"
+            ]
+          },
+          "ok": true,
+          "createdSku": "YSL_868748GU6499_GRN_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN8N3JWBDSDN8VJ4VHXFVR",
+          "name": "라피아 소재 ICARE 미디엄",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Saint Laurent",
+      "name": "퀼팅 나파 소재 ICARE 호보 백",
+      "base": "퀼팅 나파 소재 icare 호보",
+      "keeperId": "01KXSNB8DA335ZGN4CA48H5YV3",
+      "keeperStyle": "858160NG3212",
+      "loserIds": [
+        "01KXSN88H1F05VXKJ0TVDB0V53"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN88H1F05VXKJ0TVDB0V53",
+          "fromSku": "858160AAANG1000",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN88H1F05VXKJ0TVDB0V53/858160AAANG1000/99a8c36c-062b-4f4c-93dd-66837572fb16",
+              "https://d180wegphwork2.cloudfront.net/01KXSN88H1F05VXKJ0TVDB0V53/858160AAANG1000/01e28afb-5ed1-4018-ba77-f14a80059c96",
+              "https://d180wegphwork2.cloudfront.net/01KXSN88H1F05VXKJ0TVDB0V53/858160AAANG1000/59ccfba5-c1ae-4d79-b2ca-b2e4ddf7d36f",
+              "https://d180wegphwork2.cloudfront.net/01KXSN88H1F05VXKJ0TVDB0V53/858160AAANG1000/a9cdc5b1-228b-4bbc-9836-a4c711a4bf2f"
+            ]
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN88H1F05VXKJ0TVDB0V53",
+          "name": "퀼팅 나파 소재 ICARE 호보 백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN88H1F05VXKJ0TVDB0V53",
+          "fromSku": "858160AAANG1000",
+          "payload": {
+            "color": "Black",
+            "colorCode": "BLK",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN88H1F05VXKJ0TVDB0V53/858160AAANG1000/99a8c36c-062b-4f4c-93dd-66837572fb16",
+              "https://d180wegphwork2.cloudfront.net/01KXSN88H1F05VXKJ0TVDB0V53/858160AAANG1000/01e28afb-5ed1-4018-ba77-f14a80059c96",
+              "https://d180wegphwork2.cloudfront.net/01KXSN88H1F05VXKJ0TVDB0V53/858160AAANG1000/59ccfba5-c1ae-4d79-b2ca-b2e4ddf7d36f",
+              "https://d180wegphwork2.cloudfront.net/01KXSN88H1F05VXKJ0TVDB0V53/858160AAANG1000/a9cdc5b1-228b-4bbc-9836-a4c711a4bf2f"
+            ]
+          },
+          "ok": true,
+          "createdSku": "YSL_858160NG3212_BLK_OS"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN88H1F05VXKJ0TVDB0V53",
+          "name": "퀼팅 나파 소재 ICARE 호보 백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    },
+    {
+      "brand": "Saint Laurent",
+      "name": "퀼팅 스웨이드 소재 ICARE 미디엄백",
+      "base": "퀼팅 스웨이드 소재 icare 미디엄",
+      "keeperId": "01KXSN8M3NEQ0BQA43K0H7RNCB",
+      "keeperStyle": "871494AAF9P",
+      "loserIds": [
+        "01KXSN8EKFZ99TEHA0K6K8SPBM"
+      ],
+      "actions": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN8EKFZ99TEHA0K6K8SPBM",
+          "fromSku": "858191AAF9P2916",
+          "payload": {
+            "color": "Brown",
+            "colorCode": "BRN",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/b98213b3-2f13-49f6-8f70-64849ff45c23",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/f4d8279f-0287-45a6-90bd-9f627d55e7f9",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/067e2bc2-f6d5-4d1f-931b-b2a57cffd536",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/957e083c-8857-4a64-9c03-5e9979de8add",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/8de127c3-7268-42e5-bbe1-c531541d6cd1",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/f2eeb645-fced-4bd2-8709-69dd8a4c85c2"
+            ],
+            "editionCode": "A"
+          }
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN8EKFZ99TEHA0K6K8SPBM",
+          "name": "퀼팅 스웨이드 소재 ICARE 미디엄백"
+        }
+      ],
+      "results": [
+        {
+          "op": "create_variant",
+          "fromProductId": "01KXSN8EKFZ99TEHA0K6K8SPBM",
+          "fromSku": "858191AAF9P2916",
+          "payload": {
+            "color": "Brown",
+            "colorCode": "BRN",
+            "size": "One Size",
+            "sizeCode": "OS",
+            "status": "active",
+            "imageUrls": [
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/b98213b3-2f13-49f6-8f70-64849ff45c23",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/f4d8279f-0287-45a6-90bd-9f627d55e7f9",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/067e2bc2-f6d5-4d1f-931b-b2a57cffd536",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/957e083c-8857-4a64-9c03-5e9979de8add",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/8de127c3-7268-42e5-bbe1-c531541d6cd1",
+              "https://d180wegphwork2.cloudfront.net/01KXSN8EKFZ99TEHA0K6K8SPBM/858191AAF9P2916/f2eeb645-fced-4bd2-8709-69dd8a4c85c2"
+            ],
+            "editionCode": "A"
+          },
+          "ok": false,
+          "error": "POST /api/v1/products/01KXSN8M3NEQ0BQA43K0H7RNCB/variants -> 409: {'error': 'create variant: conflict', 'code': 409}"
+        },
+        {
+          "op": "archive",
+          "productId": "01KXSN8EKFZ99TEHA0K6K8SPBM",
+          "name": "퀼팅 스웨이드 소재 ICARE 미디엄백",
+          "ok": true,
+          "status": "archived"
+        }
+      ]
+    }
+  ],
+  "manualFixes": [
+    {
+      "keeperId": "01KXPY574C0W0E8CBSG33SCGEF",
+      "note": "2.55 lambskin variant created with size=Lambskin after edition-only 409"
+    },
+    {
+      "keeperId": "01KXSN8M3NEQ0BQA43K0H7RNCB",
+      "note": "YSL suede second brown created with size=Style 858191 after edition-only 409"
+    },
+    {
+      "keeperId": "01KXSNBCP82VZG9PYE00D0Z0FC",
+      "note": "ICARE quilted nappa Green/Brown/Black merged before batch run"
+    }
+  ],
+  "postStatus": {
+    "note": "see live API; remaining_duplicate_groups should be 0"
+  }
+}
