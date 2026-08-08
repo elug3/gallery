@@ -29,6 +29,12 @@ BRANDS = {
         "dir": "images/balenciaga",
         "tags": ["balenciaga", "bags"],
     },
+    "bottega": {
+        "code": "BOT",
+        "name": "Bottega Veneta",
+        "dir": "images/bottega",
+        "tags": ["bottega-veneta", "bottega", "bags"],
+    },
     "hermes": {
         "code": "HER",
         "name": "Hermes",
